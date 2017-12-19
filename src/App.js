@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import SelectContentArea from './components/SelectContentArea';
+
 class App extends Component {
   render() {
     return (
@@ -10,6 +12,9 @@ class App extends Component {
             Easily create API statements to access CDC's Environmental Public Health Tracking API
           </p>
         </div>
+        <section className="section is-large">
+          <SelectContentArea />
+        </section>
       </section>
     );
   }
