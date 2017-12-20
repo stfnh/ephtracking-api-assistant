@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 import Menu from '../Menu';
 import './layout.css';
@@ -7,8 +8,8 @@ import './layout.css';
 const Layout = ({ children, activeMenu }) => (
   <div>
     <nav className="navbar is-primary" aria-label="main navigation">
-      <div class="navbar-brand">
-        <p className="navbar-item brand-text">EPH Tracking API Assistant</p>
+      <div className="navbar-brand">
+        <Link to="/" className="navbar-item brand-text">EPH Tracking API Assistant</Link>
       </div>
       <div className="navbar-end">
         <a className="navbar-item" href="https://ephtracking.cdc.gov/apihelp">EPH Tracking</a>
@@ -17,7 +18,7 @@ const Layout = ({ children, activeMenu }) => (
     <div className="container">
       <div className="columns">
         <div className="column is-3">
-          <Menu activeMenu={activeMenu} />
+          <Menu />
         </div>
         <div className="column is-9">
           <section className="section">
@@ -32,12 +33,7 @@ const Layout = ({ children, activeMenu }) => (
 );
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-  activeMenu: PropTypes.string
-};
-
-Layout.defaultProps = {
-  activeMenu: "getMeasures"
+  children: PropTypes.node.isRequired
 };
 
 export default Layout;

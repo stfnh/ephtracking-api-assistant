@@ -1,5 +1,5 @@
-export default
-['getMeasures',
+export default[
+  'getMeasures',
   'getGeographicLevels',
   'getStates',
   'getYears',
