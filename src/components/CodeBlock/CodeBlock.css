@@ -1,0 +1,9 @@
+.code-block {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 85%;
+  word-break: break-all;
+  background: rgba(0, 0, 0, 0.08);
+  padding: 11px 16px;
+  margin-top: 16px;
+  line-height: 18px;
+}
