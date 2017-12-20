@@ -26,12 +26,12 @@ class SelectContentArea extends Component {
       <option key={index} value={item.id}>{item.name}</option>
     ));
     options.unshift(
-      <option value="" selected="selected" disabled>Select content area</option>      
+      <option key="-1" value="" disabled>Select content area</option>      
     );
 
     return (
       <div className="select">
-        <select>
+        <select value="">
           {options}
         </select>
       </div>
