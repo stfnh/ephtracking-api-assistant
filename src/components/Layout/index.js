@@ -18,9 +18,7 @@ const Layout = ({ children, activeMenu }) => (
           <Menu />
         </div>
         <div className="column is-9">
-          <div className="content">
-            {children}
-          </div>
+          {children}
         </div>
       </div>
     </div>

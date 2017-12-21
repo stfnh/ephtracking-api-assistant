@@ -1,18 +1,27 @@
 import React, { Component, Fragment } from 'react';
 
 import CodeBlock from '../../components/CodeBlock';
-import ApiJsonTree from '../../containers/ApiJsonTree';
+import Preview from '../../components/Preview';
 
 class GetMeasures extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      url: "https://ephtracking.cdc.gov/apigateway/api/v1/getMeasures"
+    }
+  }
+
   render() {
+    const { url } = this.state;
     return (
       <Fragment>
         <h1 className="title">Retrieving all Measures</h1>
-        <hr />
+        <h5 className="title is-5">Usage</h5>
         <CodeBlock>
-          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/GetMeasures[?apiToken]
+          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/getMeasures[?apiToken]
         </CodeBlock>
-        <ApiJsonTree url="https://ephtracking.cdc.gov/apigateway/api/v1/getMeasures" />
+        <hr />
+        <Preview url={url} />
       </Fragment>
     );
   }
