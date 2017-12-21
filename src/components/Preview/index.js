@@ -13,36 +13,47 @@ export class Preview extends Component {
      }
   }
   render() {
-    const { url } = this.props;
+    const { url, validUrl } = this.props;
     const { copied } = this.state;
     return (
-        <Fragment>
-          <h5 className="title is-5">Preview</h5>
-          <div className="columns">
-            <div className="column is-three-quarters">
-              <CodeBlock>
+      <Fragment>
+        <h5 className="title is-5">Preview</h5>
+        <div className="columns">
+          <div className="column is-three-quarters">
+            <CodeBlock>
+              {
+                validUrl ?
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href={url}>
                   {url}
                 </a>
-              </CodeBlock>
-            </div>
-            <div className="column">
-              <CopyToClipboard text={url} onCopy={() => this.setState({ copied: true })}>
-                <button className="button">{copied ? "Copied" : "Copy to Clipboard"}</button>
-              </CopyToClipboard>
-            </div>
+                :
+                <p>{url}</p>
+
+              }
+            </CodeBlock>
           </div>
-        <ApiJsonTree url={url} />
+          <div className="column">
+            <CopyToClipboard text={url} onCopy={() => this.setState({ copied: true })}>
+              <button className="button">{copied ? "Copied" : "Copy to Clipboard"}</button>
+            </CopyToClipboard>
+          </div>
+        </div>
+        { validUrl && <ApiJsonTree url={url} /> }
       </Fragment>
     );
   }
 }
 
 Preview.propTypes = {
-  url: PropTypes.string.isRequired
+  url: PropTypes.string.isRequired,
+  validUrl: PropTypes.bool
+};
+
+Preview.defaultProps = {
+  validUrl: true
 };
  
 export default Preview;

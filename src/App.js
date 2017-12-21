@@ -5,8 +5,9 @@ import {
 } from 'react-router-dom';
 
 import Home from './pages/Home';
-import GetMeasures from './pages/GetMeasures';
 import Layout from './components/Layout';
+import GetMeasures from './pages/GetMeasures';
+import GetGeographicLevels from './pages/GetGeographicLevels';
 
 const App = () => (
   <Router>
@@ -14,6 +15,7 @@ const App = () => (
       <div>
         <Route exact path="/" component={Home} />
         <Route exact path="/getMeasures" component={GetMeasures} />
+        <Route exact path="/getGeographicLevels" component={GetGeographicLevels} />
       </div>
     </Layout>
   </Router>
