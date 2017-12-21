@@ -3,7 +3,6 @@ import React, { Component, Fragment } from 'react';
 import CodeBlock from '../../components/CodeBlock';
 import CIM from '../../components/CIM';
 import StateFIPS from '../../containers/StateFIPS';
-import Preview from '../../components/Preview';
 
 class GetYears extends Component {
   constructor(props) {
@@ -32,7 +31,6 @@ class GetYears extends Component {
   }
 
   render() {
-    const { url } = this.state;
     return (
       <Fragment>
         <h1 className="title">Retrieving Data Values for a Measure</h1>
