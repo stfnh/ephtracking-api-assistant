@@ -14,7 +14,7 @@ class SelectContentArea extends Component {
 
   async componentDidMount() {
     try {
-      const response = await axios(' https://ephtracking.cdc.gov/apigateway/api/v1/contentareas/0/0/json');
+      const response = await axios('https://ephtracking.cdc.gov/apigateway/api/v1/contentareas/0/0/json');
       this.setState({
         options: response.data
       })

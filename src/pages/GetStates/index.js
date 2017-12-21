@@ -4,11 +4,11 @@ import CodeBlock from '../../components/CodeBlock';
 import CIM from '../../components/CIM';
 import Preview from '../../components/Preview';
 
-class GegGeographicLevels extends Component {
+class GetStates extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      url: 'https://ephtracking.cdc.gov/apigateway/api/v1/getGeographicLevels/null',
+      url: 'https://ephtracking.cdc.gov/apigateway/api/v1/getStates/null',
       measureId: null
     };
     this.setMeasureId = this.setMeasureId.bind(this);
@@ -17,7 +17,7 @@ class GegGeographicLevels extends Component {
   setMeasureId(measureId) {
     this.setState({
       measureId,
-      url: `https://ephtracking.cdc.gov/apigateway/api/v1/getGeographicLevels/${measureId}`
+      url: `https://ephtracking.cdc.gov/apigateway/api/v1/getStates/${measureId}`
      });
   }
 
@@ -25,10 +25,10 @@ class GegGeographicLevels extends Component {
     const { url } = this.state;
     return (
       <Fragment>
-        <h1 className="title">Retrieving Geographic Levels for a Measure</h1>
+        <h1 className="title">Retrieving State FIPS Code for a Measure</h1>
         <h5 className="title is-5">Usage</h5>
         <CodeBlock>
-          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/getGeographicLevels/{'{'}measureId{'}'}[?apiToken]
+          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/getStates/{'{'}measureId{'}'}[?apiToken]
         </CodeBlock>
         <hr />
         <h5 className="title is-5">Set parameters</h5>
@@ -40,4 +40,4 @@ class GegGeographicLevels extends Component {
   }
 }
 
-export default GegGeographicLevels;
+export default GetStates;

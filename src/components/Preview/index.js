@@ -12,6 +12,7 @@ export class Preview extends Component {
       copied: false
      }
   }
+
   render() {
     const { url, validUrl } = this.props;
     const { copied } = this.state;
@@ -31,7 +32,6 @@ export class Preview extends Component {
                 </a>
                 :
                 <p>{url}</p>
-
               }
             </CodeBlock>
           </div>

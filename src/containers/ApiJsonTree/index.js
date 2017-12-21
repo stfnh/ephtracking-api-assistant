@@ -16,9 +16,19 @@ export class ApiJsonTree extends Component {
      }
   }
 
-  async componentDidMount() {
+  componentDidMount() {
+    this.getData(this.props.url);  
+  }
+
+  componentWillReceiveProps(nextProps) {
+    if (this.props.url !== nextProps.url) {
+      this.getData(nextProps.url);
+    }
+  } 
+
+  async getData(url) {
     try {
-      const response = await axios(this.props.url);
+      const response = await axios(url);
       console.log(response);
       this.setState({
         data: response.data,
