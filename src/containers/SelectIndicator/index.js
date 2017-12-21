@@ -71,7 +71,7 @@ class SelectIndicator extends Component {
 
 SelectIndicator.propTypes = {
   handleSelect: PropTypes.func.isRequired,
-  contentAreaId: PropTypes.string.isRequired
+  contentAreaId: PropTypes.string
 };
 
 export default SelectIndicator;

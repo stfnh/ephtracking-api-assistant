@@ -3,7 +3,7 @@ export default[
   'getGeographicLevels',
   'getStates',
   'getYears',
-  'getDate',
+  'getData',
   'contentareas',
   'indicators',
   'measures',

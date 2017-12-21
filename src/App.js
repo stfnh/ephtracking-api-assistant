@@ -10,6 +10,7 @@ import GetMeasures from './pages/GetMeasures';
 import GetGeographicLevels from './pages/GetGeographicLevels';
 import GetStates from './pages/GetStates';
 import GetYears from './pages/GetYears';
+import GetData from './pages/GetData';
 
 const App = () => (
   <Router>
@@ -20,6 +21,7 @@ const App = () => (
         <Route path="/getGeographicLevels" component={GetGeographicLevels} />
         <Route path="/getStates" component={GetStates} />
         <Route path="/getYears" component={GetYears} />
+        <Route path="/getData" component={GetData} />
       </div>
     </Layout>
   </Router>

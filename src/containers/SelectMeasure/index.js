@@ -71,7 +71,7 @@ class SelectMeasure extends Component {
 
 SelectMeasure.propTypes = {
   handleSelect: PropTypes.func.isRequired,
-  indicatorId: PropTypes.string.isRequired
+  indicatorId: PropTypes.string
 };
 
 export default SelectMeasure;
