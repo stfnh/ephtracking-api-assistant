@@ -18,7 +18,7 @@ class Home extends Component {
           </div>
         </section>
         <hr />
-        <a href="https://ephtracking.cdc.gov/apihelp">See official docs on cdc.gov</a>
+        <a href="https://ephtracking.cdc.gov/apihelp">See official docs on www.cdc.gov</a>
       </Fragment>
     );
   }
