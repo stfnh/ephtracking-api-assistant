@@ -13,6 +13,14 @@ export class Preview extends Component {
      }
   }
 
+  componentWillReceiveProps(nextProps) {
+    if (this.props.url !== nextProps.url) {
+      this.setState({
+        copied: false
+      });
+    }
+  }
+
   render() {
     const { url, validUrl } = this.props;
     const { copied } = this.state;
@@ -37,7 +45,7 @@ export class Preview extends Component {
           </div>
           <div className="column">
             <CopyToClipboard text={url} onCopy={() => this.setState({ copied: true })}>
-              <button className="button">{copied ? "Copied" : "Copy to Clipboard"}</button>
+              <button className="button" disabled={validUrl ? false : true}>{copied ? "Copied" : "Copy to Clipboard"}</button>
             </CopyToClipboard>
           </div>
         </div>
