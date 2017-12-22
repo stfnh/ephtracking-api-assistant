@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import CheckboxTree from 'react-checkbox-tree';
 import PropTypes from 'prop-types';
 import axios from 'axios';
@@ -31,13 +31,21 @@ export class StateFIPS extends Component {
     if (measureId) {
       try {
         const response = await axios(`https://ephtracking.cdc.gov/apigateway/api/v1/getStates/${measureId}`);
-        console.log(response);
         this.setState({
-          statesForMeasure: response.data
+          statesForMeasure: response.data,
+          expanded: [],
+          checked: []
         })
       } catch (error) {
         console.log(error);
       }
+    } else {
+      // reset
+      this.setState({
+        expanded: [],
+        checked: [],
+        statesForMeasure: []
+      })
     }
   }
 
@@ -64,16 +72,19 @@ export class StateFIPS extends Component {
     }];
 
     return (
-      <div className="field">
-        <CheckboxTree
-          nodes={nodes}
-          checked={this.state.checked}
-          expanded={this.state.expanded}
-          onCheck={this.handleCheck}
-          onExpand={expanded => this.setState({ expanded })}
-          disabled={this.props.measureId === null}
-        />
-      </div>
+      <Fragment>
+        <div className="field">
+          <label className="label">States</label>
+          <CheckboxTree
+            nodes={nodes}
+            checked={this.state.checked}
+            expanded={this.state.expanded}
+            onCheck={this.handleCheck}
+            onExpand={expanded => this.setState({ expanded })}
+            disabled={this.props.measureId === null}
+          />
+        </div>
+      </Fragment>
     );
   }
 }
