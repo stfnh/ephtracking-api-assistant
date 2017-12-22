@@ -13,6 +13,7 @@ import GetYears from './pages/GetYears';
 import GetData from './pages/GetData';
 import Contentareas from './pages/Contentareas';
 import Indicators from './pages/Indicators';
+import Measures from './pages/Measures';
 
 const App = () => (
   <Router>
@@ -26,6 +27,7 @@ const App = () => (
         <Route path="/getData" component={GetData} />
         <Route path="/contentareas" component={Contentareas} />
         <Route path="/indicators" component={Indicators} />
+        <Route path="/measures" component={Measures} />
       </div>
     </Layout>
   </Router>
