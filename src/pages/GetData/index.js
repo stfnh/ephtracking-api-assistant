@@ -4,16 +4,21 @@ import CodeBlock from '../../components/CodeBlock';
 import CIM from '../../components/CIM';
 import StateFIPS from '../../containers/StateFIPS';
 
+import './GetData.css';
+
 class GetYears extends Component {
   constructor(props) {
     super(props);
     this.state = {
       url: 'https://ephtracking.cdc.gov/apigateway/api/v1/getData/null',
       measureId: null,
-      states: []
+      states: [],
+      includeCounty: false,
+      isSmoothed: false
     };
     this.setMeasureId = this.setMeasureId.bind(this);
     this.handleStateSelect = this.handleStateSelect.bind(this);
+    this.handleInputChange = this.handleInputChange.bind(this);
   }
   
   setMeasureId(measureId) {
@@ -30,6 +35,15 @@ class GetYears extends Component {
     });
   }
 
+  handleInputChange(event) {
+    const target = event.target;
+    const value = target.type === 'checkbox' ? target.checked : target.value;
+    const name = target.name;
+    this.setState({
+      [name]: value
+    });
+  }
+
   render() {
     return (
       <Fragment>
@@ -40,11 +54,23 @@ class GetYears extends Component {
         </CodeBlock>
         <hr />
         <h5 className="title is-5">Set parameters</h5>
-        <CIM handleSelect={this.setMeasureId} />
+        <CIM handleSelect={this.setMeasureId} />       
         <StateFIPS
           measureId={this.state.measureId}
           handleCheck={this.handleStateSelect}
         />
+        <div className="field">
+          <label className="checkbox">
+            <input name="includeCounty" type="checkbox" checked={this.state.includeCounty} onChange={this.handleInputChange} className="input-checkbox" />
+            Include County
+          </label>
+        </div>
+        <div className="field">
+          <label className="checkbox">
+            <input name="isSmoothed" type="checkbox" checked={this.state.isSmoothed} onChange={this.handleInputChange} className="input-checkbox" />
+            Is Smoothed (Note: the majority of measures do not have smoothing values)
+          </label>
+        </div>
         <hr />
       </Fragment>
     );

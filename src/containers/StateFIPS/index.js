@@ -59,18 +59,21 @@ export class StateFIPS extends Component {
     const nodes = [{
       value: 'ALL',
       label: 'All States',
+      icon: <i className="fa fa-globe" />,
       children: filteredStates
     }];
 
     return (
-      <CheckboxTree
-        nodes={nodes}
-        checked={this.state.checked}
-        expanded={this.state.expanded}
-        onCheck={this.handleCheck}
-        onExpand={expanded => this.setState({ expanded })}
-        disabled={this.props.measureId === null}
-      />
+      <div className="field">
+        <CheckboxTree
+          nodes={nodes}
+          checked={this.state.checked}
+          expanded={this.state.expanded}
+          onCheck={this.handleCheck}
+          onExpand={expanded => this.setState({ expanded })}
+          disabled={this.props.measureId === null}
+        />
+      </div>
     );
   }
 }
