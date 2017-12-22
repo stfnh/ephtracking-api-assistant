@@ -3,15 +3,13 @@ import CheckboxTree from 'react-checkbox-tree';
 import PropTypes from 'prop-types';
 import axios from 'axios';
 
-import states from './states';
-
-export class StateFIPS extends Component {
+export class SelectYears extends Component {
   constructor(props) {
     super(props);
     this.state = {
       expanded: [],
       checked: [],
-      statesForMeasure: []
+      years: []
     }
     this.loadData = this.loadData.bind(this);
     this.handleCheck = this.handleCheck.bind(this);
@@ -30,9 +28,9 @@ export class StateFIPS extends Component {
   async loadData(measureId) {
     if (measureId) {
       try {
-        const response = await axios(`https://ephtracking.cdc.gov/apigateway/api/v1/getStates/${measureId}`);
+        const response = await axios(`https://ephtracking.cdc.gov/apigateway/api/v1/getYears/${measureId}`);
         this.setState({
-          statesForMeasure: response.data,
+          years: response.data,
           expanded: [],
           checked: []
         })
@@ -44,37 +42,34 @@ export class StateFIPS extends Component {
       this.setState({
         expanded: [],
         checked: [],
-        statesForMeasure: []
+        years: []
       })
     }
   }
 
   handleCheck(checked) {
-    if (checked.length === this.state.statesForMeasure.length) {
-      this.setState({ checked });
-      this.props.handleCheck(["ALL"]);
-    } else {
-      this.setState({ checked }); 
-      this.props.handleCheck(checked);
-    }
+    this.setState({ checked });
+    this.props.handleCheck(checked);
   }
 
   render() {
-    const { statesForMeasure } = this.state;
-    const filteredStates = states
-      .filter(item => statesForMeasure.find(fips => item.value === fips));
-
+    const { years } = this.state;
+    
     const nodes = [{
       value: 'ALL',
-      label: 'All States',
-      icon: <i className="fa fa-globe" />,
-      children: filteredStates
+      label: 'All years',
+      icon: <i className="fa fa-calendar-check-o" />,
+      children: years.map(year => ({
+        value: year,
+        label: year,
+        icon: <i className="fa fa-calendar-plus-o" />
+      }))
     }];
 
     return (
       <Fragment>
         <div className="field">
-          <label className="label">States</label>
+          <label className="label">Years</label>
           <CheckboxTree
             nodes={nodes}
             checked={this.state.checked}
@@ -89,9 +84,9 @@ export class StateFIPS extends Component {
   }
 }
 
-StateFIPS.propTypes = {
+SelectYears.propTypes = {
   handleCheck: PropTypes.func.isRequired,
   measureId: PropTypes.string
 };
 
-export default StateFIPS;
+export default SelectYears;

@@ -8,7 +8,7 @@ import Preview from '../../components/Preview';
 
 import './GetData.css';
 
-class GetYears extends Component {
+class GetData extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -85,4 +85,4 @@ class GetYears extends Component {
   }
 }
 
-export default GetYears;
+export default GetData;

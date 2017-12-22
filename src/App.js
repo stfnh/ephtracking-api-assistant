@@ -18,6 +18,7 @@ import Geographiclevels from './pages/Geographiclevels';
 import Geography from './pages/Geography';
 import Measurestratification from './pages/Measurestratification';
 import Stratificationlevel from './pages/Stratificationlevel';
+import GetCoreHolder from './pages/GetCoreHolder';
 
 const App = () => (
   <Router>
@@ -36,6 +37,7 @@ const App = () => (
         <Route path="/geography" component={Geography} />
         <Route path="/measurestratification" component={Measurestratification} />
         <Route path="/stratificationlevel" component={Stratificationlevel} />
+        <Route path="/getCoreHolder" component={GetCoreHolder} />
       </div>
     </Layout>
   </Router>
