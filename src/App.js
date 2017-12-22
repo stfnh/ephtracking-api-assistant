@@ -14,6 +14,7 @@ import GetData from './pages/GetData';
 import Contentareas from './pages/Contentareas';
 import Indicators from './pages/Indicators';
 import Measures from './pages/Measures';
+import Geographiclevels from './pages/Geographiclevels';
 
 const App = () => (
   <Router>
@@ -28,6 +29,7 @@ const App = () => (
         <Route path="/contentareas" component={Contentareas} />
         <Route path="/indicators" component={Indicators} />
         <Route path="/measures" component={Measures} />
+        <Route path="/geographiclevels" component={Geographiclevels} />
       </div>
     </Layout>
   </Router>
