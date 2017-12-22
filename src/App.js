@@ -16,7 +16,7 @@ import Indicators from './pages/Indicators';
 import Measures from './pages/Measures';
 import Geographiclevels from './pages/Geographiclevels';
 import Geography from './pages/Geography';
-
+import Measurestratification from './pages/Measurestratification';
 const App = () => (
   <Router>
     <Layout>
@@ -32,6 +32,7 @@ const App = () => (
         <Route path="/measures" component={Measures} />
         <Route path="/geographiclevels" component={Geographiclevels} />
         <Route path="/geography" component={Geography} />
+        <Route path="/measurestratification" component={Measurestratification} />
       </div>
     </Layout>
   </Router>

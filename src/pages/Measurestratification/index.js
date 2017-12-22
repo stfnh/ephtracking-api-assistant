@@ -5,13 +5,13 @@ import CIM from '../../components/CIM';
 import SelectGeographicType from '../../containers/SelectGeographicType';
 import Preview from '../../components/Preview';
 
-class Geography extends Component {
+class Measurestratification extends Component {
   constructor(props) {
     super(props);
     this.state = {
       measureId: null,
       geographicTypeId: null,
-      geographicRollup: false
+      isSmoothed: false
     };
     this.setMeasureId = this.setMeasureId.bind(this);
     this.setGeographicTypeId = this.setGeographicTypeId.bind(this);
@@ -36,15 +36,15 @@ class Geography extends Component {
   }
 
   render() {
-    const { measureId, geographicTypeId, geographicRollup } = this.state;
+    const { measureId, geographicTypeId, isSmoothed } = this.state;
     const validUrl = measureId !== null && geographicTypeId !== null;
-    const url = `https://ephtracking.cdc.gov/apigateway/api/v1/geography/${measureId}/${geographicTypeId}/${geographicRollup ? 1 : 0}`
+    const url = `https://ephtracking.cdc.gov/apigateway/api/v1/measurestratification/${measureId}/${geographicTypeId}/${isSmoothed ? 1 : 0}`
     return (
       <Fragment>
-        <h1 className="title">Retrieving all Geographies for a MeasureId, GeographicType and Geographic Rollup</h1>
+        <h1 className="title">Retrieving Stratifications for a Measure and Geography Type</h1>
         <h5 className="title is-5">Usage</h5>
         <CodeBlock>
-          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/geography/{'{'}measureId{'}'}/{'{'}geographicTypeId{'}'}/{'{'}geographicRollup{'}'}[?apiToken]
+          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/measurestratification/{'{'}measureId{'}'}/{'{'}geographicTypeId{'}'}/{'{'}isSmoothed{'}'}[?apiToken]
         </CodeBlock>
         <hr />
         <h5 className="title is-5">Set parameters</h5>
@@ -52,8 +52,8 @@ class Geography extends Component {
         <SelectGeographicType handleSelect={this.setGeographicTypeId} measureId={measureId} />
         <div className="field">
           <label className="checkbox">
-            <input name="geographicRollup" type="checkbox" checked={this.state.geographicRollup} onChange={this.handleInputChange} className="input-checkbox" />
-            geographicRollup
+            <input name="isSmoothed" type="checkbox" checked={this.state.isSmoothed} onChange={this.handleInputChange} className="input-checkbox" />
+            isSmoothed
           </label>
         </div>
         <hr />
@@ -63,4 +63,4 @@ class Geography extends Component {
   }
 }
 
-export default Geography;
+export default Measurestratification;
