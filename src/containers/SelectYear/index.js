@@ -30,7 +30,7 @@ class SelectYear extends Component {
         const response = await axios(`https://ephtracking.cdc.gov/apigateway/api/v1/getYears/${measureId}`);
         console.log(response);
         this.setState({
-          options: response.data
+          options: response.data.reverse()
         })
       } catch (error) {
         console.log(error);
