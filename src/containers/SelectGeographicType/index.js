@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types';
 import axios from 'axios';
 
-class SelectYear extends Component {
+class SelectGeographicType extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -27,9 +27,10 @@ class SelectYear extends Component {
   async getOptions(measureId) {
     if (measureId) {
       try {
-        const response = await axios(`https://ephtracking.cdc.gov/apigateway/api/v1/getYears/${measureId}`);
+        const response = await axios(`https://ephtracking.cdc.gov/apigateway/api/v1/geographiclevels/${measureId}`);
+        console.log(response);
         this.setState({
-          options: response.data.reverse()
+          options: response.data
         })
       } catch (error) {
         console.log(error);
@@ -47,16 +48,15 @@ class SelectYear extends Component {
     const disabled = this.props.measureId === null;
 
     const optionsToRender = options.map((item, index) => (
-      <option key={index} value={item}>{item}</option>
+      <option key={index} value={item.geographicTypeId}>{item.geographicType}</option>
     ));
     optionsToRender.unshift([
-      <option key="-1" value="" disabled>Select year</option>,
-      <option key="allyears" value="ALL">ALL</option>
+      <option key="-1" value="" disabled>Select geographic type</option>,
     ]);
 
     return (
       <div className="field">
-        <label className="label">Year</label>
+        <label className="label">Geographic type</label>
         <div className="control">
           <div className="select">
             <select value={value} onChange={this.handleChange} disabled={disabled}>
@@ -69,9 +69,9 @@ class SelectYear extends Component {
   }
 }
 
-SelectYear.propTypes = {
+SelectGeographicType.propTypes = {
   handleSelect: PropTypes.func.isRequired,
   measureId: PropTypes.string
 };
 
-export default SelectYear;
+export default SelectGeographicType;

@@ -15,6 +15,7 @@ import Contentareas from './pages/Contentareas';
 import Indicators from './pages/Indicators';
 import Measures from './pages/Measures';
 import Geographiclevels from './pages/Geographiclevels';
+import Geography from './pages/Geography';
 
 const App = () => (
   <Router>
@@ -30,6 +31,7 @@ const App = () => (
         <Route path="/indicators" component={Indicators} />
         <Route path="/measures" component={Measures} />
         <Route path="/geographiclevels" component={Geographiclevels} />
+        <Route path="/geography" component={Geography} />
       </div>
     </Layout>
   </Router>
