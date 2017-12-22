@@ -17,6 +17,8 @@ import Measures from './pages/Measures';
 import Geographiclevels from './pages/Geographiclevels';
 import Geography from './pages/Geography';
 import Measurestratification from './pages/Measurestratification';
+import Stratificationlevel from './pages/Stratificationlevel';
+
 const App = () => (
   <Router>
     <Layout>
@@ -33,6 +35,7 @@ const App = () => (
         <Route path="/geographiclevels" component={Geographiclevels} />
         <Route path="/geography" component={Geography} />
         <Route path="/measurestratification" component={Measurestratification} />
+        <Route path="/stratificationlevel" component={Stratificationlevel} />
       </div>
     </Layout>
   </Router>
