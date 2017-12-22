@@ -73,7 +73,7 @@ class GetCoreHolder extends Component {
         <h1 className="title">Retrieving all Values for a Measure</h1>
         <h5 className="title is-5">Usage</h5>
         <CodeBlock>
-          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/getCoreHolder/{'{'}measureId{'}'}/{'{'}stratificationLevelId{'}'}/{'{'}geographicTypeIdFilter{'}'}/{'{'}temporal{'}'}/{'{'}isSmoothed{'}'}/{'{'}getFullCoreHolder{'}'}/apiToken]
+          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/getCoreHolder/{'{'}measureId{'}'}/{'{'}stratificationLevelId{'}'}/{'{'}geographicTypeIdFilter{'}'}/{'{'}temporal{'}'}/{'{'}isSmoothed{'}'}/{'{'}getFullCoreHolder{'}'}[?apiToken]
         </CodeBlock>
         <hr />
         <h5 className="title is-5">Set parameters</h5>
