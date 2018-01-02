@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 import Menu from '../Menu';
+import Footer from '../Footer';
 import './Layout.css';
 
 const Layout = ({ children, activeMenu }) => (
@@ -22,6 +23,7 @@ const Layout = ({ children, activeMenu }) => (
         </div>
       </div>
     </div>
+    <Footer />
   </div>
 );
 

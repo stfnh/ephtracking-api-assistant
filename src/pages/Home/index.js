@@ -18,6 +18,9 @@ class Home extends Component {
           </div>
         </section>
         <hr />
+        <p>
+          This web application helps you to explore the EPH Tracking API and lets you interactively build API call statements.
+        </p>
         <a target="_blank"
            rel="noopener noreferrer"
            href="https://ephtracking.cdc.gov/apihelp">See official docs on www.cdc.gov</a>

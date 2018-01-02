@@ -16,5 +16,6 @@ The Tracking Network Data Application Program Interface (API) is an alternate wa
 
 [Tracking Network Data Application Program Interface (API)](https://ephtracking.cdc.gov/apihelp)
 
+### License
 
-MIT License
+ Released under the [MIT license](https://github.com/jgthms/bulma/blob/master/LICENSE).
