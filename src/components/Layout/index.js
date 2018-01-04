@@ -8,7 +8,7 @@ import './Layout.css';
 
 const Layout = ({ children, activeMenu }) => (
   <div>
-    <nav className="navbar is-primary" aria-label="main navigation">
+    <nav className="navbar is-info" aria-label="main navigation">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item brand-text">EPH Tracking API Assistant</Link>
       </div>
