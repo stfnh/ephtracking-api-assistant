@@ -9,6 +9,7 @@
     "bulma": "^0.6.1",
     "font-awesome": "4.7.0",
     "gh-pages": "^1.1.0",
+    "node-sass-chokidar": "0.0.3",
     "react": "^16.2.0",
     "react-checkbox-tree": "1.0.2",
     "react-copy-to-clipboard": "5.0.1",
@@ -22,6 +23,8 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "yarn build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",

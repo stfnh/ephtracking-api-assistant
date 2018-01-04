@@ -1,0 +1,21 @@
+// see https://bulma.io/documentation/overview/customize/
+
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+@import "../node_modules/bulma/sass/utilities/functions";
+
+// customize colors (NEPHTN Green)
+$green: #085100;
+$green-invert: #fff;
+
+// CDC Blue
+$blue: #075290;
+
+$primary: $green;
+$primary-invert: $green-invert;
+
+nav.navbar {
+  margin-bottom: 1rem;
+}
+
+@import "../node_modules/bulma/sass/utilities/derived-variables.sass";
+@import "../node_modules/bulma/bulma.sass";

@@ -4,6 +4,8 @@ import {
   Route
 } from 'react-router-dom';
 
+import './App.css';
+
 import Home from './pages/Home';
 import Layout from './components/Layout';
 import GetMeasures from './pages/GetMeasures';

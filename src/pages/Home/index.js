@@ -4,7 +4,7 @@ class Home extends Component {
   render() {
     return (
       <Fragment>
-        <section className="hero is-info">
+        <section className="hero is-primary">
           <div className="hero-body">
             <div className="container">
               <h1 className="title">
