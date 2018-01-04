@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 
 import CodeBlock from '../../components/CodeBlock';
 import Preview from '../../components/Preview';
+import Definition from '../../components/Definition';
 
 class GetMeasures extends Component {
   constructor(props) {
@@ -20,6 +21,10 @@ class GetMeasures extends Component {
         <CodeBlock>
           https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/getMeasures[?apiToken]
         </CodeBlock>
+        <hr />
+        <Definition>
+          Listing of all Measures
+        </Definition>
         <hr />
         <Preview url={url} />
       </Fragment>

@@ -26,7 +26,7 @@ export class Preview extends Component {
     const { copied } = this.state;
     return (
       <Fragment>
-        <h5 className="title is-5">Preview</h5>
+        <h5 className="title is-5">Output</h5>
         <div className="columns">
           <div className="column is-three-quarters">
             <CodeBlock>
