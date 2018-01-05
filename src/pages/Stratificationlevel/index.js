@@ -41,7 +41,7 @@ class Stratificationlevel extends Component {
     const url = `https://ephtracking.cdc.gov/apigateway/api/v1/stratificationlevel/${measureId}/${geographicTypeId}/${isSmoothed ? 1 : 0}`
     return (
       <Fragment>
-        <h1 className="title">Retrieving levels of stratification for a measure and geographiy type</h1>
+        <h1 className="title">Retrieving levels of stratification for a measure and geography type</h1>
         <h5 className="title is-5">Usage</h5>
         <CodeBlock>
           https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/stratificationlevel/{'{'}measureId{'}'}/{'{'}geographicTypeId{'}'}/{'{'}isSmoothed{'}'}[?apiToken]
