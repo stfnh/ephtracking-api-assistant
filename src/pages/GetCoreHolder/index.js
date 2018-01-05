@@ -92,8 +92,8 @@ class GetCoreHolder extends Component {
         <h5 className="title is-5">Set parameters</h5>
         <CIM handleSelect={this.setMeasureId} />
         <SelectGeographicType measureId={measureId} handleSelect={this.setGeographicTypeId} />
-        <GeographicFilter measureId={measureId} geographicTypeId={geographicTypeId} handleSelect={this.setGeographicFilter} />
         <SelectStratificationLevel measureId={measureId} geographicTypeId={geographicTypeId} handleSelect={this.setStratificationLevelId} />
+        <GeographicFilter measureId={measureId} geographicTypeId={geographicTypeId} handleSelect={this.setGeographicFilter} />
         <SelectYears measureId={measureId} handleCheck={this.setYears} />
         <div className="field">
           <label className="checkbox">

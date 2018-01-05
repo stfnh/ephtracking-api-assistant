@@ -50,11 +50,10 @@ export class StateFIPS extends Component {
   }
 
   handleCheck(checked) {
+    this.setState({ checked });
     if (checked.length === this.state.statesForMeasure.length) {
-      this.setState({ checked });
       this.props.handleCheck(["ALL"]);
     } else {
-      this.setState({ checked }); 
       this.props.handleCheck(checked);
     }
   }

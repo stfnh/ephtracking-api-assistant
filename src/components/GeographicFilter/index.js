@@ -7,6 +7,7 @@ import PropTypes from 'prop-types';
 
 import CountyFIPS from '../CountyFIPS';
 import StateFIPS from '../../containers/StateFIPS';
+import SelectState from '../../containers/SelectState';
 
 class GeographicFilter extends Component {
   constructor(props) {
@@ -20,7 +21,8 @@ class GeographicFilter extends Component {
   }
 
   setStateFips(stateFips) {
-    this.setState({ stateFips });
+    console.log(stateFips);
+    this.setState({ stateFips: parseInt(stateFips, 10) });
   }
 
   handleStateChange(event) {
@@ -31,8 +33,7 @@ class GeographicFilter extends Component {
         geographicTypeIdFilter: 'ALL',
         geographicItemsFilter: 'ALL'
       });
-    }
-    else {
+    } else {
       this.props.handleSelect({
         geographicTypeIdFilter: '1',
         geographicItemsFilter: event
@@ -41,11 +42,18 @@ class GeographicFilter extends Component {
   }
 
   handleCountyChange(event) {
-    console.log(event);
-    this.props.handleSelect({
-      geographicTypeIdFilter: 2,
-      geographicItemsFilter: event
-    })
+    if (event.length === 0 || event[0] === 'ALL') {
+      // no filter selected or all counties selected
+      this.props.handleSelect({
+        geographicTypeIdFilter: 'ALL',
+        geographicItemsFilter: 'ALL'
+      });
+    } else {
+      this.props.handleSelect({
+        geographicTypeIdFilter: '2',
+        geographicItemsFilter: event
+      });
+    }
   }
 
   render() {
@@ -57,7 +65,7 @@ class GeographicFilter extends Component {
         {
           geographicTypeId === '2' &&
             <div>
-              <StateFIPS measureId={measureId} handleCheck={this.setStateFips} />
+              <SelectState measureId={measureId} handleSelect={this.setStateFips} />
               <CountyFIPS stateFips={this.state.stateFips} handleCheck={this.handleCountyChange} />
             </div>
         }

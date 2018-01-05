@@ -40,6 +40,11 @@ class CountyFIPS extends Component {
 
   handleCheck(checked) {
     this.setState({ checked });
+    if (checked.length === this.state.counties.length) {
+      this.props.handleCheck(["ALL"]);
+    } else {
+      this.props.handleCheck(checked);
+    }
   }
 
   handleExpand(expanded) {
@@ -72,7 +77,8 @@ class CountyFIPS extends Component {
 };
 
 CountyFIPS.propTypes = {
-  stateFips: PropTypes.number.isRequired
+  stateFips: PropTypes.number,
+  handleCheck: PropTypes.func.isRequired
 };
 
 export default CountyFIPS;

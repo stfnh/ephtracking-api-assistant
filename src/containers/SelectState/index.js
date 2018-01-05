@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types';
 import axios from 'axios';
 
-class SelectYear extends Component {
+import STATES from './states';
+
+class SelectState extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -27,9 +29,11 @@ class SelectYear extends Component {
   async getOptions(measureId) {
     if (measureId) {
       try {
-        const response = await axios(`https://ephtracking.cdc.gov/apigateway/api/v1/getYears/${measureId}`);
+        const response = await axios(`https://ephtracking.cdc.gov/apigateway/api/v1/getStates/${measureId}`);
+        console.log(response);
+        const filteredStates = STATES.filter(item => response.data.find(fips => item.value === fips));
         this.setState({
-          options: response.data.reverse()
+          options: filteredStates
         })
       } catch (error) {
         console.log(error);
@@ -46,17 +50,16 @@ class SelectYear extends Component {
     const { value, options } = this.state;
     const disabled = this.props.measureId === null;
 
-    const optionsToRender = options.map((item, index) => (
-      <option key={index} value={item}>{item}</option>
+    const optionsToRender = options.map(item => (
+      <option key={item.value} value={item.value}>{item.label}</option>
     ));
     optionsToRender.unshift([
-      <option key="-1" value="" disabled>Select year</option>,
-      <option key="allyears" value="ALL">ALL</option>
+      <option key="-1" value="" disabled>Select state</option>,
     ]);
 
     return (
       <div className="field">
-        <label className="label">Year</label>
+        <label className="label">State</label>
         <div className="control">
           <div className="select">
             <select value={value} onChange={this.handleChange} disabled={disabled}>
@@ -69,9 +72,9 @@ class SelectYear extends Component {
   }
 }
 
-SelectYear.propTypes = {
+SelectState.propTypes = {
   handleSelect: PropTypes.func.isRequired,
   measureId: PropTypes.string
 };
 
-export default SelectYear;
+export default SelectState;
