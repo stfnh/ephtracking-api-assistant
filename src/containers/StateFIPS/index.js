@@ -12,7 +12,7 @@ export class StateFIPS extends Component {
       expanded: [],
       checked: [],
       statesForMeasure: []
-    }
+    };
     this.loadData = this.loadData.bind(this);
     this.handleCheck = this.handleCheck.bind(this);
   }
