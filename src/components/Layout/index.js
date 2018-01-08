@@ -1,26 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
 
-import Menu from '../Menu';
 import Footer from '../Footer';
+import Navbar from '../Navbar';
 
 const Layout = ({ children, activeMenu }) => (
   <div>
-    <nav className="navbar is-primary" aria-label="main navigation">
-      <div className="navbar-brand">
-        <Link to="/" className="navbar-item brand-text">EPH Tracking API Assistant</Link>
-      </div>
-    </nav>
+    <Navbar />
     <div className="container">
-      <div className="columns">
-        <div className="column is-3">
-          <Menu />
-        </div>
-        <div className="column is-9">
-          {children}
-        </div>
-      </div>
+      {children}
     </div>
     <Footer />
   </div>
