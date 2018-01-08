@@ -48,7 +48,7 @@ class Navbar extends Component {
           </div>
           <div className="navbar-end">
             <div className="navbar-item">
-              <a className="button is-link" href="https://github.com/stfnh/ephtracking-api-assistant" target="_blank">
+              <a className="button is-link" rel="noopener noreferrer" href="https://github.com/stfnh/ephtracking-api-assistant" target="_blank">
                 <span className="icon">
                   <i className="fa fa-github" aria-hidden="true"></i>
                 </span>
