@@ -11,6 +11,7 @@ class Navbar extends Component {
       isActive: false
     };
     this.toggleMenu = this.toggleMenu.bind(this);
+    this.closeMenu = this.closeMenu.bind(this);
   }
 
   toggleMenu() {
@@ -20,9 +21,15 @@ class Navbar extends Component {
     console.log(this.state.isActive);
   }
 
+  closeMenu() {
+    this.setState({
+      isActive: false
+    });
+  }
+
   render() {
     const menuItemsToRender = menuItems.map((item, index) => (
-      <NavLink key={index} to={`/${item}`} className="navbar-item" activeClassName="is-active">{item}</NavLink>
+      <NavLink key={index} to={`/${item}`} onClick={this.closeMenu} className="navbar-item" activeClassName="is-active">{item}</NavLink>
     ));
 
     const menuClass = this.state.isActive ? 'navbar-menu is-active' : 'navbar-menu';
@@ -30,7 +37,7 @@ class Navbar extends Component {
     return (
       <nav className="navbar is-primary" aria-label="main navigation">
         <div className="navbar-brand">
-          <Link to="/" className="navbar-item brand-text">EPH Tracking API Assistant</Link>
+          <Link to="/" onClick={this.closeMenu} className="navbar-item brand-text">EPH Tracking API Assistant</Link>
         <button className="button navbar-burger" onClick={this.toggleMenu}>
           <span></span>
           <span></span>
@@ -40,7 +47,7 @@ class Navbar extends Component {
         <div className={menuClass}>
           <div className="navbar-start">
             <div className="navbar-item has-dropdown is-hoverable">
-            <NavLink to="/" className="navbar-link" activeClassName="is-active">API</NavLink>
+            <NavLink to="/" onClick={this.closeMenu} className="navbar-link" activeClassName="is-active">API</NavLink>
             <div className="navbar-dropdown">
                 { menuItemsToRender }
               </div>
