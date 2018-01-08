@@ -24,10 +24,6 @@ class Navbar extends Component {
     const menuItemsToRender = menuItems.map((item, index) => (
       <NavLink key={index} to={`/${item}`} className="navbar-item" activeClassName="is-active">{item}</NavLink>
     ));
-  
-    const toggleMenu = () => {
-      console.log('toggle');
-    };
 
     const menuClass = this.state.isActive ? 'navbar-menu is-active' : 'navbar-menu';
   
