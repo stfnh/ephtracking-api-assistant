@@ -3,12 +3,20 @@ import PropTypes from 'prop-types';
 
 import Footer from '../Footer';
 import Navbar from '../Navbar';
+import Sidemenu from '../Sidemenu';
 
 const Layout = ({ children, activeMenu }) => (
   <div>
     <Navbar />
     <div className="container">
-      {children}
+      <div className="columns is-desktop">
+        <div className="column is-3">
+          <Sidemenu />
+        </div>
+        <div className="column section">
+          {children}
+        </div>
+      </div>
     </div>
     <Footer />
   </div>
