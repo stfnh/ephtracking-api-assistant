@@ -8,7 +8,6 @@ import SelectGeographicType from '../../containers/SelectGeographicType';
 import SelectStratificationLevel from '../../containers/SelectStratificationLevel';
 import SelectYears from '../../containers/SelectYears';
 
-
 class GetCoreHolder extends Component {
   constructor(props) {
     super(props);
@@ -20,7 +19,8 @@ class GetCoreHolder extends Component {
       geographicItemsFilter: 'ALL',
       years: [],
       isSmoothed: false,
-      getFullCoreHolder: false
+      getFullCoreHolder: false,
+      queryParams: ''
     };
     this.setMeasureId = this.setMeasureId.bind(this);
     this.setGeographicTypeId = this.setGeographicTypeId.bind(this);
@@ -50,8 +50,8 @@ class GetCoreHolder extends Component {
     });
   }
 
-  setStratificationLevelId(stratificationLevelId) {
-    this.setState({ stratificationLevelId });
+  setStratificationLevelId(stratificationLevelId, queryParams) {
+    this.setState({ stratificationLevelId, queryParams });
   }
 
   setYears(years) {
@@ -75,18 +75,17 @@ class GetCoreHolder extends Component {
   }
 
   render() {
-    const { measureId, geographicTypeId, stratificationLevelId, geographicTypeIdFilter, geographicItemsFilter, years, isSmoothed, getFullCoreHolder } = this.state;
+    const { measureId, geographicTypeId, stratificationLevelId, geographicTypeIdFilter, geographicItemsFilter, years, isSmoothed, getFullCoreHolder, queryParams } = this.state;
     const isValidUrl = measureId !== null && stratificationLevelId !== null
       && geographicTypeIdFilter !== null && geographicItemsFilter !== null && years.length > 0;
-    // ToDo: Clarify parameters with NEPHTN, description seems not valid
-    const url = `https://ephtracking.cdc.gov/apigateway/api/v1/getCoreHolder/${measureId}/${stratificationLevelId}/${geographicTypeIdFilter}/${geographicItemsFilter}/${years.toString()}/${isSmoothed ? 1 : 0}/${getFullCoreHolder ? 1 : 0}`
+    const url = `https://ephtracking.cdc.gov/apigateway/api/v1/getCoreHolder/${measureId}/${stratificationLevelId}/${geographicTypeIdFilter}/${geographicItemsFilter}/${years.toString()}/${isSmoothed ? 1 : 0}/${getFullCoreHolder ? 1 : 0}${queryParams.length > 0 ? `?${queryParams}` : ''}`
 
     return (
       <Fragment>
         <h1 className="title">Retrieving all Values for a Measure</h1>
         <h5 className="title is-5">Usage</h5>
         <CodeBlock>
-          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/getCoreHolder/{'{'}measureId{'}'}/{'{'}stratificationLevelId{'}'}/{'{'}geographicTypeIdFilter{'}'}/{'{'}geographicItemsFilter{'}'}/{'{'}temporal{'}'}/{'{'}isSmoothed{'}'}/{'{'}getFullCoreHolder{'}'}[?apiToken]
+          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/getCoreHolder/{'{'}measureId{'}'}/{'{'}stratificationLevelId{'}'}/{'{'}geographicTypeIdFilter{'}'}/{'{'}geographicItemsFilter{'}'}/{'{'}temporal{'}'}/{'{'}isSmoothed{'}'}/{'{'}getFullCoreHolder{'}'}[?apiToken][?Variables...]
         </CodeBlock>
         <hr />
         <h5 className="title is-5">Set parameters</h5>

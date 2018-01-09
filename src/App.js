@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom';
 
 import './App.css';
+import './spacing.css';
 
 import Home from './pages/Home';
 import Layout from './components/Layout';
