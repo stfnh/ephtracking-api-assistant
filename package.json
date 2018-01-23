@@ -6,7 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.17.1",
-    "bulma": "^0.6.1",
+    "bulma": "^0.6.2",
     "font-awesome": "4.7.0",
     "gh-pages": "^1.1.0",
     "node-sass-chokidar": "0.0.3",
@@ -19,7 +19,7 @@
     "react-spinkit": "3.0.0"
   },
   "devDependencies": {
-    "jest": "^22.0.3",
+    "jest": "^22.1.4",
     "react-scripts": "1.0.17"
   },
   "scripts": {
