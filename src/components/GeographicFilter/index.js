@@ -21,12 +21,10 @@ class GeographicFilter extends Component {
   }
 
   setStateFips(stateFips) {
-    console.log(stateFips);
     this.setState({ stateFips: parseInt(stateFips, 10) });
   }
 
   handleStateChange(event) {
-    console.log(event);
     if (event.length === 0 || event[0] === 'ALL') {
       // no filter selected or all states selected
       this.props.handleSelect({

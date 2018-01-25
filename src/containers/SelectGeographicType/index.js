@@ -28,7 +28,6 @@ class SelectGeographicType extends Component {
     if (measureId) {
       try {
         const response = await axios(`https://ephtracking.cdc.gov/apigateway/api/v1/geographiclevels/${measureId}`);
-        console.log(response);
         this.setState({
           options: response.data
         })

@@ -86,13 +86,26 @@ class SelectStratificationLevel extends Component {
         }))
       };
     });
+    console.log(stratificationParams);
     this.setState({ parameterOptions: stratificationParams });
   }
 
   // query params
   handleCheck(checked) {
     this.setState({ checked });
-    this.props.handleSelect(this.state.value, checked.join('&'));
+
+    // preapre params
+    const paramsJson = {};
+    checked
+      .map(d => d.split('='))
+      .forEach(d => paramsJson[d[0]] = paramsJson[d[0]] ? `${paramsJson[d[0]]},${d[1]}` : d[1]);
+    const preparedParams = [];
+    for (let p in paramsJson) {
+      preparedParams.push(`${p}=${paramsJson[p]}`);
+    }
+    
+    // return them
+    this.props.handleSelect(this.state.value, preparedParams.join('&'));
   }
 
   handleExpand(expanded) {

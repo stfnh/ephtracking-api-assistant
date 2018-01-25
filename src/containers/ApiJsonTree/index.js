@@ -29,7 +29,6 @@ export class ApiJsonTree extends Component {
   async getData(url) {
     try {
       const response = await axios(url);
-      console.log(response);
       this.setState({
         data: response.data,
         isLoading: false
