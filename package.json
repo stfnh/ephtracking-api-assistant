@@ -21,7 +21,6 @@
   },
   "devDependencies": {
     "eslint-plugin-prettier": "2.5.0",
-    "jest": "^22.1.4",
     "prettier": "1.10.2",
     "react-scripts": "1.0.17"
   },
