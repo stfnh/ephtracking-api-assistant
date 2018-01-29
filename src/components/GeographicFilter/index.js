@@ -60,19 +60,26 @@ class GeographicFilter extends Component {
     // two cases: geographic can be state or county
     return (
       <Fragment>
-        {
-          geographicTypeId === '2' &&
-            <div>
-              <SelectState measureId={measureId} handleSelect={this.setStateFips} />
-              <CountyFIPS stateFips={this.state.stateFips} handleCheck={this.handleCountyChange} />
-            </div>
-        }
-        {
-          geographicTypeId === '1' &&
-            <StateFIPS measureId={measureId} handleCheck={this.handleStateChange} />
-        }
+        {geographicTypeId === '2' && (
+          <div>
+            <SelectState
+              measureId={measureId}
+              handleSelect={this.setStateFips}
+            />
+            <CountyFIPS
+              stateFips={this.state.stateFips}
+              handleCheck={this.handleCountyChange}
+            />
+          </div>
+        )}
+        {geographicTypeId === '1' && (
+          <StateFIPS
+            measureId={measureId}
+            handleCheck={this.handleStateChange}
+          />
+        )}
       </Fragment>
-    )
+    );
   }
 }
 
@@ -80,6 +87,6 @@ GeographicFilter.propTypes = {
   handleSelect: PropTypes.func.isRequired,
   measureId: PropTypes.string,
   geographicTypeId: PropTypes.string
-}
+};
 
 export default GeographicFilter;

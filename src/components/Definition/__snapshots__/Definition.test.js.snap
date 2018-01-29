@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <h5
+    className="title is-5"
+>
+    Definition
+</h5>,
+  <p>
+    this is a definition
+</p>,
+]
+`;

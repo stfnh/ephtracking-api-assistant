@@ -28,10 +28,10 @@ class CountyFIPS extends Component {
   }
 
   filterCounties(stateFips) {
-    const counties = COUNTIES
-    .filter(c => stateFips === c.stateFips)
-    .map(c => ({
-      value: c.stateFips.toString().padStart(2, '0') + c.countyFips.toString().padStart(3, '0'),
+    const counties = COUNTIES.filter(c => stateFips === c.stateFips).map(c => ({
+      value:
+        c.stateFips.toString().padStart(2, '0') +
+        c.countyFips.toString().padStart(3, '0'),
       label: c.countyName,
       icon: <i className="fa fa-map-marker" />
     }));
@@ -41,7 +41,7 @@ class CountyFIPS extends Component {
   handleCheck(checked) {
     this.setState({ checked });
     if (checked.length === this.state.counties.length) {
-      this.props.handleCheck(["ALL"]);
+      this.props.handleCheck(['ALL']);
     } else {
       this.props.handleCheck(checked);
     }
@@ -52,12 +52,14 @@ class CountyFIPS extends Component {
   }
 
   render() {
-    const nodes = [{
-      value: 'ALL',
-      label: 'All Counties',
-      icon: <i className="fa fa-map-marker" />,
-      children: this.state.counties
-    }];
+    const nodes = [
+      {
+        value: 'ALL',
+        label: 'All Counties',
+        icon: <i className="fa fa-map-marker" />,
+        children: this.state.counties
+      }
+    ];
     return (
       <Fragment>
         <div className="field">
@@ -68,13 +70,16 @@ class CountyFIPS extends Component {
             expanded={this.state.expanded}
             onCheck={this.handleCheck}
             onExpand={this.handleExpand}
-            disabled={this.props.stateFips === null || typeof this.props.stateFips !== 'number'}
+            disabled={
+              this.props.stateFips === null ||
+              typeof this.props.stateFips !== 'number'
+            }
           />
         </div>
       </Fragment>
     );
   }
-};
+}
 
 CountyFIPS.propTypes = {
   stateFips: PropTypes.number,
