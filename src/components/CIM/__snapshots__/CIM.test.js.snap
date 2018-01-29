@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    className="field"
+>
+    <label
+        className="label"
+    >
+        Content Area
+    </label>
+    <div
+        className="control"
+    >
+        <div
+            className="select"
+        >
+            <select
+                onChange={[Function]}
+                value=""
+            >
+                <option
+                    disabled={true}
+                    value=""
+                >
+                    Select content area
+                </option>
+            </select>
+        </div>
+    </div>
+</div>,
+  <div
+    className="field"
+>
+    <label
+        className="label"
+    >
+        Indicator
+    </label>
+    <div
+        className="control"
+    >
+        <div
+            className="select"
+        >
+            <select
+                disabled={true}
+                onChange={[Function]}
+                value=""
+            >
+                <option
+                    disabled={true}
+                    value=""
+                >
+                    Select indicator
+                </option>
+            </select>
+        </div>
+    </div>
+</div>,
+  <div
+    className="field"
+>
+    <label
+        className="label"
+    >
+        Measure
+    </label>
+    <div
+        className="control"
+    >
+        <div
+            className="select"
+        >
+            <select
+                disabled={true}
+                onChange={[Function]}
+                value=""
+            >
+                <option
+                    disabled={true}
+                    value=""
+                >
+                    Select measure
+                </option>
+            </select>
+        </div>
+    </div>
+</div>,
+]
+`;

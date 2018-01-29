@@ -4,9 +4,7 @@ import PropTypes from 'prop-types';
 import './CodeBlock.css';
 
 const CodeBlock = ({ children }) => (
-  <div className="code-block">
-    {children}
-  </div>
+  <div className="code-block">{children}</div>
 );
 
 CodeBlock.propTypes = {

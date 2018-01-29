@@ -12,9 +12,9 @@ export class CIM extends Component {
     this.state = {
       contentAreaId: null,
       indicatorId: null
-    }
+    };
     this.setcontentAreaId = this.setcontentAreaId.bind(this);
-    this.setIndicatorId = this.setIndicatorId.bind(this);  
+    this.setIndicatorId = this.setIndicatorId.bind(this);
     this.setMeasureId = this.setMeasureId.bind(this);
   }
 
@@ -22,7 +22,7 @@ export class CIM extends Component {
     this.setState({ contentAreaId, indicatorId: null });
     this.setMeasureId(null);
   }
-  
+
   setIndicatorId(indicatorId) {
     this.setState({ indicatorId });
     this.setMeasureId(null);
@@ -36,8 +36,14 @@ export class CIM extends Component {
     return (
       <Fragment>
         <SelectContentArea handleSelect={this.setcontentAreaId} />
-        <SelectIndicator contentAreaId={this.state.contentAreaId} handleSelect={this.setIndicatorId} />
-        <SelectMeasure indicatorId={this.state.indicatorId} handleSelect={this.setMeasureId} />
+        <SelectIndicator
+          contentAreaId={this.state.contentAreaId}
+          handleSelect={this.setIndicatorId}
+        />
+        <SelectMeasure
+          indicatorId={this.state.indicatorId}
+          handleSelect={this.setMeasureId}
+        />
       </Fragment>
     );
   }
@@ -46,5 +52,5 @@ export class CIM extends Component {
 CIM.propTyes = {
   handleSelect: PropTypes.func.isRequired
 };
- 
+
 export default CIM;
