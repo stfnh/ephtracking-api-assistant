@@ -1,3 +1,4 @@
+import 'core-js/fn/array/find'; // polyfill for IE support
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
