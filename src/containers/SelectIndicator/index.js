@@ -35,12 +35,12 @@ class SelectIndicator extends Component {
       } catch (error) {
         console.log(error);
       }
-    }    
+    }
   }
 
   handleChange(event) {
     this.props.handleSelect(event.target.value);
-    this.setState({value: event.target.value});
+    this.setState({ value: event.target.value });
   }
 
   render() {
@@ -51,7 +51,7 @@ class SelectIndicator extends Component {
       <option key={index} value={item.id}>{item.name}</option>
     ));
     optionsToRender.unshift(
-      <option key="-1" value="" disabled>Select indicator</option>      
+      <option key="-1" value="" disabled>Select indicator</option>
     );
 
     return (

@@ -75,22 +75,22 @@ class SelectStratificationLevel extends Component {
     }
     const selectedStratificationLevel = options.find(o => o.id === parseInt(value, 10));
     const stratificationParams = selectedStratificationLevel.stratificationType
-    .map(st => {
-      const stratification = stratifications.find(s => s.stratificationTypeId === st.id);
-      return {
-        value: stratification.columnName,
-        label: stratification.displayName,
-        children: stratification.stratificationItem.map(item => ({
-          value: `${stratification.columnName}=${item.localId}`,
-          label: item.name
-        }))
-      };
-    });
+      .map(st => {
+        const stratification = stratifications.find(s => s.stratificationTypeId === st.id);
+        return {
+          value: stratification.columnName,
+          label: stratification.displayName,
+          children: stratification.stratificationItem.map(item => ({
+            value: `${stratification.columnName}=${item.localId}`,
+            label: item.name
+          }))
+        };
+      });
     console.log(stratificationParams);
     this.setState({ parameterOptions: stratificationParams });
   }
 
-  // query params
+  // query params 
   handleCheck(checked) {
     this.setState({ checked });
 
@@ -103,7 +103,7 @@ class SelectStratificationLevel extends Component {
     for (let p in paramsJson) {
       preparedParams.push(`${p}=${paramsJson[p]}`);
     }
-    
+
     // return them
     this.props.handleSelect(this.state.value, preparedParams.join('&'));
   }
@@ -133,7 +133,7 @@ class SelectStratificationLevel extends Component {
             </select>
           </div>
         </div>
-        { parameterOptions.length > 0 && 
+        {parameterOptions.length > 0 &&
           <div className="m-t-sm">
             <CheckboxTree
               nodes={parameterOptions}
