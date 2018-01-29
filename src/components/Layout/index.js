@@ -5,7 +5,7 @@ import Footer from '../Footer';
 import Navbar from '../Navbar';
 import Sidemenu from '../Sidemenu';
 
-const Layout = ({ children, activeMenu }) => (
+const Layout = ({ children }) => (
   <div>
     <Navbar />
     <div className="container">
@@ -13,9 +13,7 @@ const Layout = ({ children, activeMenu }) => (
         <div className="column is-3">
           <Sidemenu />
         </div>
-        <div className="column section">
-          {children}
-        </div>
+        <div className="column section">{children}</div>
       </div>
     </div>
     <Footer />

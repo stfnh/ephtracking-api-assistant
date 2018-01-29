@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
-import JSONTree from 'react-json-tree'
+import JSONTree from 'react-json-tree';
 import Spinner from 'react-spinkit';
 
 import './ApiJsonTree.css';
@@ -9,22 +9,22 @@ import './ApiJsonTree.css';
 export class ApiJsonTree extends Component {
   constructor(props) {
     super(props);
-    this.state = { 
+    this.state = {
       data: null,
       isLoading: true,
       error: null
-     }
+    };
   }
 
   componentDidMount() {
-    this.getData(this.props.url);  
+    this.getData(this.props.url);
   }
 
   componentWillReceiveProps(nextProps) {
     if (this.props.url !== nextProps.url) {
       this.getData(nextProps.url);
     }
-  } 
+  }
 
   async getData(url) {
     try {
@@ -32,29 +32,26 @@ export class ApiJsonTree extends Component {
       this.setState({
         data: response.data,
         isLoading: false
-      })
+      });
     } catch (error) {
       console.error(error);
       this.setState({
         isLoading: false,
         error: error.message
-      })
+      });
     }
   }
 
-  render() { 
+  render() {
     const { data, isLoading, error } = this.state;
-    return ( 
+    return (
       <div>
-        { isLoading && error === null
-          ?
-          <Spinner className="spinner" name="circle" color="steelblue"/>          
-          :
+        {isLoading && error === null ? (
+          <Spinner className="spinner" name="circle" color="steelblue" />
+        ) : (
           <JSONTree data={data} theme="monokai" />
-        }
-        { error &&
-          <div className="notification is-danger">{error}</div>
-        }
+        )}
+        {error && <div className="notification is-danger">{error}</div>}
       </div>
     );
   }
@@ -62,6 +59,6 @@ export class ApiJsonTree extends Component {
 
 ApiJsonTree.propTypes = {
   url: PropTypes.string.isRequired
-}
- 
+};
+
 export default ApiJsonTree;
