@@ -16,6 +16,42 @@ The Tracking Network Data Application Program Interface (API) is an alternate wa
 
 [Tracking Network Data Application Program Interface (API)](https://ephtracking.cdc.gov/apihelp)
 
-### License
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+Install the dependencies:
+```
+yarn
+```
+
+Start the development server:
+```
+yarn start
+```
+
+Run tests in watch mode:
+```
+yarn test
+```
+
+Test coverage:
+```
+yarn test --coverage
+```
+
+Build for production:
+```
+yarn build
+```
+
+## Conintuous deployment and testing
+
+Each push will trigger a buld on [TravisCI](https://travis-ci.org/stfnh/ephtracking-api-assistant). If build and tests are successful, the web application will be deployed to github pages.
+
+Testing implemented with Jest (snapshots) and Enzime.
+
+
+## License
 
  Released under the [MIT license](https://github.com/jgthms/bulma/blob/master/LICENSE).
