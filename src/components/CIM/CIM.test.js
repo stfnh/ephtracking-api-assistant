@@ -1,9 +1,12 @@
 import React from 'react';
 import CIM from '.';
-import renderer from 'react-test-renderer';
+import { shallow } from 'enzyme';
 
-it('renders correctly', () => {
-  const handleSelect = event => console.log('handleSelect');
-  const tree = renderer.create(<CIM handleSelect={handleSelect} />).toJSON();
-  expect(tree).toMatchSnapshot();
+describe('CIM Component', () => {
+  it('renders correctly', () => {
+    const handleSelect = event => console.log('handleSelect');
+    const tree = shallow(<CIM handleSelect={handleSelect} />);
+    expect(tree).toMatchSnapshot();
+  });
+
 });

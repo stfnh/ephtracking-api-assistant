@@ -1,5 +1,5 @@
 import React from 'react';
-import Definition from '.';
+import Definition from './';
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
