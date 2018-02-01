@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`Defintion Component renders correctly 1`] = `
 Array [
   <h5
     className="title is-5"

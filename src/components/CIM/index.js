@@ -13,12 +13,12 @@ export class CIM extends Component {
       contentAreaId: null,
       indicatorId: null
     };
-    this.setcontentAreaId = this.setcontentAreaId.bind(this);
+    this.setContentAreaId = this.setContentAreaId.bind(this);
     this.setIndicatorId = this.setIndicatorId.bind(this);
     this.setMeasureId = this.setMeasureId.bind(this);
   }
 
-  setcontentAreaId(contentAreaId) {
+  setContentAreaId(contentAreaId) {
     this.setState({ contentAreaId, indicatorId: null });
     this.setMeasureId(null);
   }
@@ -35,7 +35,7 @@ export class CIM extends Component {
   render() {
     return (
       <Fragment>
-        <SelectContentArea handleSelect={this.setcontentAreaId} />
+        <SelectContentArea handleSelect={this.setContentAreaId} />
         <SelectIndicator
           contentAreaId={this.state.contentAreaId}
           handleSelect={this.setIndicatorId}
