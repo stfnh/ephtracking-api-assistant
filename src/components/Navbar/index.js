@@ -18,7 +18,6 @@ class Navbar extends Component {
     this.setState({
       isActive: !this.state.isActive
     });
-    console.log(this.state.isActive);
   }
 
   closeMenu() {

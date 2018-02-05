@@ -1,0 +1,1597 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`County FIPS Component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Menu />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <aside
+        className="menu is-hidden-touch"
+>
+        <ul
+                className="menu-list"
+        >
+                <li>
+                        <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/getMeasures"
+                        >
+                                getMeasures
+                        </NavLink>
+                </li>
+                <li>
+                        <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/getGeographicLevels"
+                        >
+                                getGeographicLevels
+                        </NavLink>
+                </li>
+                <li>
+                        <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/getStates"
+                        >
+                                getStates
+                        </NavLink>
+                </li>
+                <li>
+                        <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/getYears"
+                        >
+                                getYears
+                        </NavLink>
+                </li>
+                <li>
+                        <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/getData"
+                        >
+                                getData
+                        </NavLink>
+                </li>
+                <li>
+                        <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/contentareas"
+                        >
+                                contentareas
+                        </NavLink>
+                </li>
+                <li>
+                        <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/indicators"
+                        >
+                                indicators
+                        </NavLink>
+                </li>
+                <li>
+                        <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/measures"
+                        >
+                                measures
+                        </NavLink>
+                </li>
+                <li>
+                        <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/geographiclevels"
+                        >
+                                geographiclevels
+                        </NavLink>
+                </li>
+                <li>
+                        <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/geography"
+                        >
+                                geography
+                        </NavLink>
+                </li>
+                <li>
+                        <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/measurestratification"
+                        >
+                                measurestratification
+                        </NavLink>
+                </li>
+                <li>
+                        <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/stratificationlevel"
+                        >
+                                stratificationlevel
+                        </NavLink>
+                </li>
+                <li>
+                        <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/getCoreHolder"
+                        >
+                                getCoreHolder
+                        </NavLink>
+                </li>
+        </ul>
+</aside>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <ul
+          className="menu-list"
+>
+          <li>
+                    <NavLink
+                              activeClassName="is-active"
+                              ariaCurrent="true"
+                              to="/getMeasures"
+                    >
+                              getMeasures
+                    </NavLink>
+          </li>
+          <li>
+                    <NavLink
+                              activeClassName="is-active"
+                              ariaCurrent="true"
+                              to="/getGeographicLevels"
+                    >
+                              getGeographicLevels
+                    </NavLink>
+          </li>
+          <li>
+                    <NavLink
+                              activeClassName="is-active"
+                              ariaCurrent="true"
+                              to="/getStates"
+                    >
+                              getStates
+                    </NavLink>
+          </li>
+          <li>
+                    <NavLink
+                              activeClassName="is-active"
+                              ariaCurrent="true"
+                              to="/getYears"
+                    >
+                              getYears
+                    </NavLink>
+          </li>
+          <li>
+                    <NavLink
+                              activeClassName="is-active"
+                              ariaCurrent="true"
+                              to="/getData"
+                    >
+                              getData
+                    </NavLink>
+          </li>
+          <li>
+                    <NavLink
+                              activeClassName="is-active"
+                              ariaCurrent="true"
+                              to="/contentareas"
+                    >
+                              contentareas
+                    </NavLink>
+          </li>
+          <li>
+                    <NavLink
+                              activeClassName="is-active"
+                              ariaCurrent="true"
+                              to="/indicators"
+                    >
+                              indicators
+                    </NavLink>
+          </li>
+          <li>
+                    <NavLink
+                              activeClassName="is-active"
+                              ariaCurrent="true"
+                              to="/measures"
+                    >
+                              measures
+                    </NavLink>
+          </li>
+          <li>
+                    <NavLink
+                              activeClassName="is-active"
+                              ariaCurrent="true"
+                              to="/geographiclevels"
+                    >
+                              geographiclevels
+                    </NavLink>
+          </li>
+          <li>
+                    <NavLink
+                              activeClassName="is-active"
+                              ariaCurrent="true"
+                              to="/geography"
+                    >
+                              geography
+                    </NavLink>
+          </li>
+          <li>
+                    <NavLink
+                              activeClassName="is-active"
+                              ariaCurrent="true"
+                              to="/measurestratification"
+                    >
+                              measurestratification
+                    </NavLink>
+          </li>
+          <li>
+                    <NavLink
+                              activeClassName="is-active"
+                              ariaCurrent="true"
+                              to="/stratificationlevel"
+                    >
+                              stratificationlevel
+                    </NavLink>
+          </li>
+          <li>
+                    <NavLink
+                              activeClassName="is-active"
+                              ariaCurrent="true"
+                              to="/getCoreHolder"
+                    >
+                              getCoreHolder
+                    </NavLink>
+          </li>
+</ul>,
+        "className": "menu is-hidden-touch",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              <NavLink
+                            activeClassName="is-active"
+                            ariaCurrent="true"
+                            to="/getMeasures"
+              >
+                            getMeasures
+              </NavLink>
+</li>,
+            <li>
+              <NavLink
+                            activeClassName="is-active"
+                            ariaCurrent="true"
+                            to="/getGeographicLevels"
+              >
+                            getGeographicLevels
+              </NavLink>
+</li>,
+            <li>
+              <NavLink
+                            activeClassName="is-active"
+                            ariaCurrent="true"
+                            to="/getStates"
+              >
+                            getStates
+              </NavLink>
+</li>,
+            <li>
+              <NavLink
+                            activeClassName="is-active"
+                            ariaCurrent="true"
+                            to="/getYears"
+              >
+                            getYears
+              </NavLink>
+</li>,
+            <li>
+              <NavLink
+                            activeClassName="is-active"
+                            ariaCurrent="true"
+                            to="/getData"
+              >
+                            getData
+              </NavLink>
+</li>,
+            <li>
+              <NavLink
+                            activeClassName="is-active"
+                            ariaCurrent="true"
+                            to="/contentareas"
+              >
+                            contentareas
+              </NavLink>
+</li>,
+            <li>
+              <NavLink
+                            activeClassName="is-active"
+                            ariaCurrent="true"
+                            to="/indicators"
+              >
+                            indicators
+              </NavLink>
+</li>,
+            <li>
+              <NavLink
+                            activeClassName="is-active"
+                            ariaCurrent="true"
+                            to="/measures"
+              >
+                            measures
+              </NavLink>
+</li>,
+            <li>
+              <NavLink
+                            activeClassName="is-active"
+                            ariaCurrent="true"
+                            to="/geographiclevels"
+              >
+                            geographiclevels
+              </NavLink>
+</li>,
+            <li>
+              <NavLink
+                            activeClassName="is-active"
+                            ariaCurrent="true"
+                            to="/geography"
+              >
+                            geography
+              </NavLink>
+</li>,
+            <li>
+              <NavLink
+                            activeClassName="is-active"
+                            ariaCurrent="true"
+                            to="/measurestratification"
+              >
+                            measurestratification
+              </NavLink>
+</li>,
+            <li>
+              <NavLink
+                            activeClassName="is-active"
+                            ariaCurrent="true"
+                            to="/stratificationlevel"
+              >
+                            stratificationlevel
+              </NavLink>
+</li>,
+            <li>
+              <NavLink
+                            activeClassName="is-active"
+                            ariaCurrent="true"
+                            to="/getCoreHolder"
+              >
+                            getCoreHolder
+              </NavLink>
+</li>,
+          ],
+          "className": "menu-list",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="is-active"
+                ariaCurrent="true"
+                to="/getMeasures"
+>
+                getMeasures
+</NavLink>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "is-active",
+                "ariaCurrent": "true",
+                "children": "getMeasures",
+                "to": "/getMeasures",
+              },
+              "ref": null,
+              "rendered": "getMeasures",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="is-active"
+                ariaCurrent="true"
+                to="/getGeographicLevels"
+>
+                getGeographicLevels
+</NavLink>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "is-active",
+                "ariaCurrent": "true",
+                "children": "getGeographicLevels",
+                "to": "/getGeographicLevels",
+              },
+              "ref": null,
+              "rendered": "getGeographicLevels",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="is-active"
+                ariaCurrent="true"
+                to="/getStates"
+>
+                getStates
+</NavLink>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "is-active",
+                "ariaCurrent": "true",
+                "children": "getStates",
+                "to": "/getStates",
+              },
+              "ref": null,
+              "rendered": "getStates",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="is-active"
+                ariaCurrent="true"
+                to="/getYears"
+>
+                getYears
+</NavLink>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "is-active",
+                "ariaCurrent": "true",
+                "children": "getYears",
+                "to": "/getYears",
+              },
+              "ref": null,
+              "rendered": "getYears",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="is-active"
+                ariaCurrent="true"
+                to="/getData"
+>
+                getData
+</NavLink>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "is-active",
+                "ariaCurrent": "true",
+                "children": "getData",
+                "to": "/getData",
+              },
+              "ref": null,
+              "rendered": "getData",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "5",
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="is-active"
+                ariaCurrent="true"
+                to="/contentareas"
+>
+                contentareas
+</NavLink>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "is-active",
+                "ariaCurrent": "true",
+                "children": "contentareas",
+                "to": "/contentareas",
+              },
+              "ref": null,
+              "rendered": "contentareas",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "6",
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="is-active"
+                ariaCurrent="true"
+                to="/indicators"
+>
+                indicators
+</NavLink>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "is-active",
+                "ariaCurrent": "true",
+                "children": "indicators",
+                "to": "/indicators",
+              },
+              "ref": null,
+              "rendered": "indicators",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "7",
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="is-active"
+                ariaCurrent="true"
+                to="/measures"
+>
+                measures
+</NavLink>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "is-active",
+                "ariaCurrent": "true",
+                "children": "measures",
+                "to": "/measures",
+              },
+              "ref": null,
+              "rendered": "measures",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "8",
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="is-active"
+                ariaCurrent="true"
+                to="/geographiclevels"
+>
+                geographiclevels
+</NavLink>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "is-active",
+                "ariaCurrent": "true",
+                "children": "geographiclevels",
+                "to": "/geographiclevels",
+              },
+              "ref": null,
+              "rendered": "geographiclevels",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "9",
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="is-active"
+                ariaCurrent="true"
+                to="/geography"
+>
+                geography
+</NavLink>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "is-active",
+                "ariaCurrent": "true",
+                "children": "geography",
+                "to": "/geography",
+              },
+              "ref": null,
+              "rendered": "geography",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "10",
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="is-active"
+                ariaCurrent="true"
+                to="/measurestratification"
+>
+                measurestratification
+</NavLink>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "is-active",
+                "ariaCurrent": "true",
+                "children": "measurestratification",
+                "to": "/measurestratification",
+              },
+              "ref": null,
+              "rendered": "measurestratification",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "11",
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="is-active"
+                ariaCurrent="true"
+                to="/stratificationlevel"
+>
+                stratificationlevel
+</NavLink>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "is-active",
+                "ariaCurrent": "true",
+                "children": "stratificationlevel",
+                "to": "/stratificationlevel",
+              },
+              "ref": null,
+              "rendered": "stratificationlevel",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "12",
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="is-active"
+                ariaCurrent="true"
+                to="/getCoreHolder"
+>
+                getCoreHolder
+</NavLink>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "is-active",
+                "ariaCurrent": "true",
+                "children": "getCoreHolder",
+                "to": "/getCoreHolder",
+              },
+              "ref": null,
+              "rendered": "getCoreHolder",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      "type": "aside",
+    },
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <aside
+          className="menu is-hidden-touch"
+>
+          <ul
+                    className="menu-list"
+          >
+                    <li>
+                              <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        to="/getMeasures"
+                              >
+                                        getMeasures
+                              </NavLink>
+                    </li>
+                    <li>
+                              <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        to="/getGeographicLevels"
+                              >
+                                        getGeographicLevels
+                              </NavLink>
+                    </li>
+                    <li>
+                              <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        to="/getStates"
+                              >
+                                        getStates
+                              </NavLink>
+                    </li>
+                    <li>
+                              <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        to="/getYears"
+                              >
+                                        getYears
+                              </NavLink>
+                    </li>
+                    <li>
+                              <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        to="/getData"
+                              >
+                                        getData
+                              </NavLink>
+                    </li>
+                    <li>
+                              <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        to="/contentareas"
+                              >
+                                        contentareas
+                              </NavLink>
+                    </li>
+                    <li>
+                              <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        to="/indicators"
+                              >
+                                        indicators
+                              </NavLink>
+                    </li>
+                    <li>
+                              <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        to="/measures"
+                              >
+                                        measures
+                              </NavLink>
+                    </li>
+                    <li>
+                              <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        to="/geographiclevels"
+                              >
+                                        geographiclevels
+                              </NavLink>
+                    </li>
+                    <li>
+                              <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        to="/geography"
+                              >
+                                        geography
+                              </NavLink>
+                    </li>
+                    <li>
+                              <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        to="/measurestratification"
+                              >
+                                        measurestratification
+                              </NavLink>
+                    </li>
+                    <li>
+                              <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        to="/stratificationlevel"
+                              >
+                                        stratificationlevel
+                              </NavLink>
+                    </li>
+                    <li>
+                              <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        to="/getCoreHolder"
+                              >
+                                        getCoreHolder
+                              </NavLink>
+                    </li>
+          </ul>
+</aside>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <ul
+            className="menu-list"
+>
+            <li>
+                        <NavLink
+                                    activeClassName="is-active"
+                                    ariaCurrent="true"
+                                    to="/getMeasures"
+                        >
+                                    getMeasures
+                        </NavLink>
+            </li>
+            <li>
+                        <NavLink
+                                    activeClassName="is-active"
+                                    ariaCurrent="true"
+                                    to="/getGeographicLevels"
+                        >
+                                    getGeographicLevels
+                        </NavLink>
+            </li>
+            <li>
+                        <NavLink
+                                    activeClassName="is-active"
+                                    ariaCurrent="true"
+                                    to="/getStates"
+                        >
+                                    getStates
+                        </NavLink>
+            </li>
+            <li>
+                        <NavLink
+                                    activeClassName="is-active"
+                                    ariaCurrent="true"
+                                    to="/getYears"
+                        >
+                                    getYears
+                        </NavLink>
+            </li>
+            <li>
+                        <NavLink
+                                    activeClassName="is-active"
+                                    ariaCurrent="true"
+                                    to="/getData"
+                        >
+                                    getData
+                        </NavLink>
+            </li>
+            <li>
+                        <NavLink
+                                    activeClassName="is-active"
+                                    ariaCurrent="true"
+                                    to="/contentareas"
+                        >
+                                    contentareas
+                        </NavLink>
+            </li>
+            <li>
+                        <NavLink
+                                    activeClassName="is-active"
+                                    ariaCurrent="true"
+                                    to="/indicators"
+                        >
+                                    indicators
+                        </NavLink>
+            </li>
+            <li>
+                        <NavLink
+                                    activeClassName="is-active"
+                                    ariaCurrent="true"
+                                    to="/measures"
+                        >
+                                    measures
+                        </NavLink>
+            </li>
+            <li>
+                        <NavLink
+                                    activeClassName="is-active"
+                                    ariaCurrent="true"
+                                    to="/geographiclevels"
+                        >
+                                    geographiclevels
+                        </NavLink>
+            </li>
+            <li>
+                        <NavLink
+                                    activeClassName="is-active"
+                                    ariaCurrent="true"
+                                    to="/geography"
+                        >
+                                    geography
+                        </NavLink>
+            </li>
+            <li>
+                        <NavLink
+                                    activeClassName="is-active"
+                                    ariaCurrent="true"
+                                    to="/measurestratification"
+                        >
+                                    measurestratification
+                        </NavLink>
+            </li>
+            <li>
+                        <NavLink
+                                    activeClassName="is-active"
+                                    ariaCurrent="true"
+                                    to="/stratificationlevel"
+                        >
+                                    stratificationlevel
+                        </NavLink>
+            </li>
+            <li>
+                        <NavLink
+                                    activeClassName="is-active"
+                                    ariaCurrent="true"
+                                    to="/getCoreHolder"
+                        >
+                                    getCoreHolder
+                        </NavLink>
+            </li>
+</ul>,
+          "className": "menu is-hidden-touch",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/getMeasures"
+                >
+                                getMeasures
+                </NavLink>
+</li>,
+              <li>
+                <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/getGeographicLevels"
+                >
+                                getGeographicLevels
+                </NavLink>
+</li>,
+              <li>
+                <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/getStates"
+                >
+                                getStates
+                </NavLink>
+</li>,
+              <li>
+                <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/getYears"
+                >
+                                getYears
+                </NavLink>
+</li>,
+              <li>
+                <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/getData"
+                >
+                                getData
+                </NavLink>
+</li>,
+              <li>
+                <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/contentareas"
+                >
+                                contentareas
+                </NavLink>
+</li>,
+              <li>
+                <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/indicators"
+                >
+                                indicators
+                </NavLink>
+</li>,
+              <li>
+                <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/measures"
+                >
+                                measures
+                </NavLink>
+</li>,
+              <li>
+                <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/geographiclevels"
+                >
+                                geographiclevels
+                </NavLink>
+</li>,
+              <li>
+                <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/geography"
+                >
+                                geography
+                </NavLink>
+</li>,
+              <li>
+                <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/measurestratification"
+                >
+                                measurestratification
+                </NavLink>
+</li>,
+              <li>
+                <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/stratificationlevel"
+                >
+                                stratificationlevel
+                </NavLink>
+</li>,
+              <li>
+                <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                to="/getCoreHolder"
+                >
+                                getCoreHolder
+                </NavLink>
+</li>,
+            ],
+            "className": "menu-list",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="is-active"
+                  ariaCurrent="true"
+                  to="/getMeasures"
+>
+                  getMeasures
+</NavLink>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "is-active",
+                  "ariaCurrent": "true",
+                  "children": "getMeasures",
+                  "to": "/getMeasures",
+                },
+                "ref": null,
+                "rendered": "getMeasures",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="is-active"
+                  ariaCurrent="true"
+                  to="/getGeographicLevels"
+>
+                  getGeographicLevels
+</NavLink>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "is-active",
+                  "ariaCurrent": "true",
+                  "children": "getGeographicLevels",
+                  "to": "/getGeographicLevels",
+                },
+                "ref": null,
+                "rendered": "getGeographicLevels",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="is-active"
+                  ariaCurrent="true"
+                  to="/getStates"
+>
+                  getStates
+</NavLink>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "is-active",
+                  "ariaCurrent": "true",
+                  "children": "getStates",
+                  "to": "/getStates",
+                },
+                "ref": null,
+                "rendered": "getStates",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="is-active"
+                  ariaCurrent="true"
+                  to="/getYears"
+>
+                  getYears
+</NavLink>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "is-active",
+                  "ariaCurrent": "true",
+                  "children": "getYears",
+                  "to": "/getYears",
+                },
+                "ref": null,
+                "rendered": "getYears",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="is-active"
+                  ariaCurrent="true"
+                  to="/getData"
+>
+                  getData
+</NavLink>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "is-active",
+                  "ariaCurrent": "true",
+                  "children": "getData",
+                  "to": "/getData",
+                },
+                "ref": null,
+                "rendered": "getData",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "5",
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="is-active"
+                  ariaCurrent="true"
+                  to="/contentareas"
+>
+                  contentareas
+</NavLink>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "is-active",
+                  "ariaCurrent": "true",
+                  "children": "contentareas",
+                  "to": "/contentareas",
+                },
+                "ref": null,
+                "rendered": "contentareas",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "6",
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="is-active"
+                  ariaCurrent="true"
+                  to="/indicators"
+>
+                  indicators
+</NavLink>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "is-active",
+                  "ariaCurrent": "true",
+                  "children": "indicators",
+                  "to": "/indicators",
+                },
+                "ref": null,
+                "rendered": "indicators",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "7",
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="is-active"
+                  ariaCurrent="true"
+                  to="/measures"
+>
+                  measures
+</NavLink>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "is-active",
+                  "ariaCurrent": "true",
+                  "children": "measures",
+                  "to": "/measures",
+                },
+                "ref": null,
+                "rendered": "measures",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "8",
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="is-active"
+                  ariaCurrent="true"
+                  to="/geographiclevels"
+>
+                  geographiclevels
+</NavLink>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "is-active",
+                  "ariaCurrent": "true",
+                  "children": "geographiclevels",
+                  "to": "/geographiclevels",
+                },
+                "ref": null,
+                "rendered": "geographiclevels",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "9",
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="is-active"
+                  ariaCurrent="true"
+                  to="/geography"
+>
+                  geography
+</NavLink>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "is-active",
+                  "ariaCurrent": "true",
+                  "children": "geography",
+                  "to": "/geography",
+                },
+                "ref": null,
+                "rendered": "geography",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "10",
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="is-active"
+                  ariaCurrent="true"
+                  to="/measurestratification"
+>
+                  measurestratification
+</NavLink>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "is-active",
+                  "ariaCurrent": "true",
+                  "children": "measurestratification",
+                  "to": "/measurestratification",
+                },
+                "ref": null,
+                "rendered": "measurestratification",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "11",
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="is-active"
+                  ariaCurrent="true"
+                  to="/stratificationlevel"
+>
+                  stratificationlevel
+</NavLink>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "is-active",
+                  "ariaCurrent": "true",
+                  "children": "stratificationlevel",
+                  "to": "/stratificationlevel",
+                },
+                "ref": null,
+                "rendered": "stratificationlevel",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "12",
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="is-active"
+                  ariaCurrent="true"
+                  to="/getCoreHolder"
+>
+                  getCoreHolder
+</NavLink>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "is-active",
+                  "ariaCurrent": "true",
+                  "children": "getCoreHolder",
+                  "to": "/getCoreHolder",
+                },
+                "ref": null,
+                "rendered": "getCoreHolder",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+        "type": "aside",
+      },
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

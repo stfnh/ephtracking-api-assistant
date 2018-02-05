@@ -1,0 +1,2503 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`County FIPS Component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Navbar />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "aria-label": "main navigation",
+      "children": Array [
+        <div
+          className="navbar-brand"
+>
+          <Link
+                    className="navbar-item brand-text"
+                    onClick={[Function]}
+                    replace={false}
+                    to="/"
+          >
+                    EPH Tracking API Assistant
+          </Link>
+          <button
+                    className="button navbar-burger"
+                    onClick={[Function]}
+          >
+                    <span />
+                    <span />
+                    <span />
+          </button>
+</div>,
+        <div
+          className="navbar-menu"
+>
+          <div
+                    className="navbar-start"
+          >
+                    <div
+                              className="navbar-item has-dropdown is-hoverable"
+                    >
+                              <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        className="navbar-link"
+                                        onClick={[Function]}
+                                        to="/"
+                              >
+                                        API
+                              </NavLink>
+                              <div
+                                        className="navbar-dropdown"
+                              >
+                                        <NavLink
+                                                  activeClassName="is-active"
+                                                  ariaCurrent="true"
+                                                  className="navbar-item"
+                                                  onClick={[Function]}
+                                                  to="/getMeasures"
+                                        >
+                                                  getMeasures
+                                        </NavLink>
+                                        <NavLink
+                                                  activeClassName="is-active"
+                                                  ariaCurrent="true"
+                                                  className="navbar-item"
+                                                  onClick={[Function]}
+                                                  to="/getGeographicLevels"
+                                        >
+                                                  getGeographicLevels
+                                        </NavLink>
+                                        <NavLink
+                                                  activeClassName="is-active"
+                                                  ariaCurrent="true"
+                                                  className="navbar-item"
+                                                  onClick={[Function]}
+                                                  to="/getStates"
+                                        >
+                                                  getStates
+                                        </NavLink>
+                                        <NavLink
+                                                  activeClassName="is-active"
+                                                  ariaCurrent="true"
+                                                  className="navbar-item"
+                                                  onClick={[Function]}
+                                                  to="/getYears"
+                                        >
+                                                  getYears
+                                        </NavLink>
+                                        <NavLink
+                                                  activeClassName="is-active"
+                                                  ariaCurrent="true"
+                                                  className="navbar-item"
+                                                  onClick={[Function]}
+                                                  to="/getData"
+                                        >
+                                                  getData
+                                        </NavLink>
+                                        <NavLink
+                                                  activeClassName="is-active"
+                                                  ariaCurrent="true"
+                                                  className="navbar-item"
+                                                  onClick={[Function]}
+                                                  to="/contentareas"
+                                        >
+                                                  contentareas
+                                        </NavLink>
+                                        <NavLink
+                                                  activeClassName="is-active"
+                                                  ariaCurrent="true"
+                                                  className="navbar-item"
+                                                  onClick={[Function]}
+                                                  to="/indicators"
+                                        >
+                                                  indicators
+                                        </NavLink>
+                                        <NavLink
+                                                  activeClassName="is-active"
+                                                  ariaCurrent="true"
+                                                  className="navbar-item"
+                                                  onClick={[Function]}
+                                                  to="/measures"
+                                        >
+                                                  measures
+                                        </NavLink>
+                                        <NavLink
+                                                  activeClassName="is-active"
+                                                  ariaCurrent="true"
+                                                  className="navbar-item"
+                                                  onClick={[Function]}
+                                                  to="/geographiclevels"
+                                        >
+                                                  geographiclevels
+                                        </NavLink>
+                                        <NavLink
+                                                  activeClassName="is-active"
+                                                  ariaCurrent="true"
+                                                  className="navbar-item"
+                                                  onClick={[Function]}
+                                                  to="/geography"
+                                        >
+                                                  geography
+                                        </NavLink>
+                                        <NavLink
+                                                  activeClassName="is-active"
+                                                  ariaCurrent="true"
+                                                  className="navbar-item"
+                                                  onClick={[Function]}
+                                                  to="/measurestratification"
+                                        >
+                                                  measurestratification
+                                        </NavLink>
+                                        <NavLink
+                                                  activeClassName="is-active"
+                                                  ariaCurrent="true"
+                                                  className="navbar-item"
+                                                  onClick={[Function]}
+                                                  to="/stratificationlevel"
+                                        >
+                                                  stratificationlevel
+                                        </NavLink>
+                                        <NavLink
+                                                  activeClassName="is-active"
+                                                  ariaCurrent="true"
+                                                  className="navbar-item"
+                                                  onClick={[Function]}
+                                                  to="/getCoreHolder"
+                                        >
+                                                  getCoreHolder
+                                        </NavLink>
+                              </div>
+                    </div>
+          </div>
+          <div
+                    className="navbar-end"
+          >
+                    <div
+                              className="navbar-item"
+                    >
+                              <a
+                                        className="button is-link"
+                                        href="https://github.com/stfnh/ephtracking-api-assistant"
+                                        rel="noopener noreferrer"
+                                        target="_blank"
+                              >
+                                        <span
+                                                  className="icon"
+                                        >
+                                                  <i
+                                                            aria-hidden="true"
+                                                            className="fa fa-github"
+                                                  />
+                                        </span>
+                                        <span>
+                                                  GitHub
+                                        </span>
+                              </a>
+                    </div>
+          </div>
+</div>,
+      ],
+      "className": "navbar is-primary",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Link
+              className="navbar-item brand-text"
+              onClick={[Function]}
+              replace={false}
+              to="/"
+>
+              EPH Tracking API Assistant
+</Link>,
+            <button
+              className="button navbar-burger"
+              onClick={[Function]}
+>
+              <span />
+              <span />
+              <span />
+</button>,
+          ],
+          "className": "navbar-brand",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "EPH Tracking API Assistant",
+              "className": "navbar-item brand-text",
+              "onClick": [Function],
+              "replace": false,
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": "EPH Tracking API Assistant",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span />,
+                <span />,
+                <span />,
+              ],
+              "className": "button navbar-burger",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "span",
+              },
+            ],
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="navbar-start"
+>
+              <div
+                            className="navbar-item has-dropdown is-hoverable"
+              >
+                            <NavLink
+                                          activeClassName="is-active"
+                                          ariaCurrent="true"
+                                          className="navbar-link"
+                                          onClick={[Function]}
+                                          to="/"
+                            >
+                                          API
+                            </NavLink>
+                            <div
+                                          className="navbar-dropdown"
+                            >
+                                          <NavLink
+                                                        activeClassName="is-active"
+                                                        ariaCurrent="true"
+                                                        className="navbar-item"
+                                                        onClick={[Function]}
+                                                        to="/getMeasures"
+                                          >
+                                                        getMeasures
+                                          </NavLink>
+                                          <NavLink
+                                                        activeClassName="is-active"
+                                                        ariaCurrent="true"
+                                                        className="navbar-item"
+                                                        onClick={[Function]}
+                                                        to="/getGeographicLevels"
+                                          >
+                                                        getGeographicLevels
+                                          </NavLink>
+                                          <NavLink
+                                                        activeClassName="is-active"
+                                                        ariaCurrent="true"
+                                                        className="navbar-item"
+                                                        onClick={[Function]}
+                                                        to="/getStates"
+                                          >
+                                                        getStates
+                                          </NavLink>
+                                          <NavLink
+                                                        activeClassName="is-active"
+                                                        ariaCurrent="true"
+                                                        className="navbar-item"
+                                                        onClick={[Function]}
+                                                        to="/getYears"
+                                          >
+                                                        getYears
+                                          </NavLink>
+                                          <NavLink
+                                                        activeClassName="is-active"
+                                                        ariaCurrent="true"
+                                                        className="navbar-item"
+                                                        onClick={[Function]}
+                                                        to="/getData"
+                                          >
+                                                        getData
+                                          </NavLink>
+                                          <NavLink
+                                                        activeClassName="is-active"
+                                                        ariaCurrent="true"
+                                                        className="navbar-item"
+                                                        onClick={[Function]}
+                                                        to="/contentareas"
+                                          >
+                                                        contentareas
+                                          </NavLink>
+                                          <NavLink
+                                                        activeClassName="is-active"
+                                                        ariaCurrent="true"
+                                                        className="navbar-item"
+                                                        onClick={[Function]}
+                                                        to="/indicators"
+                                          >
+                                                        indicators
+                                          </NavLink>
+                                          <NavLink
+                                                        activeClassName="is-active"
+                                                        ariaCurrent="true"
+                                                        className="navbar-item"
+                                                        onClick={[Function]}
+                                                        to="/measures"
+                                          >
+                                                        measures
+                                          </NavLink>
+                                          <NavLink
+                                                        activeClassName="is-active"
+                                                        ariaCurrent="true"
+                                                        className="navbar-item"
+                                                        onClick={[Function]}
+                                                        to="/geographiclevels"
+                                          >
+                                                        geographiclevels
+                                          </NavLink>
+                                          <NavLink
+                                                        activeClassName="is-active"
+                                                        ariaCurrent="true"
+                                                        className="navbar-item"
+                                                        onClick={[Function]}
+                                                        to="/geography"
+                                          >
+                                                        geography
+                                          </NavLink>
+                                          <NavLink
+                                                        activeClassName="is-active"
+                                                        ariaCurrent="true"
+                                                        className="navbar-item"
+                                                        onClick={[Function]}
+                                                        to="/measurestratification"
+                                          >
+                                                        measurestratification
+                                          </NavLink>
+                                          <NavLink
+                                                        activeClassName="is-active"
+                                                        ariaCurrent="true"
+                                                        className="navbar-item"
+                                                        onClick={[Function]}
+                                                        to="/stratificationlevel"
+                                          >
+                                                        stratificationlevel
+                                          </NavLink>
+                                          <NavLink
+                                                        activeClassName="is-active"
+                                                        ariaCurrent="true"
+                                                        className="navbar-item"
+                                                        onClick={[Function]}
+                                                        to="/getCoreHolder"
+                                          >
+                                                        getCoreHolder
+                                          </NavLink>
+                            </div>
+              </div>
+</div>,
+            <div
+              className="navbar-end"
+>
+              <div
+                            className="navbar-item"
+              >
+                            <a
+                                          className="button is-link"
+                                          href="https://github.com/stfnh/ephtracking-api-assistant"
+                                          rel="noopener noreferrer"
+                                          target="_blank"
+                            >
+                                          <span
+                                                        className="icon"
+                                          >
+                                                        <i
+                                                                      aria-hidden="true"
+                                                                      className="fa fa-github"
+                                                        />
+                                          </span>
+                                          <span>
+                                                        GitHub
+                                          </span>
+                            </a>
+              </div>
+</div>,
+          ],
+          "className": "navbar-menu",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="navbar-item has-dropdown is-hoverable"
+>
+                <NavLink
+                                activeClassName="is-active"
+                                ariaCurrent="true"
+                                className="navbar-link"
+                                onClick={[Function]}
+                                to="/"
+                >
+                                API
+                </NavLink>
+                <div
+                                className="navbar-dropdown"
+                >
+                                <NavLink
+                                                activeClassName="is-active"
+                                                ariaCurrent="true"
+                                                className="navbar-item"
+                                                onClick={[Function]}
+                                                to="/getMeasures"
+                                >
+                                                getMeasures
+                                </NavLink>
+                                <NavLink
+                                                activeClassName="is-active"
+                                                ariaCurrent="true"
+                                                className="navbar-item"
+                                                onClick={[Function]}
+                                                to="/getGeographicLevels"
+                                >
+                                                getGeographicLevels
+                                </NavLink>
+                                <NavLink
+                                                activeClassName="is-active"
+                                                ariaCurrent="true"
+                                                className="navbar-item"
+                                                onClick={[Function]}
+                                                to="/getStates"
+                                >
+                                                getStates
+                                </NavLink>
+                                <NavLink
+                                                activeClassName="is-active"
+                                                ariaCurrent="true"
+                                                className="navbar-item"
+                                                onClick={[Function]}
+                                                to="/getYears"
+                                >
+                                                getYears
+                                </NavLink>
+                                <NavLink
+                                                activeClassName="is-active"
+                                                ariaCurrent="true"
+                                                className="navbar-item"
+                                                onClick={[Function]}
+                                                to="/getData"
+                                >
+                                                getData
+                                </NavLink>
+                                <NavLink
+                                                activeClassName="is-active"
+                                                ariaCurrent="true"
+                                                className="navbar-item"
+                                                onClick={[Function]}
+                                                to="/contentareas"
+                                >
+                                                contentareas
+                                </NavLink>
+                                <NavLink
+                                                activeClassName="is-active"
+                                                ariaCurrent="true"
+                                                className="navbar-item"
+                                                onClick={[Function]}
+                                                to="/indicators"
+                                >
+                                                indicators
+                                </NavLink>
+                                <NavLink
+                                                activeClassName="is-active"
+                                                ariaCurrent="true"
+                                                className="navbar-item"
+                                                onClick={[Function]}
+                                                to="/measures"
+                                >
+                                                measures
+                                </NavLink>
+                                <NavLink
+                                                activeClassName="is-active"
+                                                ariaCurrent="true"
+                                                className="navbar-item"
+                                                onClick={[Function]}
+                                                to="/geographiclevels"
+                                >
+                                                geographiclevels
+                                </NavLink>
+                                <NavLink
+                                                activeClassName="is-active"
+                                                ariaCurrent="true"
+                                                className="navbar-item"
+                                                onClick={[Function]}
+                                                to="/geography"
+                                >
+                                                geography
+                                </NavLink>
+                                <NavLink
+                                                activeClassName="is-active"
+                                                ariaCurrent="true"
+                                                className="navbar-item"
+                                                onClick={[Function]}
+                                                to="/measurestratification"
+                                >
+                                                measurestratification
+                                </NavLink>
+                                <NavLink
+                                                activeClassName="is-active"
+                                                ariaCurrent="true"
+                                                className="navbar-item"
+                                                onClick={[Function]}
+                                                to="/stratificationlevel"
+                                >
+                                                stratificationlevel
+                                </NavLink>
+                                <NavLink
+                                                activeClassName="is-active"
+                                                ariaCurrent="true"
+                                                className="navbar-item"
+                                                onClick={[Function]}
+                                                to="/getCoreHolder"
+                                >
+                                                getCoreHolder
+                                </NavLink>
+                </div>
+</div>,
+              "className": "navbar-start",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <NavLink
+                    activeClassName="is-active"
+                    ariaCurrent="true"
+                    className="navbar-link"
+                    onClick={[Function]}
+                    to="/"
+>
+                    API
+</NavLink>,
+                  <div
+                    className="navbar-dropdown"
+>
+                    <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        className="navbar-item"
+                                        onClick={[Function]}
+                                        to="/getMeasures"
+                    >
+                                        getMeasures
+                    </NavLink>
+                    <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        className="navbar-item"
+                                        onClick={[Function]}
+                                        to="/getGeographicLevels"
+                    >
+                                        getGeographicLevels
+                    </NavLink>
+                    <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        className="navbar-item"
+                                        onClick={[Function]}
+                                        to="/getStates"
+                    >
+                                        getStates
+                    </NavLink>
+                    <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        className="navbar-item"
+                                        onClick={[Function]}
+                                        to="/getYears"
+                    >
+                                        getYears
+                    </NavLink>
+                    <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        className="navbar-item"
+                                        onClick={[Function]}
+                                        to="/getData"
+                    >
+                                        getData
+                    </NavLink>
+                    <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        className="navbar-item"
+                                        onClick={[Function]}
+                                        to="/contentareas"
+                    >
+                                        contentareas
+                    </NavLink>
+                    <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        className="navbar-item"
+                                        onClick={[Function]}
+                                        to="/indicators"
+                    >
+                                        indicators
+                    </NavLink>
+                    <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        className="navbar-item"
+                                        onClick={[Function]}
+                                        to="/measures"
+                    >
+                                        measures
+                    </NavLink>
+                    <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        className="navbar-item"
+                                        onClick={[Function]}
+                                        to="/geographiclevels"
+                    >
+                                        geographiclevels
+                    </NavLink>
+                    <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        className="navbar-item"
+                                        onClick={[Function]}
+                                        to="/geography"
+                    >
+                                        geography
+                    </NavLink>
+                    <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        className="navbar-item"
+                                        onClick={[Function]}
+                                        to="/measurestratification"
+                    >
+                                        measurestratification
+                    </NavLink>
+                    <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        className="navbar-item"
+                                        onClick={[Function]}
+                                        to="/stratificationlevel"
+                    >
+                                        stratificationlevel
+                    </NavLink>
+                    <NavLink
+                                        activeClassName="is-active"
+                                        ariaCurrent="true"
+                                        className="navbar-item"
+                                        onClick={[Function]}
+                                        to="/getCoreHolder"
+                    >
+                                        getCoreHolder
+                    </NavLink>
+</div>,
+                ],
+                "className": "navbar-item has-dropdown is-hoverable",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "is-active",
+                    "ariaCurrent": "true",
+                    "children": "API",
+                    "className": "navbar-link",
+                    "onClick": [Function],
+                    "to": "/",
+                  },
+                  "ref": null,
+                  "rendered": "API",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <NavLink
+                        activeClassName="is-active"
+                        ariaCurrent="true"
+                        className="navbar-item"
+                        onClick={[Function]}
+                        to="/getMeasures"
+>
+                        getMeasures
+</NavLink>,
+                      <NavLink
+                        activeClassName="is-active"
+                        ariaCurrent="true"
+                        className="navbar-item"
+                        onClick={[Function]}
+                        to="/getGeographicLevels"
+>
+                        getGeographicLevels
+</NavLink>,
+                      <NavLink
+                        activeClassName="is-active"
+                        ariaCurrent="true"
+                        className="navbar-item"
+                        onClick={[Function]}
+                        to="/getStates"
+>
+                        getStates
+</NavLink>,
+                      <NavLink
+                        activeClassName="is-active"
+                        ariaCurrent="true"
+                        className="navbar-item"
+                        onClick={[Function]}
+                        to="/getYears"
+>
+                        getYears
+</NavLink>,
+                      <NavLink
+                        activeClassName="is-active"
+                        ariaCurrent="true"
+                        className="navbar-item"
+                        onClick={[Function]}
+                        to="/getData"
+>
+                        getData
+</NavLink>,
+                      <NavLink
+                        activeClassName="is-active"
+                        ariaCurrent="true"
+                        className="navbar-item"
+                        onClick={[Function]}
+                        to="/contentareas"
+>
+                        contentareas
+</NavLink>,
+                      <NavLink
+                        activeClassName="is-active"
+                        ariaCurrent="true"
+                        className="navbar-item"
+                        onClick={[Function]}
+                        to="/indicators"
+>
+                        indicators
+</NavLink>,
+                      <NavLink
+                        activeClassName="is-active"
+                        ariaCurrent="true"
+                        className="navbar-item"
+                        onClick={[Function]}
+                        to="/measures"
+>
+                        measures
+</NavLink>,
+                      <NavLink
+                        activeClassName="is-active"
+                        ariaCurrent="true"
+                        className="navbar-item"
+                        onClick={[Function]}
+                        to="/geographiclevels"
+>
+                        geographiclevels
+</NavLink>,
+                      <NavLink
+                        activeClassName="is-active"
+                        ariaCurrent="true"
+                        className="navbar-item"
+                        onClick={[Function]}
+                        to="/geography"
+>
+                        geography
+</NavLink>,
+                      <NavLink
+                        activeClassName="is-active"
+                        ariaCurrent="true"
+                        className="navbar-item"
+                        onClick={[Function]}
+                        to="/measurestratification"
+>
+                        measurestratification
+</NavLink>,
+                      <NavLink
+                        activeClassName="is-active"
+                        ariaCurrent="true"
+                        className="navbar-item"
+                        onClick={[Function]}
+                        to="/stratificationlevel"
+>
+                        stratificationlevel
+</NavLink>,
+                      <NavLink
+                        activeClassName="is-active"
+                        ariaCurrent="true"
+                        className="navbar-item"
+                        onClick={[Function]}
+                        to="/getCoreHolder"
+>
+                        getCoreHolder
+</NavLink>,
+                    ],
+                    "className": "navbar-dropdown",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "function",
+                      "props": Object {
+                        "activeClassName": "is-active",
+                        "ariaCurrent": "true",
+                        "children": "getMeasures",
+                        "className": "navbar-item",
+                        "onClick": [Function],
+                        "to": "/getMeasures",
+                      },
+                      "ref": null,
+                      "rendered": "getMeasures",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "function",
+                      "props": Object {
+                        "activeClassName": "is-active",
+                        "ariaCurrent": "true",
+                        "children": "getGeographicLevels",
+                        "className": "navbar-item",
+                        "onClick": [Function],
+                        "to": "/getGeographicLevels",
+                      },
+                      "ref": null,
+                      "rendered": "getGeographicLevels",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "2",
+                      "nodeType": "function",
+                      "props": Object {
+                        "activeClassName": "is-active",
+                        "ariaCurrent": "true",
+                        "children": "getStates",
+                        "className": "navbar-item",
+                        "onClick": [Function],
+                        "to": "/getStates",
+                      },
+                      "ref": null,
+                      "rendered": "getStates",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "3",
+                      "nodeType": "function",
+                      "props": Object {
+                        "activeClassName": "is-active",
+                        "ariaCurrent": "true",
+                        "children": "getYears",
+                        "className": "navbar-item",
+                        "onClick": [Function],
+                        "to": "/getYears",
+                      },
+                      "ref": null,
+                      "rendered": "getYears",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "4",
+                      "nodeType": "function",
+                      "props": Object {
+                        "activeClassName": "is-active",
+                        "ariaCurrent": "true",
+                        "children": "getData",
+                        "className": "navbar-item",
+                        "onClick": [Function],
+                        "to": "/getData",
+                      },
+                      "ref": null,
+                      "rendered": "getData",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "5",
+                      "nodeType": "function",
+                      "props": Object {
+                        "activeClassName": "is-active",
+                        "ariaCurrent": "true",
+                        "children": "contentareas",
+                        "className": "navbar-item",
+                        "onClick": [Function],
+                        "to": "/contentareas",
+                      },
+                      "ref": null,
+                      "rendered": "contentareas",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "6",
+                      "nodeType": "function",
+                      "props": Object {
+                        "activeClassName": "is-active",
+                        "ariaCurrent": "true",
+                        "children": "indicators",
+                        "className": "navbar-item",
+                        "onClick": [Function],
+                        "to": "/indicators",
+                      },
+                      "ref": null,
+                      "rendered": "indicators",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "7",
+                      "nodeType": "function",
+                      "props": Object {
+                        "activeClassName": "is-active",
+                        "ariaCurrent": "true",
+                        "children": "measures",
+                        "className": "navbar-item",
+                        "onClick": [Function],
+                        "to": "/measures",
+                      },
+                      "ref": null,
+                      "rendered": "measures",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "8",
+                      "nodeType": "function",
+                      "props": Object {
+                        "activeClassName": "is-active",
+                        "ariaCurrent": "true",
+                        "children": "geographiclevels",
+                        "className": "navbar-item",
+                        "onClick": [Function],
+                        "to": "/geographiclevels",
+                      },
+                      "ref": null,
+                      "rendered": "geographiclevels",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "9",
+                      "nodeType": "function",
+                      "props": Object {
+                        "activeClassName": "is-active",
+                        "ariaCurrent": "true",
+                        "children": "geography",
+                        "className": "navbar-item",
+                        "onClick": [Function],
+                        "to": "/geography",
+                      },
+                      "ref": null,
+                      "rendered": "geography",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "10",
+                      "nodeType": "function",
+                      "props": Object {
+                        "activeClassName": "is-active",
+                        "ariaCurrent": "true",
+                        "children": "measurestratification",
+                        "className": "navbar-item",
+                        "onClick": [Function],
+                        "to": "/measurestratification",
+                      },
+                      "ref": null,
+                      "rendered": "measurestratification",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "11",
+                      "nodeType": "function",
+                      "props": Object {
+                        "activeClassName": "is-active",
+                        "ariaCurrent": "true",
+                        "children": "stratificationlevel",
+                        "className": "navbar-item",
+                        "onClick": [Function],
+                        "to": "/stratificationlevel",
+                      },
+                      "ref": null,
+                      "rendered": "stratificationlevel",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "12",
+                      "nodeType": "function",
+                      "props": Object {
+                        "activeClassName": "is-active",
+                        "ariaCurrent": "true",
+                        "children": "getCoreHolder",
+                        "className": "navbar-item",
+                        "onClick": [Function],
+                        "to": "/getCoreHolder",
+                      },
+                      "ref": null,
+                      "rendered": "getCoreHolder",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="navbar-item"
+>
+                <a
+                                className="button is-link"
+                                href="https://github.com/stfnh/ephtracking-api-assistant"
+                                rel="noopener noreferrer"
+                                target="_blank"
+                >
+                                <span
+                                                className="icon"
+                                >
+                                                <i
+                                                                aria-hidden="true"
+                                                                className="fa fa-github"
+                                                />
+                                </span>
+                                <span>
+                                                GitHub
+                                </span>
+                </a>
+</div>,
+              "className": "navbar-end",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="button is-link"
+                  href="https://github.com/stfnh/ephtracking-api-assistant"
+                  rel="noopener noreferrer"
+                  target="_blank"
+>
+                  <span
+                                    className="icon"
+                  >
+                                    <i
+                                                      aria-hidden="true"
+                                                      className="fa fa-github"
+                                    />
+                  </span>
+                  <span>
+                                    GitHub
+                  </span>
+</a>,
+                "className": "navbar-item",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <span
+                      className="icon"
+>
+                      <i
+                                            aria-hidden="true"
+                                            className="fa fa-github"
+                      />
+</span>,
+                    <span>
+                      GitHub
+</span>,
+                  ],
+                  "className": "button is-link",
+                  "href": "https://github.com/stfnh/ephtracking-api-assistant",
+                  "rel": "noopener noreferrer",
+                  "target": "_blank",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <i
+                        aria-hidden="true"
+                        className="fa fa-github"
+/>,
+                      "className": "icon",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "aria-hidden": "true",
+                        "className": "fa fa-github",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "GitHub",
+                    },
+                    "ref": null,
+                    "rendered": "GitHub",
+                    "type": "span",
+                  },
+                ],
+                "type": "a",
+              },
+              "type": "div",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "nav",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "aria-label": "main navigation",
+        "children": Array [
+          <div
+            className="navbar-brand"
+>
+            <Link
+                        className="navbar-item brand-text"
+                        onClick={[Function]}
+                        replace={false}
+                        to="/"
+            >
+                        EPH Tracking API Assistant
+            </Link>
+            <button
+                        className="button navbar-burger"
+                        onClick={[Function]}
+            >
+                        <span />
+                        <span />
+                        <span />
+            </button>
+</div>,
+          <div
+            className="navbar-menu"
+>
+            <div
+                        className="navbar-start"
+            >
+                        <div
+                                    className="navbar-item has-dropdown is-hoverable"
+                        >
+                                    <NavLink
+                                                activeClassName="is-active"
+                                                ariaCurrent="true"
+                                                className="navbar-link"
+                                                onClick={[Function]}
+                                                to="/"
+                                    >
+                                                API
+                                    </NavLink>
+                                    <div
+                                                className="navbar-dropdown"
+                                    >
+                                                <NavLink
+                                                            activeClassName="is-active"
+                                                            ariaCurrent="true"
+                                                            className="navbar-item"
+                                                            onClick={[Function]}
+                                                            to="/getMeasures"
+                                                >
+                                                            getMeasures
+                                                </NavLink>
+                                                <NavLink
+                                                            activeClassName="is-active"
+                                                            ariaCurrent="true"
+                                                            className="navbar-item"
+                                                            onClick={[Function]}
+                                                            to="/getGeographicLevels"
+                                                >
+                                                            getGeographicLevels
+                                                </NavLink>
+                                                <NavLink
+                                                            activeClassName="is-active"
+                                                            ariaCurrent="true"
+                                                            className="navbar-item"
+                                                            onClick={[Function]}
+                                                            to="/getStates"
+                                                >
+                                                            getStates
+                                                </NavLink>
+                                                <NavLink
+                                                            activeClassName="is-active"
+                                                            ariaCurrent="true"
+                                                            className="navbar-item"
+                                                            onClick={[Function]}
+                                                            to="/getYears"
+                                                >
+                                                            getYears
+                                                </NavLink>
+                                                <NavLink
+                                                            activeClassName="is-active"
+                                                            ariaCurrent="true"
+                                                            className="navbar-item"
+                                                            onClick={[Function]}
+                                                            to="/getData"
+                                                >
+                                                            getData
+                                                </NavLink>
+                                                <NavLink
+                                                            activeClassName="is-active"
+                                                            ariaCurrent="true"
+                                                            className="navbar-item"
+                                                            onClick={[Function]}
+                                                            to="/contentareas"
+                                                >
+                                                            contentareas
+                                                </NavLink>
+                                                <NavLink
+                                                            activeClassName="is-active"
+                                                            ariaCurrent="true"
+                                                            className="navbar-item"
+                                                            onClick={[Function]}
+                                                            to="/indicators"
+                                                >
+                                                            indicators
+                                                </NavLink>
+                                                <NavLink
+                                                            activeClassName="is-active"
+                                                            ariaCurrent="true"
+                                                            className="navbar-item"
+                                                            onClick={[Function]}
+                                                            to="/measures"
+                                                >
+                                                            measures
+                                                </NavLink>
+                                                <NavLink
+                                                            activeClassName="is-active"
+                                                            ariaCurrent="true"
+                                                            className="navbar-item"
+                                                            onClick={[Function]}
+                                                            to="/geographiclevels"
+                                                >
+                                                            geographiclevels
+                                                </NavLink>
+                                                <NavLink
+                                                            activeClassName="is-active"
+                                                            ariaCurrent="true"
+                                                            className="navbar-item"
+                                                            onClick={[Function]}
+                                                            to="/geography"
+                                                >
+                                                            geography
+                                                </NavLink>
+                                                <NavLink
+                                                            activeClassName="is-active"
+                                                            ariaCurrent="true"
+                                                            className="navbar-item"
+                                                            onClick={[Function]}
+                                                            to="/measurestratification"
+                                                >
+                                                            measurestratification
+                                                </NavLink>
+                                                <NavLink
+                                                            activeClassName="is-active"
+                                                            ariaCurrent="true"
+                                                            className="navbar-item"
+                                                            onClick={[Function]}
+                                                            to="/stratificationlevel"
+                                                >
+                                                            stratificationlevel
+                                                </NavLink>
+                                                <NavLink
+                                                            activeClassName="is-active"
+                                                            ariaCurrent="true"
+                                                            className="navbar-item"
+                                                            onClick={[Function]}
+                                                            to="/getCoreHolder"
+                                                >
+                                                            getCoreHolder
+                                                </NavLink>
+                                    </div>
+                        </div>
+            </div>
+            <div
+                        className="navbar-end"
+            >
+                        <div
+                                    className="navbar-item"
+                        >
+                                    <a
+                                                className="button is-link"
+                                                href="https://github.com/stfnh/ephtracking-api-assistant"
+                                                rel="noopener noreferrer"
+                                                target="_blank"
+                                    >
+                                                <span
+                                                            className="icon"
+                                                >
+                                                            <i
+                                                                        aria-hidden="true"
+                                                                        className="fa fa-github"
+                                                            />
+                                                </span>
+                                                <span>
+                                                            GitHub
+                                                </span>
+                                    </a>
+                        </div>
+            </div>
+</div>,
+        ],
+        "className": "navbar is-primary",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Link
+                className="navbar-item brand-text"
+                onClick={[Function]}
+                replace={false}
+                to="/"
+>
+                EPH Tracking API Assistant
+</Link>,
+              <button
+                className="button navbar-burger"
+                onClick={[Function]}
+>
+                <span />
+                <span />
+                <span />
+</button>,
+            ],
+            "className": "navbar-brand",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "EPH Tracking API Assistant",
+                "className": "navbar-item brand-text",
+                "onClick": [Function],
+                "replace": false,
+                "to": "/",
+              },
+              "ref": null,
+              "rendered": "EPH Tracking API Assistant",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span />,
+                  <span />,
+                  <span />,
+                ],
+                "className": "button navbar-burger",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
+              ],
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="navbar-start"
+>
+                <div
+                                className="navbar-item has-dropdown is-hoverable"
+                >
+                                <NavLink
+                                                activeClassName="is-active"
+                                                ariaCurrent="true"
+                                                className="navbar-link"
+                                                onClick={[Function]}
+                                                to="/"
+                                >
+                                                API
+                                </NavLink>
+                                <div
+                                                className="navbar-dropdown"
+                                >
+                                                <NavLink
+                                                                activeClassName="is-active"
+                                                                ariaCurrent="true"
+                                                                className="navbar-item"
+                                                                onClick={[Function]}
+                                                                to="/getMeasures"
+                                                >
+                                                                getMeasures
+                                                </NavLink>
+                                                <NavLink
+                                                                activeClassName="is-active"
+                                                                ariaCurrent="true"
+                                                                className="navbar-item"
+                                                                onClick={[Function]}
+                                                                to="/getGeographicLevels"
+                                                >
+                                                                getGeographicLevels
+                                                </NavLink>
+                                                <NavLink
+                                                                activeClassName="is-active"
+                                                                ariaCurrent="true"
+                                                                className="navbar-item"
+                                                                onClick={[Function]}
+                                                                to="/getStates"
+                                                >
+                                                                getStates
+                                                </NavLink>
+                                                <NavLink
+                                                                activeClassName="is-active"
+                                                                ariaCurrent="true"
+                                                                className="navbar-item"
+                                                                onClick={[Function]}
+                                                                to="/getYears"
+                                                >
+                                                                getYears
+                                                </NavLink>
+                                                <NavLink
+                                                                activeClassName="is-active"
+                                                                ariaCurrent="true"
+                                                                className="navbar-item"
+                                                                onClick={[Function]}
+                                                                to="/getData"
+                                                >
+                                                                getData
+                                                </NavLink>
+                                                <NavLink
+                                                                activeClassName="is-active"
+                                                                ariaCurrent="true"
+                                                                className="navbar-item"
+                                                                onClick={[Function]}
+                                                                to="/contentareas"
+                                                >
+                                                                contentareas
+                                                </NavLink>
+                                                <NavLink
+                                                                activeClassName="is-active"
+                                                                ariaCurrent="true"
+                                                                className="navbar-item"
+                                                                onClick={[Function]}
+                                                                to="/indicators"
+                                                >
+                                                                indicators
+                                                </NavLink>
+                                                <NavLink
+                                                                activeClassName="is-active"
+                                                                ariaCurrent="true"
+                                                                className="navbar-item"
+                                                                onClick={[Function]}
+                                                                to="/measures"
+                                                >
+                                                                measures
+                                                </NavLink>
+                                                <NavLink
+                                                                activeClassName="is-active"
+                                                                ariaCurrent="true"
+                                                                className="navbar-item"
+                                                                onClick={[Function]}
+                                                                to="/geographiclevels"
+                                                >
+                                                                geographiclevels
+                                                </NavLink>
+                                                <NavLink
+                                                                activeClassName="is-active"
+                                                                ariaCurrent="true"
+                                                                className="navbar-item"
+                                                                onClick={[Function]}
+                                                                to="/geography"
+                                                >
+                                                                geography
+                                                </NavLink>
+                                                <NavLink
+                                                                activeClassName="is-active"
+                                                                ariaCurrent="true"
+                                                                className="navbar-item"
+                                                                onClick={[Function]}
+                                                                to="/measurestratification"
+                                                >
+                                                                measurestratification
+                                                </NavLink>
+                                                <NavLink
+                                                                activeClassName="is-active"
+                                                                ariaCurrent="true"
+                                                                className="navbar-item"
+                                                                onClick={[Function]}
+                                                                to="/stratificationlevel"
+                                                >
+                                                                stratificationlevel
+                                                </NavLink>
+                                                <NavLink
+                                                                activeClassName="is-active"
+                                                                ariaCurrent="true"
+                                                                className="navbar-item"
+                                                                onClick={[Function]}
+                                                                to="/getCoreHolder"
+                                                >
+                                                                getCoreHolder
+                                                </NavLink>
+                                </div>
+                </div>
+</div>,
+              <div
+                className="navbar-end"
+>
+                <div
+                                className="navbar-item"
+                >
+                                <a
+                                                className="button is-link"
+                                                href="https://github.com/stfnh/ephtracking-api-assistant"
+                                                rel="noopener noreferrer"
+                                                target="_blank"
+                                >
+                                                <span
+                                                                className="icon"
+                                                >
+                                                                <i
+                                                                                aria-hidden="true"
+                                                                                className="fa fa-github"
+                                                                />
+                                                </span>
+                                                <span>
+                                                                GitHub
+                                                </span>
+                                </a>
+                </div>
+</div>,
+            ],
+            "className": "navbar-menu",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="navbar-item has-dropdown is-hoverable"
+>
+                  <NavLink
+                                    activeClassName="is-active"
+                                    ariaCurrent="true"
+                                    className="navbar-link"
+                                    onClick={[Function]}
+                                    to="/"
+                  >
+                                    API
+                  </NavLink>
+                  <div
+                                    className="navbar-dropdown"
+                  >
+                                    <NavLink
+                                                      activeClassName="is-active"
+                                                      ariaCurrent="true"
+                                                      className="navbar-item"
+                                                      onClick={[Function]}
+                                                      to="/getMeasures"
+                                    >
+                                                      getMeasures
+                                    </NavLink>
+                                    <NavLink
+                                                      activeClassName="is-active"
+                                                      ariaCurrent="true"
+                                                      className="navbar-item"
+                                                      onClick={[Function]}
+                                                      to="/getGeographicLevels"
+                                    >
+                                                      getGeographicLevels
+                                    </NavLink>
+                                    <NavLink
+                                                      activeClassName="is-active"
+                                                      ariaCurrent="true"
+                                                      className="navbar-item"
+                                                      onClick={[Function]}
+                                                      to="/getStates"
+                                    >
+                                                      getStates
+                                    </NavLink>
+                                    <NavLink
+                                                      activeClassName="is-active"
+                                                      ariaCurrent="true"
+                                                      className="navbar-item"
+                                                      onClick={[Function]}
+                                                      to="/getYears"
+                                    >
+                                                      getYears
+                                    </NavLink>
+                                    <NavLink
+                                                      activeClassName="is-active"
+                                                      ariaCurrent="true"
+                                                      className="navbar-item"
+                                                      onClick={[Function]}
+                                                      to="/getData"
+                                    >
+                                                      getData
+                                    </NavLink>
+                                    <NavLink
+                                                      activeClassName="is-active"
+                                                      ariaCurrent="true"
+                                                      className="navbar-item"
+                                                      onClick={[Function]}
+                                                      to="/contentareas"
+                                    >
+                                                      contentareas
+                                    </NavLink>
+                                    <NavLink
+                                                      activeClassName="is-active"
+                                                      ariaCurrent="true"
+                                                      className="navbar-item"
+                                                      onClick={[Function]}
+                                                      to="/indicators"
+                                    >
+                                                      indicators
+                                    </NavLink>
+                                    <NavLink
+                                                      activeClassName="is-active"
+                                                      ariaCurrent="true"
+                                                      className="navbar-item"
+                                                      onClick={[Function]}
+                                                      to="/measures"
+                                    >
+                                                      measures
+                                    </NavLink>
+                                    <NavLink
+                                                      activeClassName="is-active"
+                                                      ariaCurrent="true"
+                                                      className="navbar-item"
+                                                      onClick={[Function]}
+                                                      to="/geographiclevels"
+                                    >
+                                                      geographiclevels
+                                    </NavLink>
+                                    <NavLink
+                                                      activeClassName="is-active"
+                                                      ariaCurrent="true"
+                                                      className="navbar-item"
+                                                      onClick={[Function]}
+                                                      to="/geography"
+                                    >
+                                                      geography
+                                    </NavLink>
+                                    <NavLink
+                                                      activeClassName="is-active"
+                                                      ariaCurrent="true"
+                                                      className="navbar-item"
+                                                      onClick={[Function]}
+                                                      to="/measurestratification"
+                                    >
+                                                      measurestratification
+                                    </NavLink>
+                                    <NavLink
+                                                      activeClassName="is-active"
+                                                      ariaCurrent="true"
+                                                      className="navbar-item"
+                                                      onClick={[Function]}
+                                                      to="/stratificationlevel"
+                                    >
+                                                      stratificationlevel
+                                    </NavLink>
+                                    <NavLink
+                                                      activeClassName="is-active"
+                                                      ariaCurrent="true"
+                                                      className="navbar-item"
+                                                      onClick={[Function]}
+                                                      to="/getCoreHolder"
+                                    >
+                                                      getCoreHolder
+                                    </NavLink>
+                  </div>
+</div>,
+                "className": "navbar-start",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <NavLink
+                      activeClassName="is-active"
+                      ariaCurrent="true"
+                      className="navbar-link"
+                      onClick={[Function]}
+                      to="/"
+>
+                      API
+</NavLink>,
+                    <div
+                      className="navbar-dropdown"
+>
+                      <NavLink
+                                            activeClassName="is-active"
+                                            ariaCurrent="true"
+                                            className="navbar-item"
+                                            onClick={[Function]}
+                                            to="/getMeasures"
+                      >
+                                            getMeasures
+                      </NavLink>
+                      <NavLink
+                                            activeClassName="is-active"
+                                            ariaCurrent="true"
+                                            className="navbar-item"
+                                            onClick={[Function]}
+                                            to="/getGeographicLevels"
+                      >
+                                            getGeographicLevels
+                      </NavLink>
+                      <NavLink
+                                            activeClassName="is-active"
+                                            ariaCurrent="true"
+                                            className="navbar-item"
+                                            onClick={[Function]}
+                                            to="/getStates"
+                      >
+                                            getStates
+                      </NavLink>
+                      <NavLink
+                                            activeClassName="is-active"
+                                            ariaCurrent="true"
+                                            className="navbar-item"
+                                            onClick={[Function]}
+                                            to="/getYears"
+                      >
+                                            getYears
+                      </NavLink>
+                      <NavLink
+                                            activeClassName="is-active"
+                                            ariaCurrent="true"
+                                            className="navbar-item"
+                                            onClick={[Function]}
+                                            to="/getData"
+                      >
+                                            getData
+                      </NavLink>
+                      <NavLink
+                                            activeClassName="is-active"
+                                            ariaCurrent="true"
+                                            className="navbar-item"
+                                            onClick={[Function]}
+                                            to="/contentareas"
+                      >
+                                            contentareas
+                      </NavLink>
+                      <NavLink
+                                            activeClassName="is-active"
+                                            ariaCurrent="true"
+                                            className="navbar-item"
+                                            onClick={[Function]}
+                                            to="/indicators"
+                      >
+                                            indicators
+                      </NavLink>
+                      <NavLink
+                                            activeClassName="is-active"
+                                            ariaCurrent="true"
+                                            className="navbar-item"
+                                            onClick={[Function]}
+                                            to="/measures"
+                      >
+                                            measures
+                      </NavLink>
+                      <NavLink
+                                            activeClassName="is-active"
+                                            ariaCurrent="true"
+                                            className="navbar-item"
+                                            onClick={[Function]}
+                                            to="/geographiclevels"
+                      >
+                                            geographiclevels
+                      </NavLink>
+                      <NavLink
+                                            activeClassName="is-active"
+                                            ariaCurrent="true"
+                                            className="navbar-item"
+                                            onClick={[Function]}
+                                            to="/geography"
+                      >
+                                            geography
+                      </NavLink>
+                      <NavLink
+                                            activeClassName="is-active"
+                                            ariaCurrent="true"
+                                            className="navbar-item"
+                                            onClick={[Function]}
+                                            to="/measurestratification"
+                      >
+                                            measurestratification
+                      </NavLink>
+                      <NavLink
+                                            activeClassName="is-active"
+                                            ariaCurrent="true"
+                                            className="navbar-item"
+                                            onClick={[Function]}
+                                            to="/stratificationlevel"
+                      >
+                                            stratificationlevel
+                      </NavLink>
+                      <NavLink
+                                            activeClassName="is-active"
+                                            ariaCurrent="true"
+                                            className="navbar-item"
+                                            onClick={[Function]}
+                                            to="/getCoreHolder"
+                      >
+                                            getCoreHolder
+                      </NavLink>
+</div>,
+                  ],
+                  "className": "navbar-item has-dropdown is-hoverable",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "activeClassName": "is-active",
+                      "ariaCurrent": "true",
+                      "children": "API",
+                      "className": "navbar-link",
+                      "onClick": [Function],
+                      "to": "/",
+                    },
+                    "ref": null,
+                    "rendered": "API",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <NavLink
+                          activeClassName="is-active"
+                          ariaCurrent="true"
+                          className="navbar-item"
+                          onClick={[Function]}
+                          to="/getMeasures"
+>
+                          getMeasures
+</NavLink>,
+                        <NavLink
+                          activeClassName="is-active"
+                          ariaCurrent="true"
+                          className="navbar-item"
+                          onClick={[Function]}
+                          to="/getGeographicLevels"
+>
+                          getGeographicLevels
+</NavLink>,
+                        <NavLink
+                          activeClassName="is-active"
+                          ariaCurrent="true"
+                          className="navbar-item"
+                          onClick={[Function]}
+                          to="/getStates"
+>
+                          getStates
+</NavLink>,
+                        <NavLink
+                          activeClassName="is-active"
+                          ariaCurrent="true"
+                          className="navbar-item"
+                          onClick={[Function]}
+                          to="/getYears"
+>
+                          getYears
+</NavLink>,
+                        <NavLink
+                          activeClassName="is-active"
+                          ariaCurrent="true"
+                          className="navbar-item"
+                          onClick={[Function]}
+                          to="/getData"
+>
+                          getData
+</NavLink>,
+                        <NavLink
+                          activeClassName="is-active"
+                          ariaCurrent="true"
+                          className="navbar-item"
+                          onClick={[Function]}
+                          to="/contentareas"
+>
+                          contentareas
+</NavLink>,
+                        <NavLink
+                          activeClassName="is-active"
+                          ariaCurrent="true"
+                          className="navbar-item"
+                          onClick={[Function]}
+                          to="/indicators"
+>
+                          indicators
+</NavLink>,
+                        <NavLink
+                          activeClassName="is-active"
+                          ariaCurrent="true"
+                          className="navbar-item"
+                          onClick={[Function]}
+                          to="/measures"
+>
+                          measures
+</NavLink>,
+                        <NavLink
+                          activeClassName="is-active"
+                          ariaCurrent="true"
+                          className="navbar-item"
+                          onClick={[Function]}
+                          to="/geographiclevels"
+>
+                          geographiclevels
+</NavLink>,
+                        <NavLink
+                          activeClassName="is-active"
+                          ariaCurrent="true"
+                          className="navbar-item"
+                          onClick={[Function]}
+                          to="/geography"
+>
+                          geography
+</NavLink>,
+                        <NavLink
+                          activeClassName="is-active"
+                          ariaCurrent="true"
+                          className="navbar-item"
+                          onClick={[Function]}
+                          to="/measurestratification"
+>
+                          measurestratification
+</NavLink>,
+                        <NavLink
+                          activeClassName="is-active"
+                          ariaCurrent="true"
+                          className="navbar-item"
+                          onClick={[Function]}
+                          to="/stratificationlevel"
+>
+                          stratificationlevel
+</NavLink>,
+                        <NavLink
+                          activeClassName="is-active"
+                          ariaCurrent="true"
+                          className="navbar-item"
+                          onClick={[Function]}
+                          to="/getCoreHolder"
+>
+                          getCoreHolder
+</NavLink>,
+                      ],
+                      "className": "navbar-dropdown",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "0",
+                        "nodeType": "function",
+                        "props": Object {
+                          "activeClassName": "is-active",
+                          "ariaCurrent": "true",
+                          "children": "getMeasures",
+                          "className": "navbar-item",
+                          "onClick": [Function],
+                          "to": "/getMeasures",
+                        },
+                        "ref": null,
+                        "rendered": "getMeasures",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "1",
+                        "nodeType": "function",
+                        "props": Object {
+                          "activeClassName": "is-active",
+                          "ariaCurrent": "true",
+                          "children": "getGeographicLevels",
+                          "className": "navbar-item",
+                          "onClick": [Function],
+                          "to": "/getGeographicLevels",
+                        },
+                        "ref": null,
+                        "rendered": "getGeographicLevels",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "2",
+                        "nodeType": "function",
+                        "props": Object {
+                          "activeClassName": "is-active",
+                          "ariaCurrent": "true",
+                          "children": "getStates",
+                          "className": "navbar-item",
+                          "onClick": [Function],
+                          "to": "/getStates",
+                        },
+                        "ref": null,
+                        "rendered": "getStates",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "3",
+                        "nodeType": "function",
+                        "props": Object {
+                          "activeClassName": "is-active",
+                          "ariaCurrent": "true",
+                          "children": "getYears",
+                          "className": "navbar-item",
+                          "onClick": [Function],
+                          "to": "/getYears",
+                        },
+                        "ref": null,
+                        "rendered": "getYears",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "4",
+                        "nodeType": "function",
+                        "props": Object {
+                          "activeClassName": "is-active",
+                          "ariaCurrent": "true",
+                          "children": "getData",
+                          "className": "navbar-item",
+                          "onClick": [Function],
+                          "to": "/getData",
+                        },
+                        "ref": null,
+                        "rendered": "getData",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "5",
+                        "nodeType": "function",
+                        "props": Object {
+                          "activeClassName": "is-active",
+                          "ariaCurrent": "true",
+                          "children": "contentareas",
+                          "className": "navbar-item",
+                          "onClick": [Function],
+                          "to": "/contentareas",
+                        },
+                        "ref": null,
+                        "rendered": "contentareas",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "6",
+                        "nodeType": "function",
+                        "props": Object {
+                          "activeClassName": "is-active",
+                          "ariaCurrent": "true",
+                          "children": "indicators",
+                          "className": "navbar-item",
+                          "onClick": [Function],
+                          "to": "/indicators",
+                        },
+                        "ref": null,
+                        "rendered": "indicators",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "7",
+                        "nodeType": "function",
+                        "props": Object {
+                          "activeClassName": "is-active",
+                          "ariaCurrent": "true",
+                          "children": "measures",
+                          "className": "navbar-item",
+                          "onClick": [Function],
+                          "to": "/measures",
+                        },
+                        "ref": null,
+                        "rendered": "measures",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "8",
+                        "nodeType": "function",
+                        "props": Object {
+                          "activeClassName": "is-active",
+                          "ariaCurrent": "true",
+                          "children": "geographiclevels",
+                          "className": "navbar-item",
+                          "onClick": [Function],
+                          "to": "/geographiclevels",
+                        },
+                        "ref": null,
+                        "rendered": "geographiclevels",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "9",
+                        "nodeType": "function",
+                        "props": Object {
+                          "activeClassName": "is-active",
+                          "ariaCurrent": "true",
+                          "children": "geography",
+                          "className": "navbar-item",
+                          "onClick": [Function],
+                          "to": "/geography",
+                        },
+                        "ref": null,
+                        "rendered": "geography",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "10",
+                        "nodeType": "function",
+                        "props": Object {
+                          "activeClassName": "is-active",
+                          "ariaCurrent": "true",
+                          "children": "measurestratification",
+                          "className": "navbar-item",
+                          "onClick": [Function],
+                          "to": "/measurestratification",
+                        },
+                        "ref": null,
+                        "rendered": "measurestratification",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "11",
+                        "nodeType": "function",
+                        "props": Object {
+                          "activeClassName": "is-active",
+                          "ariaCurrent": "true",
+                          "children": "stratificationlevel",
+                          "className": "navbar-item",
+                          "onClick": [Function],
+                          "to": "/stratificationlevel",
+                        },
+                        "ref": null,
+                        "rendered": "stratificationlevel",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "12",
+                        "nodeType": "function",
+                        "props": Object {
+                          "activeClassName": "is-active",
+                          "ariaCurrent": "true",
+                          "children": "getCoreHolder",
+                          "className": "navbar-item",
+                          "onClick": [Function],
+                          "to": "/getCoreHolder",
+                        },
+                        "ref": null,
+                        "rendered": "getCoreHolder",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="navbar-item"
+>
+                  <a
+                                    className="button is-link"
+                                    href="https://github.com/stfnh/ephtracking-api-assistant"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                  >
+                                    <span
+                                                      className="icon"
+                                    >
+                                                      <i
+                                                                        aria-hidden="true"
+                                                                        className="fa fa-github"
+                                                      />
+                                    </span>
+                                    <span>
+                                                      GitHub
+                                    </span>
+                  </a>
+</div>,
+                "className": "navbar-end",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="button is-link"
+                    href="https://github.com/stfnh/ephtracking-api-assistant"
+                    rel="noopener noreferrer"
+                    target="_blank"
+>
+                    <span
+                                        className="icon"
+                    >
+                                        <i
+                                                            aria-hidden="true"
+                                                            className="fa fa-github"
+                                        />
+                    </span>
+                    <span>
+                                        GitHub
+                    </span>
+</a>,
+                  "className": "navbar-item",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span
+                        className="icon"
+>
+                        <i
+                                                aria-hidden="true"
+                                                className="fa fa-github"
+                        />
+</span>,
+                      <span>
+                        GitHub
+</span>,
+                    ],
+                    "className": "button is-link",
+                    "href": "https://github.com/stfnh/ephtracking-api-assistant",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <i
+                          aria-hidden="true"
+                          className="fa fa-github"
+/>,
+                        "className": "icon",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "aria-hidden": "true",
+                          "className": "fa fa-github",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      "type": "span",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "GitHub",
+                      },
+                      "ref": null,
+                      "rendered": "GitHub",
+                      "type": "span",
+                    },
+                  ],
+                  "type": "a",
+                },
+                "type": "div",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "nav",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,3098 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`County FIPS Component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CountyFIPS
+    handleCheck={[Function]}
+    stateFips={1}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <div
+        className="field"
+>
+        <label
+                className="Counties"
+        />
+        <CheckboxTree
+                checked={Array []}
+                disabled={false}
+                expandDisabled={false}
+                expanded={Array []}
+                name={undefined}
+                nameAsArray={false}
+                noCascade={false}
+                nodes={
+                        Array [
+                                Object {
+                                  "children": Array [
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Autauga County",
+                                      "value": "01001",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Baldwin County",
+                                      "value": "01003",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Barbour County",
+                                      "value": "01005",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Bibb County",
+                                      "value": "01007",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Blount County",
+                                      "value": "01009",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Bullock County",
+                                      "value": "01011",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Butler County",
+                                      "value": "01013",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Calhoun County",
+                                      "value": "01015",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Chambers County",
+                                      "value": "01017",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Cherokee County",
+                                      "value": "01019",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Chilton County",
+                                      "value": "01021",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Choctaw County",
+                                      "value": "01023",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Clarke County",
+                                      "value": "01025",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Clay County",
+                                      "value": "01027",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Cleburne County",
+                                      "value": "01029",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Coffee County",
+                                      "value": "01031",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Colbert County",
+                                      "value": "01033",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Conecuh County",
+                                      "value": "01035",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Coosa County",
+                                      "value": "01037",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Covington County",
+                                      "value": "01039",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Crenshaw County",
+                                      "value": "01041",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Cullman County",
+                                      "value": "01043",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Dale County",
+                                      "value": "01045",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Dallas County",
+                                      "value": "01047",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "DeKalb County",
+                                      "value": "01049",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Elmore County",
+                                      "value": "01051",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Escambia County",
+                                      "value": "01053",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Etowah County",
+                                      "value": "01055",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Fayette County",
+                                      "value": "01057",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Franklin County",
+                                      "value": "01059",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Geneva County",
+                                      "value": "01061",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Greene County",
+                                      "value": "01063",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Hale County",
+                                      "value": "01065",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Henry County",
+                                      "value": "01067",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Houston County",
+                                      "value": "01069",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Jackson County",
+                                      "value": "01071",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Jefferson County",
+                                      "value": "01073",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Lamar County",
+                                      "value": "01075",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Lauderdale County",
+                                      "value": "01077",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Lawrence County",
+                                      "value": "01079",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Lee County",
+                                      "value": "01081",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Limestone County",
+                                      "value": "01083",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Lowndes County",
+                                      "value": "01085",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Macon County",
+                                      "value": "01087",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Madison County",
+                                      "value": "01089",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Marengo County",
+                                      "value": "01091",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Marion County",
+                                      "value": "01093",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Marshall County",
+                                      "value": "01095",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Mobile County",
+                                      "value": "01097",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Monroe County",
+                                      "value": "01099",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Montgomery County",
+                                      "value": "01101",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Morgan County",
+                                      "value": "01103",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Perry County",
+                                      "value": "01105",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Pickens County",
+                                      "value": "01107",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Pike County",
+                                      "value": "01109",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Randolph County",
+                                      "value": "01111",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Russell County",
+                                      "value": "01113",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "St. Clair County",
+                                      "value": "01115",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Shelby County",
+                                      "value": "01117",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Sumter County",
+                                      "value": "01119",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Talladega County",
+                                      "value": "01121",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Tallapoosa County",
+                                      "value": "01123",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Tuscaloosa County",
+                                      "value": "01125",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Walker County",
+                                      "value": "01127",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Washington County",
+                                      "value": "01129",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Wilcox County",
+                                      "value": "01131",
+                                    },
+                                    Object {
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "Winston County",
+                                      "value": "01133",
+                                    },
+                                  ],
+                                  "icon": <i
+                                    className="fa fa-map-marker"
+                        />,
+                                  "label": "All Counties",
+                                  "value": "ALL",
+                                },
+                              ]
+                }
+                onCheck={[Function]}
+                onExpand={[Function]}
+                optimisticToggle={true}
+                showNodeIcon={true}
+        />
+</div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <label
+            className="Counties"
+/>,
+          <CheckboxTree
+            checked={Array []}
+            disabled={false}
+            expandDisabled={false}
+            expanded={Array []}
+            name={undefined}
+            nameAsArray={false}
+            noCascade={false}
+            nodes={
+                        Array [
+                                    Object {
+                                      "children": Array [
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Autauga County",
+                                          "value": "01001",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Baldwin County",
+                                          "value": "01003",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Barbour County",
+                                          "value": "01005",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Bibb County",
+                                          "value": "01007",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Blount County",
+                                          "value": "01009",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Bullock County",
+                                          "value": "01011",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Butler County",
+                                          "value": "01013",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Calhoun County",
+                                          "value": "01015",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Chambers County",
+                                          "value": "01017",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Cherokee County",
+                                          "value": "01019",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Chilton County",
+                                          "value": "01021",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Choctaw County",
+                                          "value": "01023",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Clarke County",
+                                          "value": "01025",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Clay County",
+                                          "value": "01027",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Cleburne County",
+                                          "value": "01029",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Coffee County",
+                                          "value": "01031",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Colbert County",
+                                          "value": "01033",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Conecuh County",
+                                          "value": "01035",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Coosa County",
+                                          "value": "01037",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Covington County",
+                                          "value": "01039",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Crenshaw County",
+                                          "value": "01041",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Cullman County",
+                                          "value": "01043",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Dale County",
+                                          "value": "01045",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Dallas County",
+                                          "value": "01047",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "DeKalb County",
+                                          "value": "01049",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Elmore County",
+                                          "value": "01051",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Escambia County",
+                                          "value": "01053",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Etowah County",
+                                          "value": "01055",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Fayette County",
+                                          "value": "01057",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Franklin County",
+                                          "value": "01059",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Geneva County",
+                                          "value": "01061",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Greene County",
+                                          "value": "01063",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Hale County",
+                                          "value": "01065",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Henry County",
+                                          "value": "01067",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Houston County",
+                                          "value": "01069",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Jackson County",
+                                          "value": "01071",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Jefferson County",
+                                          "value": "01073",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Lamar County",
+                                          "value": "01075",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Lauderdale County",
+                                          "value": "01077",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Lawrence County",
+                                          "value": "01079",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Lee County",
+                                          "value": "01081",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Limestone County",
+                                          "value": "01083",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Lowndes County",
+                                          "value": "01085",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Macon County",
+                                          "value": "01087",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Madison County",
+                                          "value": "01089",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Marengo County",
+                                          "value": "01091",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Marion County",
+                                          "value": "01093",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Marshall County",
+                                          "value": "01095",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Mobile County",
+                                          "value": "01097",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Monroe County",
+                                          "value": "01099",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Montgomery County",
+                                          "value": "01101",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Morgan County",
+                                          "value": "01103",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Perry County",
+                                          "value": "01105",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Pickens County",
+                                          "value": "01107",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Pike County",
+                                          "value": "01109",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Randolph County",
+                                          "value": "01111",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Russell County",
+                                          "value": "01113",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "St. Clair County",
+                                          "value": "01115",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Shelby County",
+                                          "value": "01117",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Sumter County",
+                                          "value": "01119",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Talladega County",
+                                          "value": "01121",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Tallapoosa County",
+                                          "value": "01123",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Tuscaloosa County",
+                                          "value": "01125",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Walker County",
+                                          "value": "01127",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Washington County",
+                                          "value": "01129",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Wilcox County",
+                                          "value": "01131",
+                                        },
+                                        Object {
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                        />,
+                                          "label": "Winston County",
+                                          "value": "01133",
+                                        },
+                                      ],
+                                      "icon": <i
+                                        className="fa fa-map-marker"
+                        />,
+                                      "label": "All Counties",
+                                      "value": "ALL",
+                                    },
+                                  ]
+            }
+            onCheck={[Function]}
+            onExpand={[Function]}
+            optimisticToggle={true}
+            showNodeIcon={true}
+/>,
+        ],
+        "className": "field",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "Counties",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "checked": Array [],
+            "disabled": false,
+            "expandDisabled": false,
+            "expanded": Array [],
+            "name": undefined,
+            "nameAsArray": false,
+            "noCascade": false,
+            "nodes": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Autauga County",
+                    "value": "01001",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Baldwin County",
+                    "value": "01003",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Barbour County",
+                    "value": "01005",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Bibb County",
+                    "value": "01007",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Blount County",
+                    "value": "01009",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Bullock County",
+                    "value": "01011",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Butler County",
+                    "value": "01013",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Calhoun County",
+                    "value": "01015",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Chambers County",
+                    "value": "01017",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Cherokee County",
+                    "value": "01019",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Chilton County",
+                    "value": "01021",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Choctaw County",
+                    "value": "01023",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Clarke County",
+                    "value": "01025",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Clay County",
+                    "value": "01027",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Cleburne County",
+                    "value": "01029",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Coffee County",
+                    "value": "01031",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Colbert County",
+                    "value": "01033",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Conecuh County",
+                    "value": "01035",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Coosa County",
+                    "value": "01037",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Covington County",
+                    "value": "01039",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Crenshaw County",
+                    "value": "01041",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Cullman County",
+                    "value": "01043",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Dale County",
+                    "value": "01045",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Dallas County",
+                    "value": "01047",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "DeKalb County",
+                    "value": "01049",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Elmore County",
+                    "value": "01051",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Escambia County",
+                    "value": "01053",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Etowah County",
+                    "value": "01055",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Fayette County",
+                    "value": "01057",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Franklin County",
+                    "value": "01059",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Geneva County",
+                    "value": "01061",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Greene County",
+                    "value": "01063",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Hale County",
+                    "value": "01065",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Henry County",
+                    "value": "01067",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Houston County",
+                    "value": "01069",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Jackson County",
+                    "value": "01071",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Jefferson County",
+                    "value": "01073",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Lamar County",
+                    "value": "01075",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Lauderdale County",
+                    "value": "01077",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Lawrence County",
+                    "value": "01079",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Lee County",
+                    "value": "01081",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Limestone County",
+                    "value": "01083",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Lowndes County",
+                    "value": "01085",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Macon County",
+                    "value": "01087",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Madison County",
+                    "value": "01089",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Marengo County",
+                    "value": "01091",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Marion County",
+                    "value": "01093",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Marshall County",
+                    "value": "01095",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Mobile County",
+                    "value": "01097",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Monroe County",
+                    "value": "01099",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Montgomery County",
+                    "value": "01101",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Morgan County",
+                    "value": "01103",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Perry County",
+                    "value": "01105",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Pickens County",
+                    "value": "01107",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Pike County",
+                    "value": "01109",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Randolph County",
+                    "value": "01111",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Russell County",
+                    "value": "01113",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "St. Clair County",
+                    "value": "01115",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Shelby County",
+                    "value": "01117",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Sumter County",
+                    "value": "01119",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Talladega County",
+                    "value": "01121",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Tallapoosa County",
+                    "value": "01123",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Tuscaloosa County",
+                    "value": "01125",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Walker County",
+                    "value": "01127",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Washington County",
+                    "value": "01129",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Wilcox County",
+                    "value": "01131",
+                  },
+                  Object {
+                    "icon": <i
+                      className="fa fa-map-marker"
+/>,
+                    "label": "Winston County",
+                    "value": "01133",
+                  },
+                ],
+                "icon": <i
+                  className="fa fa-map-marker"
+/>,
+                "label": "All Counties",
+                "value": "ALL",
+              },
+            ],
+            "onCheck": [Function],
+            "onExpand": [Function],
+            "optimisticToggle": true,
+            "showNodeIcon": true,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <div
+          className="field"
+>
+          <label
+                    className="Counties"
+          />
+          <CheckboxTree
+                    checked={Array []}
+                    disabled={false}
+                    expandDisabled={false}
+                    expanded={Array []}
+                    name={undefined}
+                    nameAsArray={false}
+                    noCascade={false}
+                    nodes={
+                              Array [
+                                        Object {
+                                          "children": Array [
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Autauga County",
+                                              "value": "01001",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Baldwin County",
+                                              "value": "01003",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Barbour County",
+                                              "value": "01005",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Bibb County",
+                                              "value": "01007",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Blount County",
+                                              "value": "01009",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Bullock County",
+                                              "value": "01011",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Butler County",
+                                              "value": "01013",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Calhoun County",
+                                              "value": "01015",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Chambers County",
+                                              "value": "01017",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Cherokee County",
+                                              "value": "01019",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Chilton County",
+                                              "value": "01021",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Choctaw County",
+                                              "value": "01023",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Clarke County",
+                                              "value": "01025",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Clay County",
+                                              "value": "01027",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Cleburne County",
+                                              "value": "01029",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Coffee County",
+                                              "value": "01031",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Colbert County",
+                                              "value": "01033",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Conecuh County",
+                                              "value": "01035",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Coosa County",
+                                              "value": "01037",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Covington County",
+                                              "value": "01039",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Crenshaw County",
+                                              "value": "01041",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Cullman County",
+                                              "value": "01043",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Dale County",
+                                              "value": "01045",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Dallas County",
+                                              "value": "01047",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "DeKalb County",
+                                              "value": "01049",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Elmore County",
+                                              "value": "01051",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Escambia County",
+                                              "value": "01053",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Etowah County",
+                                              "value": "01055",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Fayette County",
+                                              "value": "01057",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Franklin County",
+                                              "value": "01059",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Geneva County",
+                                              "value": "01061",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Greene County",
+                                              "value": "01063",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Hale County",
+                                              "value": "01065",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Henry County",
+                                              "value": "01067",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Houston County",
+                                              "value": "01069",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Jackson County",
+                                              "value": "01071",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Jefferson County",
+                                              "value": "01073",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Lamar County",
+                                              "value": "01075",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Lauderdale County",
+                                              "value": "01077",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Lawrence County",
+                                              "value": "01079",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Lee County",
+                                              "value": "01081",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Limestone County",
+                                              "value": "01083",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Lowndes County",
+                                              "value": "01085",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Macon County",
+                                              "value": "01087",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Madison County",
+                                              "value": "01089",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Marengo County",
+                                              "value": "01091",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Marion County",
+                                              "value": "01093",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Marshall County",
+                                              "value": "01095",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Mobile County",
+                                              "value": "01097",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Monroe County",
+                                              "value": "01099",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Montgomery County",
+                                              "value": "01101",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Morgan County",
+                                              "value": "01103",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Perry County",
+                                              "value": "01105",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Pickens County",
+                                              "value": "01107",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Pike County",
+                                              "value": "01109",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Randolph County",
+                                              "value": "01111",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Russell County",
+                                              "value": "01113",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "St. Clair County",
+                                              "value": "01115",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Shelby County",
+                                              "value": "01117",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Sumter County",
+                                              "value": "01119",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Talladega County",
+                                              "value": "01121",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Tallapoosa County",
+                                              "value": "01123",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Tuscaloosa County",
+                                              "value": "01125",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Walker County",
+                                              "value": "01127",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Washington County",
+                                              "value": "01129",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Wilcox County",
+                                              "value": "01131",
+                                            },
+                                            Object {
+                                              "icon": <i
+                                                className="fa fa-map-marker"
+                              />,
+                                              "label": "Winston County",
+                                              "value": "01133",
+                                            },
+                                          ],
+                                          "icon": <i
+                                            className="fa fa-map-marker"
+                              />,
+                                          "label": "All Counties",
+                                          "value": "ALL",
+                                        },
+                                      ]
+                    }
+                    onCheck={[Function]}
+                    onExpand={[Function]}
+                    optimisticToggle={true}
+                    showNodeIcon={true}
+          />
+</div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <label
+              className="Counties"
+/>,
+            <CheckboxTree
+              checked={Array []}
+              disabled={false}
+              expandDisabled={false}
+              expanded={Array []}
+              name={undefined}
+              nameAsArray={false}
+              noCascade={false}
+              nodes={
+                            Array [
+                                          Object {
+                                            "children": Array [
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Autauga County",
+                                                "value": "01001",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Baldwin County",
+                                                "value": "01003",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Barbour County",
+                                                "value": "01005",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Bibb County",
+                                                "value": "01007",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Blount County",
+                                                "value": "01009",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Bullock County",
+                                                "value": "01011",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Butler County",
+                                                "value": "01013",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Calhoun County",
+                                                "value": "01015",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Chambers County",
+                                                "value": "01017",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Cherokee County",
+                                                "value": "01019",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Chilton County",
+                                                "value": "01021",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Choctaw County",
+                                                "value": "01023",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Clarke County",
+                                                "value": "01025",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Clay County",
+                                                "value": "01027",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Cleburne County",
+                                                "value": "01029",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Coffee County",
+                                                "value": "01031",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Colbert County",
+                                                "value": "01033",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Conecuh County",
+                                                "value": "01035",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Coosa County",
+                                                "value": "01037",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Covington County",
+                                                "value": "01039",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Crenshaw County",
+                                                "value": "01041",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Cullman County",
+                                                "value": "01043",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Dale County",
+                                                "value": "01045",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Dallas County",
+                                                "value": "01047",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "DeKalb County",
+                                                "value": "01049",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Elmore County",
+                                                "value": "01051",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Escambia County",
+                                                "value": "01053",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Etowah County",
+                                                "value": "01055",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Fayette County",
+                                                "value": "01057",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Franklin County",
+                                                "value": "01059",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Geneva County",
+                                                "value": "01061",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Greene County",
+                                                "value": "01063",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Hale County",
+                                                "value": "01065",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Henry County",
+                                                "value": "01067",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Houston County",
+                                                "value": "01069",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Jackson County",
+                                                "value": "01071",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Jefferson County",
+                                                "value": "01073",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Lamar County",
+                                                "value": "01075",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Lauderdale County",
+                                                "value": "01077",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Lawrence County",
+                                                "value": "01079",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Lee County",
+                                                "value": "01081",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Limestone County",
+                                                "value": "01083",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Lowndes County",
+                                                "value": "01085",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Macon County",
+                                                "value": "01087",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Madison County",
+                                                "value": "01089",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Marengo County",
+                                                "value": "01091",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Marion County",
+                                                "value": "01093",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Marshall County",
+                                                "value": "01095",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Mobile County",
+                                                "value": "01097",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Monroe County",
+                                                "value": "01099",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Montgomery County",
+                                                "value": "01101",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Morgan County",
+                                                "value": "01103",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Perry County",
+                                                "value": "01105",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Pickens County",
+                                                "value": "01107",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Pike County",
+                                                "value": "01109",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Randolph County",
+                                                "value": "01111",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Russell County",
+                                                "value": "01113",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "St. Clair County",
+                                                "value": "01115",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Shelby County",
+                                                "value": "01117",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Sumter County",
+                                                "value": "01119",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Talladega County",
+                                                "value": "01121",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Tallapoosa County",
+                                                "value": "01123",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Tuscaloosa County",
+                                                "value": "01125",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Walker County",
+                                                "value": "01127",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Washington County",
+                                                "value": "01129",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Wilcox County",
+                                                "value": "01131",
+                                              },
+                                              Object {
+                                                "icon": <i
+                                                  className="fa fa-map-marker"
+                            />,
+                                                "label": "Winston County",
+                                                "value": "01133",
+                                              },
+                                            ],
+                                            "icon": <i
+                                              className="fa fa-map-marker"
+                            />,
+                                            "label": "All Counties",
+                                            "value": "ALL",
+                                          },
+                                        ]
+              }
+              onCheck={[Function]}
+              onExpand={[Function]}
+              optimisticToggle={true}
+              showNodeIcon={true}
+/>,
+          ],
+          "className": "field",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "Counties",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checked": Array [],
+              "disabled": false,
+              "expandDisabled": false,
+              "expanded": Array [],
+              "name": undefined,
+              "nameAsArray": false,
+              "noCascade": false,
+              "nodes": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Autauga County",
+                      "value": "01001",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Baldwin County",
+                      "value": "01003",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Barbour County",
+                      "value": "01005",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Bibb County",
+                      "value": "01007",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Blount County",
+                      "value": "01009",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Bullock County",
+                      "value": "01011",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Butler County",
+                      "value": "01013",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Calhoun County",
+                      "value": "01015",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Chambers County",
+                      "value": "01017",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Cherokee County",
+                      "value": "01019",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Chilton County",
+                      "value": "01021",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Choctaw County",
+                      "value": "01023",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Clarke County",
+                      "value": "01025",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Clay County",
+                      "value": "01027",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Cleburne County",
+                      "value": "01029",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Coffee County",
+                      "value": "01031",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Colbert County",
+                      "value": "01033",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Conecuh County",
+                      "value": "01035",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Coosa County",
+                      "value": "01037",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Covington County",
+                      "value": "01039",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Crenshaw County",
+                      "value": "01041",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Cullman County",
+                      "value": "01043",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Dale County",
+                      "value": "01045",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Dallas County",
+                      "value": "01047",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "DeKalb County",
+                      "value": "01049",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Elmore County",
+                      "value": "01051",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Escambia County",
+                      "value": "01053",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Etowah County",
+                      "value": "01055",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Fayette County",
+                      "value": "01057",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Franklin County",
+                      "value": "01059",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Geneva County",
+                      "value": "01061",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Greene County",
+                      "value": "01063",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Hale County",
+                      "value": "01065",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Henry County",
+                      "value": "01067",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Houston County",
+                      "value": "01069",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Jackson County",
+                      "value": "01071",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Jefferson County",
+                      "value": "01073",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Lamar County",
+                      "value": "01075",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Lauderdale County",
+                      "value": "01077",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Lawrence County",
+                      "value": "01079",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Lee County",
+                      "value": "01081",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Limestone County",
+                      "value": "01083",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Lowndes County",
+                      "value": "01085",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Macon County",
+                      "value": "01087",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Madison County",
+                      "value": "01089",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Marengo County",
+                      "value": "01091",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Marion County",
+                      "value": "01093",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Marshall County",
+                      "value": "01095",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Mobile County",
+                      "value": "01097",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Monroe County",
+                      "value": "01099",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Montgomery County",
+                      "value": "01101",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Morgan County",
+                      "value": "01103",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Perry County",
+                      "value": "01105",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Pickens County",
+                      "value": "01107",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Pike County",
+                      "value": "01109",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Randolph County",
+                      "value": "01111",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Russell County",
+                      "value": "01113",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "St. Clair County",
+                      "value": "01115",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Shelby County",
+                      "value": "01117",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Sumter County",
+                      "value": "01119",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Talladega County",
+                      "value": "01121",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Tallapoosa County",
+                      "value": "01123",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Tuscaloosa County",
+                      "value": "01125",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Walker County",
+                      "value": "01127",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Washington County",
+                      "value": "01129",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Wilcox County",
+                      "value": "01131",
+                    },
+                    Object {
+                      "icon": <i
+                        className="fa fa-map-marker"
+/>,
+                      "label": "Winston County",
+                      "value": "01133",
+                    },
+                  ],
+                  "icon": <i
+                    className="fa fa-map-marker"
+/>,
+                  "label": "All Counties",
+                  "value": "ALL",
+                },
+              ],
+              "onCheck": [Function],
+              "onExpand": [Function],
+              "optimisticToggle": true,
+              "showNodeIcon": true,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
