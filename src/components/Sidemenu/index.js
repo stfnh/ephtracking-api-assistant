@@ -14,9 +14,7 @@ const Menu = ({ activeMenu }) => {
   return (
     <Fragment>
       <aside className="menu is-hidden-touch">
-        <ul className="menu-list">
-          {menuItemsToRender}
-        </ul>
+        <ul className="menu-list">{menuItemsToRender}</ul>
       </aside>
     </Fragment>
   );

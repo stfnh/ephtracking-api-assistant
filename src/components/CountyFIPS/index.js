@@ -4,6 +4,15 @@ import CheckboxTree from 'react-checkbox-tree';
 
 import COUNTIES from './counties';
 
+/**
+ *
+ * @class CountyFIPS
+ * @extends {Component}
+ *
+ * Renders a checkbox tree of counties
+ * of a certain state (prop: StateFIPS)
+ *
+ */
 class CountyFIPS extends Component {
   constructor(props) {
     super(props);
@@ -41,6 +50,7 @@ class CountyFIPS extends Component {
   handleCheck(checked) {
     this.setState({ checked });
     if (checked.length === this.state.counties.length) {
+      // API ueses 'ALL' if all counties are of interest
       this.props.handleCheck(['ALL']);
     } else {
       this.props.handleCheck(checked);

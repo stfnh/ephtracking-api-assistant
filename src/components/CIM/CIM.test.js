@@ -1,5 +1,5 @@
 import React from 'react';
-import CIM from '.';
+import CIM from './';
 import { shallow } from 'enzyme';
 
 describe('CIM Component', () => {
