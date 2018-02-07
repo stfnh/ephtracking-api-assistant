@@ -5,7 +5,7 @@ import MockAdaptor from 'axios-mock-adapter';
 
 import ApiJsonTree from './';
 
-describe('CIM Component', () => {
+describe('ApiJsonTree Container', () => {
   const url = 'https://ephtracking.cdc.gov/apigateway/api/v1/getMeasures';
 
   it('renders correctly', () => {

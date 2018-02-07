@@ -1,6 +1,6 @@
 # EPH Tracking API Assistant
 
-[![Build Status](https://travis-ci.org/stfnh/ephtracking-api-assistant.svg?branch=master)](https://travis-ci.org/stfnh/ephtracking-api-assistant)
+[![Build Status](https://travis-ci.org/stfnh/ephtracking-api-assistant.svg?branch=master)](https://travis-ci.org/stfnh/ephtracking-api-assistant) [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 
 Hosted on github pages: https://stfnh.github.io/ephtracking-api-assistant
 

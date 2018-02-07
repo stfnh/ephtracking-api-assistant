@@ -14,28 +14,34 @@ class SelectContentArea extends Component {
 
   async componentDidMount() {
     try {
-      const response = await axios('https://ephtracking.cdc.gov/apigateway/api/v1/contentareas/0/0/json');
+      const response = await axios(
+        'https://ephtracking.cdc.gov/apigateway/api/v1/contentareas/0/0/json'
+      );
       this.setState({
         options: response.data
       })
     } catch (error) {
-      console.log(error);
+      console.error(error);
     }
   }
 
   handleChange(event) {
     this.props.handleSelect(event.target.value);
-    this.setState({value: event.target.value});
+    this.setState({ value: event.target.value });
   }
 
   render() {
     const { value, options } = this.state;
 
     const optionsToRender = options.map((item, index) => (
-      <option key={index} value={item.id}>{item.name}</option>
+      <option key={index} value={item.id}>
+        {item.name}
+      </option>
     ));
     optionsToRender.unshift(
-      <option key="-1" value="" disabled>Select content area</option>      
+      <option key="-1" value="" disabled>
+        Select content area
+      </option>
     );
 
     return (
