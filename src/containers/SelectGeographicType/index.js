@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
 
@@ -32,7 +32,7 @@ class SelectGeographicType extends Component {
         );
         this.setState({
           options: response.data
-        })
+        });
       } catch (error) {
         console.error(error);
       }
@@ -49,10 +49,14 @@ class SelectGeographicType extends Component {
     const disabled = this.props.measureId === null;
 
     const optionsToRender = options.map((item, index) => (
-      <option key={index} value={item.geographicTypeId}>{item.geographicType}</option>
+      <option key={index} value={item.geographicTypeId}>
+        {item.geographicType}
+      </option>
     ));
     optionsToRender.unshift([
-      <option key="-1" value="" disabled>Select geographic type</option>,
+      <option key="-1" value="" disabled>
+        Select geographic type
+      </option>
     ]);
 
     return (

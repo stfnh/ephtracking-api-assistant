@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
 
@@ -27,13 +27,14 @@ class SelectIndicator extends Component {
   async getOptions(contentAreaId) {
     if (contentAreaId) {
       try {
-        const response = await axios(`https://ephtracking.cdc.gov/apigateway/api/v1/indicators/${contentAreaId}/0/0`);
-        console.log(response);
+        const response = await axios(
+          `https://ephtracking.cdc.gov/apigateway/api/v1/indicators/${contentAreaId}/0/0`
+        );
         this.setState({
           options: response.data
-        })
+        });
       } catch (error) {
-        console.log(error);
+        console.error(error);
       }
     }
   }
@@ -48,10 +49,14 @@ class SelectIndicator extends Component {
     const disabled = this.props.contentAreaId === null;
 
     const optionsToRender = options.map((item, index) => (
-      <option key={index} value={item.id}>{item.name}</option>
+      <option key={index} value={item.id}>
+        {item.name}
+      </option>
     ));
     optionsToRender.unshift(
-      <option key="-1" value="" disabled>Select indicator</option>
+      <option key="-1" value="" disabled>
+        Select indicator
+      </option>
     );
 
     return (
@@ -59,7 +64,11 @@ class SelectIndicator extends Component {
         <label className="label">Indicator</label>
         <div className="control">
           <div className="select">
-            <select value={value} onChange={this.handleChange} disabled={disabled}>
+            <select
+              value={value}
+              onChange={this.handleChange}
+              disabled={disabled}
+            >
               {optionsToRender}
             </select>
           </div>
