@@ -27,19 +27,21 @@ class SelectGeographicType extends Component {
   async getOptions(measureId) {
     if (measureId) {
       try {
-        const response = await axios(`https://ephtracking.cdc.gov/apigateway/api/v1/geographiclevels/${measureId}`);
+        const response = await axios(
+          `https://ephtracking.cdc.gov/apigateway/api/v1/geographiclevels/${measureId}`
+        );
         this.setState({
           options: response.data
         })
       } catch (error) {
-        console.log(error);
+        console.error(error);
       }
     }
   }
 
   handleChange(event) {
     this.props.handleSelect(event.target.value);
-    this.setState({value: event.target.value});
+    this.setState({ value: event.target.value });
   }
 
   render() {
@@ -58,7 +60,11 @@ class SelectGeographicType extends Component {
         <label className="label">Geographic type</label>
         <div className="control">
           <div className="select">
-            <select value={value} onChange={this.handleChange} disabled={disabled}>
+            <select
+              value={value}
+              onChange={this.handleChange}
+              disabled={disabled}
+            >
               {optionsToRender}
             </select>
           </div>

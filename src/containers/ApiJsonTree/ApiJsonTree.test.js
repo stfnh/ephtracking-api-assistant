@@ -20,6 +20,7 @@ describe('ApiJsonTree Container', () => {
   it('shows error message', async () => {
     const mock = new MockAdaptor(axios);
     mock.onGet(url).networkError();
+    console.error = jest.fn();
     const wrapper = shallow(<ApiJsonTree url={url} />);
     await wrapper.instance().getData(url);
     wrapper.update();
@@ -29,6 +30,7 @@ describe('ApiJsonTree Container', () => {
         <div className="notification is-danger">Network Error</div>
       )
     ).toBe(true);
+    expect(console.error).toHaveBeenCalled();
   });
 
   it('updates the url only if new props.url', () => {
