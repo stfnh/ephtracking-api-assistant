@@ -1,10 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import CheckboxTree from 'react-checkbox-tree';
 import axios from 'axios';
 
-// Select Stratification Level AND its query parameters
-// callback handleSelect will be called with stratificationLevelId and queryParameters
+/**
+ *
+ * Select Stratification Level AND its query parameters
+ * callback handleSelect will be called with stratificationLevelId and queryParameters
+ *
+ */
 class SelectStratificationLevel extends Component {
   constructor(props) {
     super(props);
@@ -30,7 +34,10 @@ class SelectStratificationLevel extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    if (nextProps.measureId !== this.props.measureId || nextProps.geographicTypeId !== this.props.geographicTypeId) {
+    if (
+      nextProps.measureId !== this.props.measureId ||
+      nextProps.geographicTypeId !== this.props.geographicTypeId
+    ) {
       this.setState({ value: '' });
       this.getOptions(nextProps.measureId, nextProps.geographicTypeId);
     }
@@ -39,31 +46,35 @@ class SelectStratificationLevel extends Component {
   async getOptions(measureId, geographicTypeId) {
     if (measureId && geographicTypeId) {
       try {
-        const response = await axios(`https://ephtracking.cdc.gov/apigateway/api/v1/stratificationlevel/${measureId}/${geographicTypeId}/0`);
+        const response = await axios(
+          `https://ephtracking.cdc.gov/apigateway/api/v1/stratificationlevel/${measureId}/${geographicTypeId}/0`
+        );
         this.setState({
           options: response.data
         });
-        const stratifications = await axios(`https://ephtracking.cdc.gov/apigateway/api/v1/measurestratification/${measureId}/${geographicTypeId}/0`);
+        const stratifications = await axios(
+          `https://ephtracking.cdc.gov/apigateway/api/v1/measurestratification/${measureId}/${geographicTypeId}/0`
+        );
         this.setState({
           stratifications: stratifications.data
         });
       } catch (error) {
-        console.log(error);
+        console.error(error);
       }
     }
   }
 
   // select stratifiation level
   handleChange(event) {
-    this.props.handleSelect(event.target.value);
-    this.setState({
-      value: event.target.value,
-      checked: [],
-      expanded: []
-    },
+    this.setState(
+      {
+        value: event.target.value,
+        checked: [],
+        expanded: []
+      },
       () => this.setParameterOptions()
     );
-    this.props.handleSelect(event.target.value, this.state.checked.join('&'));
+    this.props.handleSelect(event.target.value);
   }
 
   // returns stratifications for selected stratificationLevel
@@ -73,10 +84,14 @@ class SelectStratificationLevel extends Component {
     if (!value || value === '') {
       return null;
     }
-    const selectedStratificationLevel = options.find(o => o.id === parseInt(value, 10));
-    const stratificationParams = selectedStratificationLevel.stratificationType
-      .map(st => {
-        const stratification = stratifications.find(s => s.stratificationTypeId === st.id);
+    const selectedStratificationLevel = options.find(
+      o => o.id === parseInt(value, 10)
+    );
+    const stratificationParams = selectedStratificationLevel.stratificationType.map(
+      st => {
+        const stratification = stratifications.find(
+          s => s.stratificationTypeId === st.id
+        );
         return {
           value: stratification.columnName,
           label: stratification.displayName,
@@ -85,12 +100,13 @@ class SelectStratificationLevel extends Component {
             label: item.name
           }))
         };
-      });
+      }
+    );
     console.log(stratificationParams);
     this.setState({ parameterOptions: stratificationParams });
   }
 
-  // query params 
+  // query params
   handleCheck(checked) {
     this.setState({ checked });
 
@@ -98,7 +114,12 @@ class SelectStratificationLevel extends Component {
     const paramsJson = {};
     checked
       .map(d => d.split('='))
-      .forEach(d => paramsJson[d[0]] = paramsJson[d[0]] ? `${paramsJson[d[0]]},${d[1]}` : d[1]);
+      .forEach(
+        d =>
+          (paramsJson[d[0]] = paramsJson[d[0]]
+            ? `${paramsJson[d[0]]},${d[1]}`
+            : d[1])
+      );
     const preparedParams = [];
     for (let p in paramsJson) {
       preparedParams.push(`${p}=${paramsJson[p]}`);
@@ -114,13 +135,18 @@ class SelectStratificationLevel extends Component {
 
   render() {
     const { value, options, checked, expanded, parameterOptions } = this.state;
-    const disabled = this.props.measureId === null || this.props.geographicTypeId === null;
+    const disabled =
+      this.props.measureId === null || this.props.geographicTypeId === null;
 
     const optionsToRender = options.map((item, index) => (
-      <option key={index} value={item.id}>{item.name}</option>
+      <option key={index} value={item.id}>
+        {item.name}
+      </option>
     ));
     optionsToRender.unshift([
-      <option key="-1" value="" disabled>Select stratification level</option>,
+      <option key="-1" value="" disabled>
+        Select stratification level
+      </option>
     ]);
 
     return (
@@ -128,12 +154,16 @@ class SelectStratificationLevel extends Component {
         <label className="label">Stratification level</label>
         <div className="control">
           <div className="select">
-            <select value={value} onChange={this.handleChange} disabled={disabled}>
+            <select
+              value={value}
+              onChange={this.handleChange}
+              disabled={disabled}
+            >
               {optionsToRender}
             </select>
           </div>
         </div>
-        {parameterOptions.length > 0 &&
+        {parameterOptions.length > 0 && (
           <div className="m-t-sm">
             <CheckboxTree
               nodes={parameterOptions}
@@ -142,9 +172,12 @@ class SelectStratificationLevel extends Component {
               onCheck={this.handleCheck}
               onExpand={this.handleExpand}
             />
-            <p className="help">Note: Select at least one item per category. Some items can't be grouped.</p>
+            <p className="help">
+              Note: Select at least one item per category. Some items can't be
+              grouped.
+            </p>
           </div>
-        }
+        )}
       </div>
     );
   }
