@@ -46,8 +46,6 @@
       "!<rootDir>/node_modules/",
       "!src/index.js",
       "!src/registerServiceWorker.js"
-    ],
-    "coverageDirectory": "./coverage/",
-    "collectCoverage": true
+    ]
   }
 }
