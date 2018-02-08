@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
 
@@ -29,21 +29,24 @@ class SelectState extends Component {
   async getOptions(measureId) {
     if (measureId) {
       try {
-        const response = await axios(`https://ephtracking.cdc.gov/apigateway/api/v1/getStates/${measureId}`);
-        console.log(response);
-        const filteredStates = STATES.filter(item => response.data.find(fips => item.value === fips));
+        const response = await axios(
+          `https://ephtracking.cdc.gov/apigateway/api/v1/getStates/${measureId}`
+        );
+        const filteredStates = STATES.filter(item =>
+          response.data.find(fips => item.value === fips)
+        );
         this.setState({
           options: filteredStates
-        })
+        });
       } catch (error) {
-        console.log(error);
+        console.error(error);
       }
     }
   }
 
   handleChange(event) {
     this.props.handleSelect(event.target.value);
-    this.setState({value: event.target.value});
+    this.setState({ value: event.target.value });
   }
 
   render() {
@@ -51,10 +54,14 @@ class SelectState extends Component {
     const disabled = this.props.measureId === null;
 
     const optionsToRender = options.map(item => (
-      <option key={item.value} value={item.value}>{item.label}</option>
+      <option key={item.value} value={item.value}>
+        {item.label}
+      </option>
     ));
     optionsToRender.unshift([
-      <option key="-1" value="" disabled>Select state</option>,
+      <option key="-1" value="" disabled>
+        Select state
+      </option>
     ]);
 
     return (
@@ -62,7 +69,11 @@ class SelectState extends Component {
         <label className="label">State</label>
         <div className="control">
           <div className="select">
-            <select value={value} onChange={this.handleChange} disabled={disabled}>
+            <select
+              value={value}
+              onChange={this.handleChange}
+              disabled={disabled}
+            >
               {optionsToRender}
             </select>
           </div>
