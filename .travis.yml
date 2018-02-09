@@ -7,8 +7,8 @@ cache:
   directories:
   - node_modules
 script:
+  - npm test -- --coverage
   - npm run build
-  - npm run test --coverage
   - codecov
 deploy:
   provider: pages
