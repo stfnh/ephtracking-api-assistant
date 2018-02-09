@@ -38,11 +38,9 @@ class GetData extends Component {
   }
 
   handleInputChange(event) {
-    const target = event.target;
-    const value = target.type === 'checkbox' ? target.checked : target.value;
-    const name = target.name;
+    const { name, checked } = event.target;
     this.setState({
-      [name]: value
+      [name]: checked
     });
   }
 

@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 
 import CodeBlock from '../../components/CodeBlock';
 import CIM from '../../components/CIM';
-import GeographicFilter from '../../components/GeographicFilter'
+import GeographicFilter from '../../components/GeographicFilter';
 import Preview from '../../components/Preview';
 import SelectGeographicType from '../../containers/SelectGeographicType';
 import SelectStratificationLevel from '../../containers/SelectStratificationLevel';
@@ -29,7 +29,7 @@ class GetCoreHolder extends Component {
     this.setYears = this.setYears.bind(this);
     this.setGeographicFilter = this.setGeographicFilter.bind(this);
   }
-  
+
   setMeasureId(measureId) {
     this.setState({
       measureId,
@@ -38,7 +38,7 @@ class GetCoreHolder extends Component {
       years: [],
       geographicTypeIdFilter: 'ALL',
       geographicItemsFilter: 'ALL'
-     });
+    });
   }
 
   setGeographicTypeId(geographicTypeId) {
@@ -46,7 +46,7 @@ class GetCoreHolder extends Component {
       geographicTypeId,
       stratificationLevelId: null,
       geographicTypeIdFilter: 'ALL',
-      geographicItemsFilter: 'ALL',
+      geographicItemsFilter: 'ALL'
     });
   }
 
@@ -66,44 +66,93 @@ class GetCoreHolder extends Component {
   }
 
   handleInputChange(event) {
-    const target = event.target;
-    const value = target.type === 'checkbox' ? target.checked : target.value;
-    const name = target.name;
+    const { name, checked } = event.target;
     this.setState({
-      [name]: value
+      [name]: checked
     });
   }
 
   render() {
-    const { measureId, geographicTypeId, stratificationLevelId, geographicTypeIdFilter, geographicItemsFilter, years, isSmoothed, getFullCoreHolder, queryParams } = this.state;
-    const isValidUrl = measureId !== null && stratificationLevelId !== null
-      && geographicTypeIdFilter !== null && geographicItemsFilter !== null && years.length > 0;
-    const url = `https://ephtracking.cdc.gov/apigateway/api/v1/getCoreHolder/${measureId}/${stratificationLevelId}/${geographicTypeIdFilter}/${geographicItemsFilter}/${years.toString()}/${isSmoothed ? 1 : 0}/${getFullCoreHolder ? 1 : 0}${queryParams.length > 0 ? `?${queryParams}` : ''}`
+    const {
+      measureId,
+      geographicTypeId,
+      stratificationLevelId,
+      geographicTypeIdFilter,
+      geographicItemsFilter,
+      years,
+      isSmoothed,
+      getFullCoreHolder,
+      queryParams
+    } = this.state;
+
+    const isValidUrl =
+      measureId !== null &&
+      stratificationLevelId !== null &&
+      geographicTypeIdFilter !== null &&
+      geographicItemsFilter !== null &&
+      years.length > 0;
+
+    const url = `https://ephtracking.cdc.gov/apigateway/api/v1/getCoreHolder/${measureId}/${stratificationLevelId}/${geographicTypeIdFilter}/${geographicItemsFilter}/${years.toString()}/${
+      isSmoothed ? 1 : 0
+    }/${getFullCoreHolder ? 1 : 0}${
+      queryParams.length > 0 ? `?${queryParams}` : ''
+    }`;
 
     return (
       <Fragment>
         <h1 className="title">Retrieving all Values for a Measure</h1>
         <h5 className="title is-5">Usage</h5>
         <CodeBlock>
-          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/getCoreHolder/{'{'}measureId{'}'}/{'{'}stratificationLevelId{'}'}/{'{'}geographicTypeIdFilter{'}'}/{'{'}geographicItemsFilter{'}'}/{'{'}temporal{'}'}/{'{'}isSmoothed{'}'}/{'{'}getFullCoreHolder{'}'}[?apiToken][?Variables...]
+          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/getCoreHolder/{
+            '{'
+          }measureId{'}'}/{'{'}stratificationLevelId{'}'}/{'{'}geographicTypeIdFilter{
+            '}'
+          }/{'{'}geographicItemsFilter{'}'}/{'{'}temporal{'}'}/{'{'}isSmoothed{
+            '}'
+          }/{'{'}getFullCoreHolder{'}'}[?apiToken][?Variables...]
         </CodeBlock>
         <hr />
         <h5 className="title is-5">Set parameters</h5>
         <CIM handleSelect={this.setMeasureId} />
-        <SelectGeographicType measureId={measureId} handleSelect={this.setGeographicTypeId} />
-        <SelectStratificationLevel measureId={measureId} geographicTypeId={geographicTypeId} handleSelect={this.setStratificationLevelId} />
-        <GeographicFilter measureId={measureId} geographicTypeId={geographicTypeId} handleSelect={this.setGeographicFilter} />
+        <SelectGeographicType
+          measureId={measureId}
+          handleSelect={this.setGeographicTypeId}
+        />
+        <SelectStratificationLevel
+          measureId={measureId}
+          geographicTypeId={geographicTypeId}
+          handleSelect={this.setStratificationLevelId}
+        />
+        <GeographicFilter
+          measureId={measureId}
+          geographicTypeId={geographicTypeId}
+          handleSelect={this.setGeographicFilter}
+        />
         <SelectYears measureId={measureId} handleCheck={this.setYears} />
         <div className="field">
           <label className="checkbox">
-            <input name="isSmoothed" type="checkbox" checked={this.state.isSmoothed} onChange={this.handleInputChange} className="input-checkbox" />
+            <input
+              name="isSmoothed"
+              type="checkbox"
+              checked={this.state.isSmoothed}
+              onChange={this.handleInputChange}
+              className="input-checkbox"
+            />
             Is Smoothed
           </label>
-          <p className="help">Note: the majority of measures do not have smoothing values</p>
+          <p className="help">
+            Note: the majority of measures do not have smoothing values
+          </p>
         </div>
         <div className="field">
           <label className="checkbox">
-            <input name="getFullCoreHolder" type="checkbox" checked={this.state.getFullCoreHolder} onChange={this.handleInputChange} className="input-checkbox" />
+            <input
+              name="getFullCoreHolder"
+              type="checkbox"
+              checked={this.state.getFullCoreHolder}
+              onChange={this.handleInputChange}
+              className="input-checkbox"
+            />
             getFullCoreHolder
           </label>
         </div>

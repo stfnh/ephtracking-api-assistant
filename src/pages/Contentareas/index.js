@@ -13,12 +13,11 @@ class Contentareas extends Component {
     this.handleInputChange = this.handleInputChange.bind(this);
   }
 
+
   handleInputChange(event) {
-    const target = event.target;
-    const value = target.checked;
-    const name = target.name;
+    const { name, checked } = event.target;
     this.setState({
-      [name]: value
+      [name]: checked
     });
   }
 

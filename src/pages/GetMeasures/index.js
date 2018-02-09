@@ -8,8 +8,8 @@ class GetMeasures extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      url: "https://ephtracking.cdc.gov/apigateway/api/v1/getMeasures"
-    }
+      url: 'https://ephtracking.cdc.gov/apigateway/api/v1/getMeasures'
+    };
   }
 
   render() {
@@ -22,9 +22,7 @@ class GetMeasures extends Component {
           https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/getMeasures[?apiToken]
         </CodeBlock>
         <hr />
-        <Definition>
-          Listing of all Measures
-        </Definition>
+        <Definition>Listing of all Measures</Definition>
         <hr />
         <Preview url={url} />
       </Fragment>

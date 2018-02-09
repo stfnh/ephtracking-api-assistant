@@ -12,6 +12,6 @@ describe('Page GetStates', () => {
   it('sets measureId correctly', () => {
     const wrapper = shallow(<GetStates />);
     wrapper.instance().setMeasureId('333');
-    expect(wrapper.state()).toMatchObject({ measureId: '333' })
+    expect(wrapper.state()).toMatchObject({ measureId: '333' });
   });
 });

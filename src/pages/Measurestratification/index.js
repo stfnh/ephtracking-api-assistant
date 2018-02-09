@@ -17,7 +17,7 @@ class Measurestratification extends Component {
     this.setGeographicTypeId = this.setGeographicTypeId.bind(this);
     this.handleInputChange = this.handleInputChange.bind(this);
   }
-  
+
   setMeasureId(measureId) {
     this.setState({ measureId });
   }
@@ -27,11 +27,9 @@ class Measurestratification extends Component {
   }
 
   handleInputChange(event) {
-    const target = event.target;
-    const value = target.type === 'checkbox' ? target.checked : target.value;
-    const name = target.name;
+    const { name, checked } = event.target;
     this.setState({
-      [name]: value
+      [name]: checked
     });
   }
 

@@ -33,16 +33,4 @@ describe('Page Geography', () => {
     wrapper.instance().handleInputChange(event);
     expect(wrapper.state()).toMatchObject({ geographicRollup: true });
   });
-
-  it('handle input change correctly (ids)', () => {
-    const wrapper = shallow(<Geography />);
-    const event = {
-      target: {
-        value: '21',
-        name: 'measureId'
-      }
-    };
-    wrapper.instance().handleInputChange(event);
-    expect(wrapper.state()).toMatchObject({ measureId: '21' });
-  });
 });

@@ -1,8 +1,5 @@
 import React from 'react';
-import {
-  HashRouter as Router,
-  Route
-} from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 
 import './App.css';
 import './spacing.css';
@@ -38,7 +35,10 @@ const App = () => (
         <Route path="/measures" component={Measures} />
         <Route path="/geographiclevels" component={Geographiclevels} />
         <Route path="/geography" component={Geography} />
-        <Route path="/measurestratification" component={Measurestratification} />
+        <Route
+          path="/measurestratification"
+          component={Measurestratification}
+        />
         <Route path="/stratificationlevel" component={Stratificationlevel} />
         <Route path="/getCoreHolder" component={GetCoreHolder} />
       </div>

@@ -17,7 +17,7 @@ class Stratificationlevel extends Component {
     this.setGeographicTypeId = this.setGeographicTypeId.bind(this);
     this.handleInputChange = this.handleInputChange.bind(this);
   }
-  
+
   setMeasureId(measureId) {
     this.setState({ measureId });
   }
@@ -27,32 +27,45 @@ class Stratificationlevel extends Component {
   }
 
   handleInputChange(event) {
-    const target = event.target;
-    const value = target.type === 'checkbox' ? target.checked : target.value;
-    const name = target.name;
+    const { name, checked } = event.target;
     this.setState({
-      [name]: value
+      [name]: checked
     });
   }
 
   render() {
     const { measureId, geographicTypeId, isSmoothed } = this.state;
     const validUrl = measureId !== null && geographicTypeId !== null;
-    const url = `https://ephtracking.cdc.gov/apigateway/api/v1/stratificationlevel/${measureId}/${geographicTypeId}/${isSmoothed ? 1 : 0}`
+    const url = `https://ephtracking.cdc.gov/apigateway/api/v1/stratificationlevel/${measureId}/${geographicTypeId}/${
+      isSmoothed ? 1 : 0
+    }`;
     return (
       <Fragment>
-        <h1 className="title">Retrieving levels of stratification for a measure and geography type</h1>
+        <h1 className="title">
+          Retrieving levels of stratification for a measure and geography type
+        </h1>
         <h5 className="title is-5">Usage</h5>
         <CodeBlock>
-          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/stratificationlevel/{'{'}measureId{'}'}/{'{'}geographicTypeId{'}'}/{'{'}isSmoothed{'}'}[?apiToken]
+          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/stratificationlevel/{
+            '{'
+          }measureId{'}'}/{'{'}geographicTypeId{'}'}/{'{'}isSmoothed{'}'}[?apiToken]
         </CodeBlock>
         <hr />
         <h5 className="title is-5">Set parameters</h5>
         <CIM handleSelect={this.setMeasureId} />
-        <SelectGeographicType handleSelect={this.setGeographicTypeId} measureId={measureId} />
+        <SelectGeographicType
+          handleSelect={this.setGeographicTypeId}
+          measureId={measureId}
+        />
         <div className="field">
           <label className="checkbox">
-            <input name="isSmoothed" type="checkbox" checked={this.state.isSmoothed} onChange={this.handleInputChange} className="input-checkbox" />
+            <input
+              name="isSmoothed"
+              type="checkbox"
+              checked={this.state.isSmoothed}
+              onChange={this.handleInputChange}
+              className="input-checkbox"
+            />
             isSmoothed
           </label>
         </div>
