@@ -22,13 +22,13 @@ class GetData extends Component {
     this.handleStateSelect = this.handleStateSelect.bind(this);
     this.handleInputChange = this.handleInputChange.bind(this);
   }
-  
+
   setMeasureId(measureId) {
     this.setState({
       measureId,
       states: [],
       year: null
-     });
+    });
   }
 
   handleStateSelect(check) {
@@ -49,13 +49,19 @@ class GetData extends Component {
   render() {
     const { measureId, states, includeCounty, isSmoothed, year } = this.state;
     const isValidUrl = measureId && states && states.length > 0;
-    const url = `https://ephtracking.cdc.gov/apigateway/api/v1/getData/${measureId}/${states.toString()}/${includeCounty ? 1 : 0}/${year}/${isSmoothed ? 1 : 0}/json`
+    const url = `https://ephtracking.cdc.gov/apigateway/api/v1/getData/${measureId}/${states.toString()}/${
+      includeCounty ? 1 : 0
+    }/${year}/${isSmoothed ? 1 : 0}/json`;
     return (
       <Fragment>
         <h1 className="title">Retrieving Data Values for a Measure</h1>
         <h5 className="title is-5">Usage</h5>
         <CodeBlock>
-          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/getData/{'{'}measureId{'}'}/{'{'}state{'}'}/{'{'}includeCounty{'}'}/{'{'}temporal{'}'}/{'{'}isSmoothed{'}'}/{'{'}returnType{'}'}[?apiToken]
+          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/getData/{
+            '{'
+          }measureId{'}'}/{'{'}state{'}'}/{'{'}includeCounty{'}'}/{'{'}temporal{
+            '}'
+          }/{'{'}isSmoothed{'}'}/{'{'}returnType{'}'}[?apiToken]
         </CodeBlock>
         <hr />
         <h5 className="title is-5">Set parameters</h5>
@@ -66,17 +72,34 @@ class GetData extends Component {
         />
         <div className="field">
           <label className="checkbox">
-            <input name="includeCounty" type="checkbox" checked={this.state.includeCounty} onChange={this.handleInputChange} className="input-checkbox" />
+            <input
+              name="includeCounty"
+              type="checkbox"
+              checked={this.state.includeCounty}
+              onChange={this.handleInputChange}
+              className="input-checkbox"
+            />
             Include County
           </label>
         </div>
-        <SelectYear measureId={this.state.measureId} handleSelect={year => this.setState({ year })} />
+        <SelectYear
+          measureId={this.state.measureId}
+          handleSelect={year => this.setState({ year })}
+        />
         <div className="field">
           <label className="checkbox">
-            <input name="isSmoothed" type="checkbox" checked={this.state.isSmoothed} onChange={this.handleInputChange} className="input-checkbox" />
+            <input
+              name="isSmoothed"
+              type="checkbox"
+              checked={this.state.isSmoothed}
+              onChange={this.handleInputChange}
+              className="input-checkbox"
+            />
             Is Smoothed
           </label>
-          <p className="help">Note: the majority of measures do not have smoothing values</p>
+          <p className="help">
+            Note: the majority of measures do not have smoothing values
+          </p>
         </div>
         <hr />
         <Preview url={url} validUrl={isValidUrl} />

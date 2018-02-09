@@ -13,12 +13,12 @@ class GetStates extends Component {
     };
     this.setMeasureId = this.setMeasureId.bind(this);
   }
-  
+
   setMeasureId(measureId) {
     this.setState({
       measureId,
       url: `https://ephtracking.cdc.gov/apigateway/api/v1/getStates/${measureId}`
-     });
+    });
   }
 
   render() {
@@ -28,13 +28,15 @@ class GetStates extends Component {
         <h1 className="title">Retrieving State FIPS Code for a Measure</h1>
         <h5 className="title is-5">Usage</h5>
         <CodeBlock>
-          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/getStates/{'{'}measureId{'}'}[?apiToken]
+          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/getStates/{
+            '{'
+          }measureId{'}'}[?apiToken]
         </CodeBlock>
         <hr />
         <h5 className="title is-5">Set parameters</h5>
         <CIM handleSelect={this.setMeasureId} />
         <hr />
-        <Preview url={url} validUrl={this.state.measureId!==null} />
+        <Preview url={url} validUrl={this.state.measureId !== null} />
       </Fragment>
     );
   }

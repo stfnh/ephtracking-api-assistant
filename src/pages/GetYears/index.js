@@ -13,12 +13,12 @@ class GetYears extends Component {
     };
     this.setMeasureId = this.setMeasureId.bind(this);
   }
-  
+
   setMeasureId(measureId) {
     this.setState({
       measureId,
       url: `https://ephtracking.cdc.gov/apigateway/api/v1/getYears/${measureId}`
-     });
+    });
   }
 
   render() {
@@ -28,7 +28,9 @@ class GetYears extends Component {
         <h1 className="title">Retrieving Years with Data for a Measure</h1>
         <h5 className="title is-5">Usage</h5>
         <CodeBlock>
-          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/getYears/{'{'}measureId{'}'}[?apiToken]
+          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/getYears/{
+            '{'
+          }measureId{'}'}[?apiToken]
         </CodeBlock>
         <hr />
         <h5 className="title is-5">Set parameters</h5>

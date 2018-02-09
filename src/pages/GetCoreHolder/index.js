@@ -37,7 +37,7 @@ class GetCoreHolder extends Component {
       stratificationLevelId: null,
       years: [],
       geographicTypeIdFilter: 'ALL',
-      geographicItemsFilter: 'ALL',
+      geographicItemsFilter: 'ALL'
      });
   }
 

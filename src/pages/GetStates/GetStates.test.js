@@ -8,4 +8,10 @@ describe('Page GetStates', () => {
     const wrapper = shallow(<GetStates />);
     expect(wrapper).toMatchSnapshot();
   });
+
+  it('sets measureId correctly', () => {
+    const wrapper = shallow(<GetStates />);
+    wrapper.instance().setMeasureId('333');
+    expect(wrapper.state()).toMatchObject({ measureId: '333' })
+  });
 });
