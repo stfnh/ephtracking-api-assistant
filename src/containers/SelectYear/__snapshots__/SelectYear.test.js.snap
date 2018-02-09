@@ -1,0 +1,918 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectIndicator Container renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SelectYear
+    handleSelect={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <label
+          className="label"
+>
+          Year
+</label>,
+        <div
+          className="control"
+>
+          <div
+                    className="select"
+          >
+                    <select
+                              disabled={false}
+                              onChange={[Function]}
+                              value=""
+                    >
+                              <option
+                                        disabled={true}
+                                        value=""
+                              >
+                                        Select year
+                              </option>
+                              <option
+                                        value="ALL"
+                              >
+                                        ALL
+                              </option>
+                    </select>
+          </div>
+</div>,
+      ],
+      "className": "field",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Year",
+          "className": "label",
+        },
+        "ref": null,
+        "rendered": "Year",
+        "type": "label",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="select"
+>
+            <select
+                        disabled={false}
+                        onChange={[Function]}
+                        value=""
+            >
+                        <option
+                                    disabled={true}
+                                    value=""
+                        >
+                                    Select year
+                        </option>
+                        <option
+                                    value="ALL"
+                        >
+                                    ALL
+                        </option>
+            </select>
+</div>,
+          "className": "control",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <select
+              disabled={false}
+              onChange={[Function]}
+              value=""
+>
+              <option
+                            disabled={true}
+                            value=""
+              >
+                            Select year
+              </option>
+              <option
+                            value="ALL"
+              >
+                            ALL
+              </option>
+</select>,
+            "className": "select",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                Array [
+                  <option
+                    disabled={true}
+                    value=""
+>
+                    Select year
+</option>,
+                  <option
+                    value="ALL"
+>
+                    ALL
+</option>,
+                ],
+              ],
+              "disabled": false,
+              "onChange": [Function],
+              "value": "",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "-1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Select year",
+                  "disabled": true,
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": "Select year",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "allyears",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "ALL",
+                  "value": "ALL",
+                },
+                "ref": null,
+                "rendered": "ALL",
+                "type": "option",
+              },
+            ],
+            "type": "select",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <label
+            className="label"
+>
+            Year
+</label>,
+          <div
+            className="control"
+>
+            <div
+                        className="select"
+            >
+                        <select
+                                    disabled={false}
+                                    onChange={[Function]}
+                                    value=""
+                        >
+                                    <option
+                                                disabled={true}
+                                                value=""
+                                    >
+                                                Select year
+                                    </option>
+                                    <option
+                                                value="ALL"
+                                    >
+                                                ALL
+                                    </option>
+                        </select>
+            </div>
+</div>,
+        ],
+        "className": "field",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Year",
+            "className": "label",
+          },
+          "ref": null,
+          "rendered": "Year",
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="select"
+>
+              <select
+                            disabled={false}
+                            onChange={[Function]}
+                            value=""
+              >
+                            <option
+                                          disabled={true}
+                                          value=""
+                            >
+                                          Select year
+                            </option>
+                            <option
+                                          value="ALL"
+                            >
+                                          ALL
+                            </option>
+              </select>
+</div>,
+            "className": "control",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <select
+                disabled={false}
+                onChange={[Function]}
+                value=""
+>
+                <option
+                                disabled={true}
+                                value=""
+                >
+                                Select year
+                </option>
+                <option
+                                value="ALL"
+                >
+                                ALL
+                </option>
+</select>,
+              "className": "select",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  Array [
+                    <option
+                      disabled={true}
+                      value=""
+>
+                      Select year
+</option>,
+                    <option
+                      value="ALL"
+>
+                      ALL
+</option>,
+                  ],
+                ],
+                "disabled": false,
+                "onChange": [Function],
+                "value": "",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "-1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Select year",
+                    "disabled": true,
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": "Select year",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "allyears",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "ALL",
+                    "value": "ALL",
+                  },
+                  "ref": null,
+                  "rendered": "ALL",
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`SelectIndicator Container renders correctly 2`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SelectYear
+    handleSelect={[Function]}
+    measureId="123"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <label
+          className="label"
+>
+          Year
+</label>,
+        <div
+          className="control"
+>
+          <div
+                    className="select"
+          >
+                    <select
+                              disabled={false}
+                              onChange={[Function]}
+                              value=""
+                    >
+                              <option
+                                        disabled={true}
+                                        value=""
+                              >
+                                        Select year
+                              </option>
+                              <option
+                                        value="ALL"
+                              >
+                                        ALL
+                              </option>
+                              <option
+                                        value="2001"
+                              >
+                                        2001
+                              </option>
+                              <option
+                                        value="2002"
+                              >
+                                        2002
+                              </option>
+                              <option
+                                        value="2003"
+                              >
+                                        2003
+                              </option>
+                    </select>
+          </div>
+</div>,
+      ],
+      "className": "field",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Year",
+          "className": "label",
+        },
+        "ref": null,
+        "rendered": "Year",
+        "type": "label",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="select"
+>
+            <select
+                        disabled={false}
+                        onChange={[Function]}
+                        value=""
+            >
+                        <option
+                                    disabled={true}
+                                    value=""
+                        >
+                                    Select year
+                        </option>
+                        <option
+                                    value="ALL"
+                        >
+                                    ALL
+                        </option>
+                        <option
+                                    value="2001"
+                        >
+                                    2001
+                        </option>
+                        <option
+                                    value="2002"
+                        >
+                                    2002
+                        </option>
+                        <option
+                                    value="2003"
+                        >
+                                    2003
+                        </option>
+            </select>
+</div>,
+          "className": "control",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <select
+              disabled={false}
+              onChange={[Function]}
+              value=""
+>
+              <option
+                            disabled={true}
+                            value=""
+              >
+                            Select year
+              </option>
+              <option
+                            value="ALL"
+              >
+                            ALL
+              </option>
+              <option
+                            value="2001"
+              >
+                            2001
+              </option>
+              <option
+                            value="2002"
+              >
+                            2002
+              </option>
+              <option
+                            value="2003"
+              >
+                            2003
+              </option>
+</select>,
+            "className": "select",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                Array [
+                  <option
+                    disabled={true}
+                    value=""
+>
+                    Select year
+</option>,
+                  <option
+                    value="ALL"
+>
+                    ALL
+</option>,
+                ],
+                <option
+                  value="2001"
+>
+                  2001
+</option>,
+                <option
+                  value="2002"
+>
+                  2002
+</option>,
+                <option
+                  value="2003"
+>
+                  2003
+</option>,
+              ],
+              "disabled": false,
+              "onChange": [Function],
+              "value": "",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "-1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Select year",
+                  "disabled": true,
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": "Select year",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "allyears",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "ALL",
+                  "value": "ALL",
+                },
+                "ref": null,
+                "rendered": "ALL",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2001",
+                  "value": "2001",
+                },
+                "ref": null,
+                "rendered": "2001",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2002",
+                  "value": "2002",
+                },
+                "ref": null,
+                "rendered": "2002",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2003",
+                  "value": "2003",
+                },
+                "ref": null,
+                "rendered": "2003",
+                "type": "option",
+              },
+            ],
+            "type": "select",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <label
+            className="label"
+>
+            Year
+</label>,
+          <div
+            className="control"
+>
+            <div
+                        className="select"
+            >
+                        <select
+                                    disabled={false}
+                                    onChange={[Function]}
+                                    value=""
+                        >
+                                    <option
+                                                disabled={true}
+                                                value=""
+                                    >
+                                                Select year
+                                    </option>
+                                    <option
+                                                value="ALL"
+                                    >
+                                                ALL
+                                    </option>
+                                    <option
+                                                value="2001"
+                                    >
+                                                2001
+                                    </option>
+                                    <option
+                                                value="2002"
+                                    >
+                                                2002
+                                    </option>
+                                    <option
+                                                value="2003"
+                                    >
+                                                2003
+                                    </option>
+                        </select>
+            </div>
+</div>,
+        ],
+        "className": "field",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Year",
+            "className": "label",
+          },
+          "ref": null,
+          "rendered": "Year",
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="select"
+>
+              <select
+                            disabled={false}
+                            onChange={[Function]}
+                            value=""
+              >
+                            <option
+                                          disabled={true}
+                                          value=""
+                            >
+                                          Select year
+                            </option>
+                            <option
+                                          value="ALL"
+                            >
+                                          ALL
+                            </option>
+                            <option
+                                          value="2001"
+                            >
+                                          2001
+                            </option>
+                            <option
+                                          value="2002"
+                            >
+                                          2002
+                            </option>
+                            <option
+                                          value="2003"
+                            >
+                                          2003
+                            </option>
+              </select>
+</div>,
+            "className": "control",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <select
+                disabled={false}
+                onChange={[Function]}
+                value=""
+>
+                <option
+                                disabled={true}
+                                value=""
+                >
+                                Select year
+                </option>
+                <option
+                                value="ALL"
+                >
+                                ALL
+                </option>
+                <option
+                                value="2001"
+                >
+                                2001
+                </option>
+                <option
+                                value="2002"
+                >
+                                2002
+                </option>
+                <option
+                                value="2003"
+                >
+                                2003
+                </option>
+</select>,
+              "className": "select",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  Array [
+                    <option
+                      disabled={true}
+                      value=""
+>
+                      Select year
+</option>,
+                    <option
+                      value="ALL"
+>
+                      ALL
+</option>,
+                  ],
+                  <option
+                    value="2001"
+>
+                    2001
+</option>,
+                  <option
+                    value="2002"
+>
+                    2002
+</option>,
+                  <option
+                    value="2003"
+>
+                    2003
+</option>,
+                ],
+                "disabled": false,
+                "onChange": [Function],
+                "value": "",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "-1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Select year",
+                    "disabled": true,
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": "Select year",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "allyears",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "ALL",
+                    "value": "ALL",
+                  },
+                  "ref": null,
+                  "rendered": "ALL",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2001",
+                    "value": "2001",
+                  },
+                  "ref": null,
+                  "rendered": "2001",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2002",
+                    "value": "2002",
+                  },
+                  "ref": null,
+                  "rendered": "2002",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2003",
+                    "value": "2003",
+                  },
+                  "ref": null,
+                  "rendered": "2003",
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
