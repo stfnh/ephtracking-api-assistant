@@ -8,8 +8,8 @@ cache:
   - node_modules
 script:
   - npm test -- --coverage
-  - npm run build
   - codecov
+  - npm run build
 deploy:
   provider: pages
   skip_cleanup: true
