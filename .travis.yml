@@ -1,12 +1,16 @@
 language: node_js
 node_js:
   - "stable"
+install:
+  - npm install -g codecov
 cache:
   directories:
   - node_modules
 script:
   - npm run build
   - npm run test
+  - npm run test --coverage
+  - codecov
 deploy:
   provider: pages
   skip_cleanup: true
