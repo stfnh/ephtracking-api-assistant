@@ -15,7 +15,7 @@ class Contentareas extends Component {
 
   handleInputChange(event) {
     const target = event.target;
-    const value = target.type === 'checkbox' ? target.checked : target.value;
+    const value = target.checked;
     const name = target.name;
     this.setState({
       [name]: value
@@ -36,13 +36,25 @@ class Contentareas extends Component {
         <h5 className="title is-5">Set parameters</h5>
         <div className="field">
           <label className="checkbox">
-            <input name="getChildMeasure" type="checkbox" checked={this.state.getChildMeasure} onChange={this.handleInputChange} className="input-checkbox" />
+            <input
+              name="getChildMeasure"
+              type="checkbox"
+              checked={this.state.getChildMeasure}
+              onChange={this.handleInputChange}
+              className="input-checkbox"
+            />
             getChildMeasure
           </label>
         </div>
         <div className="field">
           <label className="checkbox">
-            <input name="getMultiMeasure" type="checkbox" checked={this.state.getMultiMeasure} onChange={this.handleInputChange} className="input-checkbox" />
+            <input
+              name="getMultiMeasure"
+              type="checkbox"
+              checked={this.state.getMultiMeasure}
+              onChange={this.handleInputChange}
+              className="input-checkbox"
+            />
             getMultiMeasure
           </label>
         </div>
