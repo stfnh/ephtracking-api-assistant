@@ -66,6 +66,7 @@ class SelectStratificationLevel extends Component {
 
   // select stratifiation level
   handleChange(event) {
+    // reset stratification parameters and fetch new parameters based on selected stratification level
     this.setState(
       {
         value: event.target.value,
@@ -74,19 +75,18 @@ class SelectStratificationLevel extends Component {
       },
       () => this.setParameterOptions()
     );
-    this.props.handleSelect(event.target.value);
+    this.props.handleSelect(event.target.value, '');
   }
 
-  // returns stratifications for selected stratificationLevel
+  // sets stratifications for selected stratificationLevel (state.parameterOptions)
   // in shape for checkbox tree
   setParameterOptions() {
     const { options, stratifications, value } = this.state;
-    if (!value || value === '') {
-      return null;
-    }
+    // finds the selected stratification level (e.g. State x Gender x Race/Ethnicity)
     const selectedStratificationLevel = options.find(
       o => o.id === parseInt(value, 10)
     );
+    // adds the stratification options / params to the stratificationTypes of the selected stratifciation level
     const stratificationParams = selectedStratificationLevel.stratificationType.map(
       st => {
         const stratification = stratifications.find(
@@ -102,7 +102,6 @@ class SelectStratificationLevel extends Component {
         };
       }
     );
-    console.log(stratificationParams);
     this.setState({ parameterOptions: stratificationParams });
   }
 
