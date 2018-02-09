@@ -5,7 +5,7 @@ import MockAdaptor from 'axios-mock-adapter';
 
 import SelectYear from './';
 
-describe('SelectIndicator Container', () => {
+describe('SelectYear Container', () => {
   const mock = new MockAdaptor(axios);
   it('renders correctly', async () => {
     mock.reset();

@@ -10,9 +10,10 @@ export class SelectYears extends Component {
       expanded: [],
       checked: [],
       years: []
-    }
+    };
     this.loadData = this.loadData.bind(this);
     this.handleCheck = this.handleCheck.bind(this);
+    this.handleExpand = this.handleExpand.bind(this);
   }
 
   componentDidMount() {
@@ -28,14 +29,16 @@ export class SelectYears extends Component {
   async loadData(measureId) {
     if (measureId) {
       try {
-        const response = await axios(`https://ephtracking.cdc.gov/apigateway/api/v1/getYears/${measureId}`);
+        const response = await axios(
+          `https://ephtracking.cdc.gov/apigateway/api/v1/getYears/${measureId}`
+        );
         this.setState({
           years: response.data,
           expanded: [],
           checked: []
-        })
+        });
       } catch (error) {
-        console.log(error);
+        console.error(error);
       }
     } else {
       // reset
@@ -43,7 +46,7 @@ export class SelectYears extends Component {
         expanded: [],
         checked: [],
         years: []
-      })
+      });
     }
   }
 
@@ -52,19 +55,25 @@ export class SelectYears extends Component {
     this.props.handleCheck(checked);
   }
 
+  handleExpand(expanded) {
+    this.setState({ expanded });
+  }
+
   render() {
     const { years } = this.state;
-    
-    const nodes = [{
-      value: 'ALL',
-      label: 'All years',
-      icon: <i className="fa fa-calendar-check-o" />,
-      children: years.map(year => ({
-        value: year,
-        label: year,
-        icon: <i className="fa fa-calendar-plus-o" />
-      }))
-    }];
+
+    const nodes = [
+      {
+        value: 'ALL',
+        label: 'All years',
+        icon: <i className="fa fa-calendar-check-o" />,
+        children: years.map(year => ({
+          value: year,
+          label: year,
+          icon: <i className="fa fa-calendar-plus-o" />
+        }))
+      }
+    ];
 
     return (
       <Fragment>
@@ -75,7 +84,7 @@ export class SelectYears extends Component {
             checked={this.state.checked}
             expanded={this.state.expanded}
             onCheck={this.handleCheck}
-            onExpand={expanded => this.setState({ expanded })}
+            onExpand={this.handleExpanded}
             disabled={this.props.measureId === null}
           />
         </div>

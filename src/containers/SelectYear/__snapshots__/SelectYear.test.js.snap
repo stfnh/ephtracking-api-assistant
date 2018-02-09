@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SelectIndicator Container renders correctly 1`] = `
+exports[`SelectYear Container renders correctly 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
@@ -362,7 +362,7 @@ ShallowWrapper {
 }
 `;
 
-exports[`SelectIndicator Container renders correctly 2`] = `
+exports[`SelectYear Container renders correctly 2`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
