@@ -9,7 +9,7 @@ describe('SelectYear Container', () => {
   const mock = new MockAdaptor(axios);
   it('renders correctly', async () => {
     mock.reset();
-    mock.onAny().reply(200, ['2001', '2002', '2003']); // fips
+    mock.onAny().reply(200, ['2001', '2002', '2003']);
     const handleSelect = jest.fn();
     // render without contentAreaId
     const wrapper = shallow(<SelectYear handleSelect={handleSelect} />);

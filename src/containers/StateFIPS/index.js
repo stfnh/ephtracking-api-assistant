@@ -15,6 +15,7 @@ export class StateFIPS extends Component {
     };
     this.loadData = this.loadData.bind(this);
     this.handleCheck = this.handleCheck.bind(this);
+    this.handleExpand = this.handleExpand.bind(this);
   }
 
   componentDidMount() {
@@ -27,17 +28,23 @@ export class StateFIPS extends Component {
     }
   }
 
+  handleExpand(expanded) {
+    this.setState({ expanded });
+  }
+
   async loadData(measureId) {
     if (measureId) {
       try {
-        const response = await axios(`https://ephtracking.cdc.gov/apigateway/api/v1/getStates/${measureId}`);
+        const response = await axios(
+          `https://ephtracking.cdc.gov/apigateway/api/v1/getStates/${measureId}`
+        );
         this.setState({
           statesForMeasure: response.data,
           expanded: [],
           checked: []
-        })
+        });
       } catch (error) {
-        console.log(error);
+        console.error(error);
       }
     } else {
       // reset
@@ -45,14 +52,14 @@ export class StateFIPS extends Component {
         expanded: [],
         checked: [],
         statesForMeasure: []
-      })
+      });
     }
   }
 
   handleCheck(checked) {
     this.setState({ checked });
     if (checked.length === this.state.statesForMeasure.length) {
-      this.props.handleCheck(["ALL"]);
+      this.props.handleCheck(['ALL']);
     } else {
       this.props.handleCheck(checked);
     }
@@ -60,15 +67,18 @@ export class StateFIPS extends Component {
 
   render() {
     const { statesForMeasure } = this.state;
-    const filteredStates = states
-      .filter(item => statesForMeasure.find(fips => item.value === fips));
+    const filteredStates = states.filter(item =>
+      statesForMeasure.find(fips => item.value === fips)
+    );
 
-    const nodes = [{
-      value: 'ALL',
-      label: 'All States',
-      icon: <i className="fa fa-globe" />,
-      children: filteredStates
-    }];
+    const nodes = [
+      {
+        value: 'ALL',
+        label: 'All States',
+        icon: <i className="fa fa-globe" />,
+        children: filteredStates
+      }
+    ];
 
     return (
       <Fragment>
@@ -79,7 +89,7 @@ export class StateFIPS extends Component {
             checked={this.state.checked}
             expanded={this.state.expanded}
             onCheck={this.handleCheck}
-            onExpand={expanded => this.setState({ expanded })}
+            onExpand={this.handleExpand}
             disabled={this.props.measureId === null}
           />
         </div>
