@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page GetMeasures renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <GetMeasures />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <h1
+          className="title"
+>
+          Retrieving all Measures
+</h1>,
+        <h5
+          className="title is-5"
+>
+          Usage
+</h5>,
+        <CodeBlock>
+          https://ephtracking.cdc.gov/apigateway/api/
+          {
+          version
+          }
+          /getMeasures[?apiToken]
+</CodeBlock>,
+        <hr />,
+        <Definition>
+          Listing of all Measures
+</Definition>,
+        <hr />,
+        <Preview
+          url="https://ephtracking.cdc.gov/apigateway/api/v1/getMeasures"
+          validUrl={true}
+/>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Retrieving all Measures",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "Retrieving all Measures",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Usage",
+          "className": "title is-5",
+        },
+        "ref": null,
+        "rendered": "Usage",
+        "type": "h5",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            "https://ephtracking.cdc.gov/apigateway/api/",
+            "{",
+            "version",
+            "}",
+            "/getMeasures[?apiToken]",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "https://ephtracking.cdc.gov/apigateway/api/",
+          "{",
+          "version",
+          "}",
+          "/getMeasures[?apiToken]",
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "hr",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Listing of all Measures",
+        },
+        "ref": null,
+        "rendered": "Listing of all Measures",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "hr",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "url": "https://ephtracking.cdc.gov/apigateway/api/v1/getMeasures",
+          "validUrl": true,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="title"
+>
+            Retrieving all Measures
+</h1>,
+          <h5
+            className="title is-5"
+>
+            Usage
+</h5>,
+          <CodeBlock>
+            https://ephtracking.cdc.gov/apigateway/api/
+            {
+            version
+            }
+            /getMeasures[?apiToken]
+</CodeBlock>,
+          <hr />,
+          <Definition>
+            Listing of all Measures
+</Definition>,
+          <hr />,
+          <Preview
+            url="https://ephtracking.cdc.gov/apigateway/api/v1/getMeasures"
+            validUrl={true}
+/>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Retrieving all Measures",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "Retrieving all Measures",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Usage",
+            "className": "title is-5",
+          },
+          "ref": null,
+          "rendered": "Usage",
+          "type": "h5",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              "https://ephtracking.cdc.gov/apigateway/api/",
+              "{",
+              "version",
+              "}",
+              "/getMeasures[?apiToken]",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "https://ephtracking.cdc.gov/apigateway/api/",
+            "{",
+            "version",
+            "}",
+            "/getMeasures[?apiToken]",
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Listing of all Measures",
+          },
+          "ref": null,
+          "rendered": "Listing of all Measures",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "url": "https://ephtracking.cdc.gov/apigateway/api/v1/getMeasures",
+            "validUrl": true,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

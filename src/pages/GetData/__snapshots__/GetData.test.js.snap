@@ -1,0 +1,877 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page GetData renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <GetData />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <h1
+          className="title"
+>
+          Retrieving Data Values for a Measure
+</h1>,
+        <h5
+          className="title is-5"
+>
+          Usage
+</h5>,
+        <CodeBlock>
+          https://ephtracking.cdc.gov/apigateway/api/
+          {
+          version
+          }
+          /getData/
+          {
+          measureId
+          }
+          /
+          {
+          state
+          }
+          /
+          {
+          includeCounty
+          }
+          /
+          {
+          temporal
+          }
+          /
+          {
+          isSmoothed
+          }
+          /
+          {
+          returnType
+          }
+          [?apiToken]
+</CodeBlock>,
+        <hr />,
+        <h5
+          className="title is-5"
+>
+          Set parameters
+</h5>,
+        <CIM
+          handleSelect={[Function]}
+/>,
+        <StateFIPS
+          handleCheck={[Function]}
+          measureId={null}
+/>,
+        <div
+          className="field"
+>
+          <label
+                    className="checkbox"
+          >
+                    <input
+                              checked={false}
+                              className="input-checkbox"
+                              name="includeCounty"
+                              onChange={[Function]}
+                              type="checkbox"
+                    />
+                    Include County
+          </label>
+</div>,
+        <SelectYear
+          handleSelect={[Function]}
+          measureId={null}
+/>,
+        <div
+          className="field"
+>
+          <label
+                    className="checkbox"
+          >
+                    <input
+                              checked={false}
+                              className="input-checkbox"
+                              name="isSmoothed"
+                              onChange={[Function]}
+                              type="checkbox"
+                    />
+                    Is Smoothed
+          </label>
+          <p
+                    className="help"
+          >
+                    Note: the majority of measures do not have smoothing values
+          </p>
+</div>,
+        <hr />,
+        <Preview
+          url="https://ephtracking.cdc.gov/apigateway/api/v1/getData/null//0/null/0/json"
+          validUrl={null}
+/>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Retrieving Data Values for a Measure",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "Retrieving Data Values for a Measure",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Usage",
+          "className": "title is-5",
+        },
+        "ref": null,
+        "rendered": "Usage",
+        "type": "h5",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            "https://ephtracking.cdc.gov/apigateway/api/",
+            "{",
+            "version",
+            "}",
+            "/getData/",
+            "{",
+            "measureId",
+            "}",
+            "/",
+            "{",
+            "state",
+            "}",
+            "/",
+            "{",
+            "includeCounty",
+            "}",
+            "/",
+            "{",
+            "temporal",
+            "}",
+            "/",
+            "{",
+            "isSmoothed",
+            "}",
+            "/",
+            "{",
+            "returnType",
+            "}",
+            "[?apiToken]",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "https://ephtracking.cdc.gov/apigateway/api/",
+          "{",
+          "version",
+          "}",
+          "/getData/",
+          "{",
+          "measureId",
+          "}",
+          "/",
+          "{",
+          "state",
+          "}",
+          "/",
+          "{",
+          "includeCounty",
+          "}",
+          "/",
+          "{",
+          "temporal",
+          "}",
+          "/",
+          "{",
+          "isSmoothed",
+          "}",
+          "/",
+          "{",
+          "returnType",
+          "}",
+          "[?apiToken]",
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "hr",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Set parameters",
+          "className": "title is-5",
+        },
+        "ref": null,
+        "rendered": "Set parameters",
+        "type": "h5",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "handleSelect": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "handleCheck": [Function],
+          "measureId": null,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <label
+            className="checkbox"
+>
+            <input
+                        checked={false}
+                        className="input-checkbox"
+                        name="includeCounty"
+                        onChange={[Function]}
+                        type="checkbox"
+            />
+            Include County
+</label>,
+          "className": "field",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                checked={false}
+                className="input-checkbox"
+                name="includeCounty"
+                onChange={[Function]}
+                type="checkbox"
+/>,
+              "Include County",
+            ],
+            "className": "checkbox",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "checked": false,
+                "className": "input-checkbox",
+                "name": "includeCounty",
+                "onChange": [Function],
+                "type": "checkbox",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            "Include County",
+          ],
+          "type": "label",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "handleSelect": [Function],
+          "measureId": null,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <label
+              className="checkbox"
+>
+              <input
+                            checked={false}
+                            className="input-checkbox"
+                            name="isSmoothed"
+                            onChange={[Function]}
+                            type="checkbox"
+              />
+              Is Smoothed
+</label>,
+            <p
+              className="help"
+>
+              Note: the majority of measures do not have smoothing values
+</p>,
+          ],
+          "className": "field",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  checked={false}
+                  className="input-checkbox"
+                  name="isSmoothed"
+                  onChange={[Function]}
+                  type="checkbox"
+/>,
+                "Is Smoothed",
+              ],
+              "className": "checkbox",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "checked": false,
+                  "className": "input-checkbox",
+                  "name": "isSmoothed",
+                  "onChange": [Function],
+                  "type": "checkbox",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              "Is Smoothed",
+            ],
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Note: the majority of measures do not have smoothing values",
+              "className": "help",
+            },
+            "ref": null,
+            "rendered": "Note: the majority of measures do not have smoothing values",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "hr",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "url": "https://ephtracking.cdc.gov/apigateway/api/v1/getData/null//0/null/0/json",
+          "validUrl": null,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="title"
+>
+            Retrieving Data Values for a Measure
+</h1>,
+          <h5
+            className="title is-5"
+>
+            Usage
+</h5>,
+          <CodeBlock>
+            https://ephtracking.cdc.gov/apigateway/api/
+            {
+            version
+            }
+            /getData/
+            {
+            measureId
+            }
+            /
+            {
+            state
+            }
+            /
+            {
+            includeCounty
+            }
+            /
+            {
+            temporal
+            }
+            /
+            {
+            isSmoothed
+            }
+            /
+            {
+            returnType
+            }
+            [?apiToken]
+</CodeBlock>,
+          <hr />,
+          <h5
+            className="title is-5"
+>
+            Set parameters
+</h5>,
+          <CIM
+            handleSelect={[Function]}
+/>,
+          <StateFIPS
+            handleCheck={[Function]}
+            measureId={null}
+/>,
+          <div
+            className="field"
+>
+            <label
+                        className="checkbox"
+            >
+                        <input
+                                    checked={false}
+                                    className="input-checkbox"
+                                    name="includeCounty"
+                                    onChange={[Function]}
+                                    type="checkbox"
+                        />
+                        Include County
+            </label>
+</div>,
+          <SelectYear
+            handleSelect={[Function]}
+            measureId={null}
+/>,
+          <div
+            className="field"
+>
+            <label
+                        className="checkbox"
+            >
+                        <input
+                                    checked={false}
+                                    className="input-checkbox"
+                                    name="isSmoothed"
+                                    onChange={[Function]}
+                                    type="checkbox"
+                        />
+                        Is Smoothed
+            </label>
+            <p
+                        className="help"
+            >
+                        Note: the majority of measures do not have smoothing values
+            </p>
+</div>,
+          <hr />,
+          <Preview
+            url="https://ephtracking.cdc.gov/apigateway/api/v1/getData/null//0/null/0/json"
+            validUrl={null}
+/>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Retrieving Data Values for a Measure",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "Retrieving Data Values for a Measure",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Usage",
+            "className": "title is-5",
+          },
+          "ref": null,
+          "rendered": "Usage",
+          "type": "h5",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              "https://ephtracking.cdc.gov/apigateway/api/",
+              "{",
+              "version",
+              "}",
+              "/getData/",
+              "{",
+              "measureId",
+              "}",
+              "/",
+              "{",
+              "state",
+              "}",
+              "/",
+              "{",
+              "includeCounty",
+              "}",
+              "/",
+              "{",
+              "temporal",
+              "}",
+              "/",
+              "{",
+              "isSmoothed",
+              "}",
+              "/",
+              "{",
+              "returnType",
+              "}",
+              "[?apiToken]",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "https://ephtracking.cdc.gov/apigateway/api/",
+            "{",
+            "version",
+            "}",
+            "/getData/",
+            "{",
+            "measureId",
+            "}",
+            "/",
+            "{",
+            "state",
+            "}",
+            "/",
+            "{",
+            "includeCounty",
+            "}",
+            "/",
+            "{",
+            "temporal",
+            "}",
+            "/",
+            "{",
+            "isSmoothed",
+            "}",
+            "/",
+            "{",
+            "returnType",
+            "}",
+            "[?apiToken]",
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Set parameters",
+            "className": "title is-5",
+          },
+          "ref": null,
+          "rendered": "Set parameters",
+          "type": "h5",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "handleSelect": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "handleCheck": [Function],
+            "measureId": null,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <label
+              className="checkbox"
+>
+              <input
+                            checked={false}
+                            className="input-checkbox"
+                            name="includeCounty"
+                            onChange={[Function]}
+                            type="checkbox"
+              />
+              Include County
+</label>,
+            "className": "field",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  checked={false}
+                  className="input-checkbox"
+                  name="includeCounty"
+                  onChange={[Function]}
+                  type="checkbox"
+/>,
+                "Include County",
+              ],
+              "className": "checkbox",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "checked": false,
+                  "className": "input-checkbox",
+                  "name": "includeCounty",
+                  "onChange": [Function],
+                  "type": "checkbox",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              "Include County",
+            ],
+            "type": "label",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "handleSelect": [Function],
+            "measureId": null,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label
+                className="checkbox"
+>
+                <input
+                                checked={false}
+                                className="input-checkbox"
+                                name="isSmoothed"
+                                onChange={[Function]}
+                                type="checkbox"
+                />
+                Is Smoothed
+</label>,
+              <p
+                className="help"
+>
+                Note: the majority of measures do not have smoothing values
+</p>,
+            ],
+            "className": "field",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <input
+                    checked={false}
+                    className="input-checkbox"
+                    name="isSmoothed"
+                    onChange={[Function]}
+                    type="checkbox"
+/>,
+                  "Is Smoothed",
+                ],
+                "className": "checkbox",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "checked": false,
+                    "className": "input-checkbox",
+                    "name": "isSmoothed",
+                    "onChange": [Function],
+                    "type": "checkbox",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                "Is Smoothed",
+              ],
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Note: the majority of measures do not have smoothing values",
+                "className": "help",
+              },
+              "ref": null,
+              "rendered": "Note: the majority of measures do not have smoothing values",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "url": "https://ephtracking.cdc.gov/apigateway/api/v1/getData/null//0/null/0/json",
+            "validUrl": null,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
