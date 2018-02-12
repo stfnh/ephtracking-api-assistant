@@ -39,6 +39,32 @@ describe('Page GetCoreHolder', () => {
     });
   });
 
+  it('sets measureId correctly and resets state', () => {
+    const wrapper = shallow(<GetCoreHolder />);
+    wrapper.instance().setMeasureId('123');
+    expect(wrapper.state()).toMatchObject({
+      measureId: '123',
+      geographicTypeId: null,
+      stratificationLevelId: null,
+      years: [],
+      geographicTypeIdFilter: 'ALL',
+      geographicItemsFilter: 'ALL',
+      queryParams: ''
+    });
+  });
+
+  it('set geographicTypeId correctly', () => {
+    const wrapper = shallow(<GetCoreHolder />);
+    wrapper.instance().setGeographicTypeId('1');
+    expect(wrapper.state()).toMatchObject({
+      geographicTypeId: '1',
+      stratificationLevelId: null,
+      geographicTypeIdFilter: 'ALL',
+      geographicItemsFilter: 'ALL',
+      queryParams: ''
+    });
+  });
+
   it('can handle input change', () => {
     const wrapper = shallow(<GetCoreHolder />);
     const event = {

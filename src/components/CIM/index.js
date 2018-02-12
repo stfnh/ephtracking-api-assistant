@@ -21,11 +21,13 @@ export class CIM extends Component {
   setContentAreaId(contentAreaId) {
     this.setState({ contentAreaId, indicatorId: null });
     this.setMeasureId(null);
+    // this.props.handleSelect(null);
   }
 
   setIndicatorId(indicatorId) {
     this.setState({ indicatorId });
     this.setMeasureId(null);
+    // this.props.handleSelect(null);
   }
 
   setMeasureId(measureId) {

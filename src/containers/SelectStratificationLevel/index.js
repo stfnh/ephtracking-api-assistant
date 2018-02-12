@@ -38,7 +38,15 @@ class SelectStratificationLevel extends Component {
       nextProps.measureId !== this.props.measureId ||
       nextProps.geographicTypeId !== this.props.geographicTypeId
     ) {
-      this.setState({ value: '' });
+      // reset state
+      this.setState({
+        options: [],
+        stratifications: [],
+        value: '',
+        parameterOptions: [],
+        checked: [],
+        expanded: []
+      });
       this.getOptions(nextProps.measureId, nextProps.geographicTypeId);
     }
   }

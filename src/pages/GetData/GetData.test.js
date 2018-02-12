@@ -21,6 +21,13 @@ describe('Page GetData', () => {
     expect(wrapper.state().states).toEqual(['01', '02', '04']);
   });
 
+  it('handles year select correctly', () => {
+    const wrapper = shallow(<GetData />);
+    wrapper.instance().handleYearSelect('2012');
+    expect(wrapper.state().year).toEqual('2012');
+  });
+
+
   it('can handle input change', () => {
     const wrapper = shallow(<GetData />);
     const event = {
