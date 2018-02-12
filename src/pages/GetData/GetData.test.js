@@ -8,4 +8,29 @@ describe('Page GetData', () => {
     const wrapper = shallow(<GetData />);
     expect(wrapper).toMatchSnapshot();
   });
+
+  it('sets measureId correctly', () => {
+    const wrapper = shallow(<GetData />);
+    wrapper.instance().setMeasureId('123');
+    expect(wrapper.state().measureId).toBe('123');
+  });
+
+  it('handles stateSelect correctly', () => {
+    const wrapper = shallow(<GetData />);
+    wrapper.instance().handleStateSelect(['01', '02', '04']);
+    expect(wrapper.state().states).toEqual(['01', '02', '04']);
+  });
+
+  it('can handle input change', () => {
+    const wrapper = shallow(<GetData />);
+    const event = {
+      target: {
+        name: 'getChildMeasure',
+        checked: true,
+        type: 'checkbox'
+      }
+    };
+    wrapper.instance().handleInputChange(event);
+    expect(wrapper.state().getChildMeasure).toBe(true);
+  });
 });
