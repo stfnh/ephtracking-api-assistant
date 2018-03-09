@@ -26,7 +26,7 @@
     "enzyme-adapter-react-16": "1.1.1",
     "enzyme-to-json": "3.3.1",
     "eslint-plugin-prettier": "2.5.0",
-    "prettier": "1.10.2",
+    "prettier": "1.11.1",
     "react-scripts": "1.1.0",
     "react-test-renderer": "16.2.0"
   },
