@@ -21,6 +21,7 @@ class GetData extends Component {
     this.setMeasureId = this.setMeasureId.bind(this);
     this.handleStateSelect = this.handleStateSelect.bind(this);
     this.handleInputChange = this.handleInputChange.bind(this);
+    this.handleYearSelect = this.handleYearSelect.bind(this);
   }
 
   setMeasureId(measureId) {
@@ -42,6 +43,10 @@ class GetData extends Component {
     this.setState({
       [name]: checked
     });
+  }
+
+  handleYearSelect(year) {
+    this.setState({ year });
   }
 
   render() {
@@ -82,7 +87,7 @@ class GetData extends Component {
         </div>
         <SelectYear
           measureId={this.state.measureId}
-          handleSelect={year => this.setState({ year })}
+          handleSelect={this.handleYearSelect}
         />
         <div className="field">
           <label className="checkbox">
