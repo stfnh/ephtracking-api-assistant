@@ -11,7 +11,7 @@ export default [
   { value: "10", label: "Delaware", icon: <i className="fa fa-flag-o" /> },
   { value: "11", label: "District of Columbia", icon: <i className="fa fa-flag-o" /> },
   { value: "12", label: "Florida", icon: <i className="fa fa-flag-o" /> },
-  { value: "13", label: "Geogia", icon: <i className="fa fa-flag-o" /> },
+  { value: "13", label: "Georgia", icon: <i className="fa fa-flag-o" /> },
   { value: "15", label: "Hawaii", icon: <i className="fa fa-flag-o" /> },
   { value: "16", label: "Idaho", icon: <i className="fa fa-flag-o" /> },
   { value: "17", label: "Illinois", icon: <i className="fa fa-flag-o" /> },
