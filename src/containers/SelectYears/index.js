@@ -84,7 +84,7 @@ export class SelectYears extends Component {
             checked={this.state.checked}
             expanded={this.state.expanded}
             onCheck={this.handleCheck}
-            onExpand={this.handleExpanded}
+            onExpand={this.handleExpand}
             disabled={this.props.measureId === null}
           />
         </div>
