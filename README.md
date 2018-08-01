@@ -4,7 +4,7 @@
 [![codecov](https://codecov.io/gh/stfnh/ephtracking-api-assistant/branch/master/graph/badge.svg)](https://codecov.io/gh/stfnh/ephtracking-api-assistant)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 
-Hosted on github pages: https://stfnh.github.io/ephtracking-api-assistant
+Hosted with Now: https://ephtracking-api.now.sh/
 
 This web app allows you to explore and build EPH Tracking API queries more easily by providing. From the EPH Portal:
 
