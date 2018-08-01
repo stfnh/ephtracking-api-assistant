@@ -188,7 +188,7 @@ ShallowWrapper {
                     >
                               <a
                                         className="button is-link"
-                                        href="https://github.com/stfnh/ephtracking-api-assistant"
+                                        href="https://github.com/CDCgov/ephtracking-api-assistant"
                                         rel="noopener noreferrer"
                                         target="_blank"
                               >
@@ -454,7 +454,7 @@ ShallowWrapper {
               >
                             <a
                                           className="button is-link"
-                                          href="https://github.com/stfnh/ephtracking-api-assistant"
+                                          href="https://github.com/CDCgov/ephtracking-api-assistant"
                                           rel="noopener noreferrer"
                                           target="_blank"
                             >
@@ -1130,7 +1130,7 @@ ShallowWrapper {
 >
                 <a
                                 className="button is-link"
-                                href="https://github.com/stfnh/ephtracking-api-assistant"
+                                href="https://github.com/CDCgov/ephtracking-api-assistant"
                                 rel="noopener noreferrer"
                                 target="_blank"
                 >
@@ -1157,7 +1157,7 @@ ShallowWrapper {
               "props": Object {
                 "children": <a
                   className="button is-link"
-                  href="https://github.com/stfnh/ephtracking-api-assistant"
+                  href="https://github.com/CDCgov/ephtracking-api-assistant"
                   rel="noopener noreferrer"
                   target="_blank"
 >
@@ -1195,7 +1195,7 @@ ShallowWrapper {
 </span>,
                   ],
                   "className": "button is-link",
-                  "href": "https://github.com/stfnh/ephtracking-api-assistant",
+                  "href": "https://github.com/CDCgov/ephtracking-api-assistant",
                   "rel": "noopener noreferrer",
                   "target": "_blank",
                 },
@@ -1428,7 +1428,7 @@ ShallowWrapper {
                         >
                                     <a
                                                 className="button is-link"
-                                                href="https://github.com/stfnh/ephtracking-api-assistant"
+                                                href="https://github.com/CDCgov/ephtracking-api-assistant"
                                                 rel="noopener noreferrer"
                                                 target="_blank"
                                     >
@@ -1694,7 +1694,7 @@ ShallowWrapper {
                 >
                                 <a
                                                 className="button is-link"
-                                                href="https://github.com/stfnh/ephtracking-api-assistant"
+                                                href="https://github.com/CDCgov/ephtracking-api-assistant"
                                                 rel="noopener noreferrer"
                                                 target="_blank"
                                 >
@@ -2370,7 +2370,7 @@ ShallowWrapper {
 >
                   <a
                                     className="button is-link"
-                                    href="https://github.com/stfnh/ephtracking-api-assistant"
+                                    href="https://github.com/CDCgov/ephtracking-api-assistant"
                                     rel="noopener noreferrer"
                                     target="_blank"
                   >
@@ -2397,7 +2397,7 @@ ShallowWrapper {
                 "props": Object {
                   "children": <a
                     className="button is-link"
-                    href="https://github.com/stfnh/ephtracking-api-assistant"
+                    href="https://github.com/CDCgov/ephtracking-api-assistant"
                     rel="noopener noreferrer"
                     target="_blank"
 >
@@ -2435,7 +2435,7 @@ ShallowWrapper {
 </span>,
                     ],
                     "className": "button is-link",
-                    "href": "https://github.com/stfnh/ephtracking-api-assistant",
+                    "href": "https://github.com/CDCgov/ephtracking-api-assistant",
                     "rel": "noopener noreferrer",
                     "target": "_blank",
                   },
