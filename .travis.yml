@@ -11,12 +11,17 @@ script:
   - npm test -- --coverage
   - codecov
   - npm run build
+  - now --public --token $NOW_TOKEN
 deploy:
-  edge:
-    branch: v1.8.47
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: build
-  on:
-    branch: master
+  - provider: script
+    script: now --public --token $NOW_TOKEN
+    skip_cleanup: true
+    on:
+      all_branches: true
+      master: false
+  - provider: script
+    script: now --public --token $NOW_TOKEN && now alias
+    skip_cleanup: true
+    on:
+      master: true
+
