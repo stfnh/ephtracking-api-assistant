@@ -27,13 +27,15 @@ ShallowWrapper {
         >
                 Years
         </label>
-        <CheckboxTree
+        <t
                 checked={Array []}
                 disabled={false}
                 expandDisabled={false}
+                expandOnClick={false}
                 expanded={Array []}
                 name={undefined}
                 nameAsArray={false}
+                nativeCheckboxes={false}
                 noCascade={false}
                 nodes={
                         Array [
@@ -48,7 +50,9 @@ ShallowWrapper {
                               ]
                 }
                 onCheck={[Function]}
+                onClick={[Function]}
                 onExpand={[Function]}
+                onlyLeafCheckboxes={false}
                 optimisticToggle={true}
                 showNodeIcon={true}
         />
@@ -66,13 +70,15 @@ ShallowWrapper {
 >
             Years
 </label>,
-          <CheckboxTree
+          <t
             checked={Array []}
             disabled={false}
             expandDisabled={false}
+            expandOnClick={false}
             expanded={Array []}
             name={undefined}
             nameAsArray={false}
+            nativeCheckboxes={false}
             noCascade={false}
             nodes={
                         Array [
@@ -87,7 +93,9 @@ ShallowWrapper {
                                   ]
             }
             onCheck={[Function]}
+            onClick={[Function]}
             onExpand={[Function]}
+            onlyLeafCheckboxes={false}
             optimisticToggle={true}
             showNodeIcon={true}
 />,
@@ -116,9 +124,11 @@ ShallowWrapper {
             "checked": Array [],
             "disabled": false,
             "expandDisabled": false,
+            "expandOnClick": false,
             "expanded": Array [],
             "name": undefined,
             "nameAsArray": false,
+            "nativeCheckboxes": false,
             "noCascade": false,
             "nodes": Array [
               Object {
@@ -131,7 +141,9 @@ ShallowWrapper {
               },
             ],
             "onCheck": [Function],
+            "onClick": [Function],
             "onExpand": [Function],
+            "onlyLeafCheckboxes": false,
             "optimisticToggle": true,
             "showNodeIcon": true,
           },
@@ -158,13 +170,15 @@ ShallowWrapper {
           >
                     Years
           </label>
-          <CheckboxTree
+          <t
                     checked={Array []}
                     disabled={false}
                     expandDisabled={false}
+                    expandOnClick={false}
                     expanded={Array []}
                     name={undefined}
                     nameAsArray={false}
+                    nativeCheckboxes={false}
                     noCascade={false}
                     nodes={
                               Array [
@@ -179,7 +193,9 @@ ShallowWrapper {
                                       ]
                     }
                     onCheck={[Function]}
+                    onClick={[Function]}
                     onExpand={[Function]}
+                    onlyLeafCheckboxes={false}
                     optimisticToggle={true}
                     showNodeIcon={true}
           />
@@ -197,13 +213,15 @@ ShallowWrapper {
 >
               Years
 </label>,
-            <CheckboxTree
+            <t
               checked={Array []}
               disabled={false}
               expandDisabled={false}
+              expandOnClick={false}
               expanded={Array []}
               name={undefined}
               nameAsArray={false}
+              nativeCheckboxes={false}
               noCascade={false}
               nodes={
                             Array [
@@ -218,7 +236,9 @@ ShallowWrapper {
                                         ]
               }
               onCheck={[Function]}
+              onClick={[Function]}
               onExpand={[Function]}
+              onlyLeafCheckboxes={false}
               optimisticToggle={true}
               showNodeIcon={true}
 />,
@@ -247,9 +267,11 @@ ShallowWrapper {
               "checked": Array [],
               "disabled": false,
               "expandDisabled": false,
+              "expandOnClick": false,
               "expanded": Array [],
               "name": undefined,
               "nameAsArray": false,
+              "nativeCheckboxes": false,
               "noCascade": false,
               "nodes": Array [
                 Object {
@@ -262,7 +284,9 @@ ShallowWrapper {
                 },
               ],
               "onCheck": [Function],
+              "onClick": [Function],
               "onExpand": [Function],
+              "onlyLeafCheckboxes": false,
               "optimisticToggle": true,
               "showNodeIcon": true,
             },
@@ -314,13 +338,15 @@ ShallowWrapper {
         >
                 Years
         </label>
-        <CheckboxTree
+        <t
                 checked={Array []}
                 disabled={false}
                 expandDisabled={false}
+                expandOnClick={false}
                 expanded={Array []}
                 name={undefined}
                 nameAsArray={false}
+                nativeCheckboxes={false}
                 noCascade={false}
                 nodes={
                         Array [
@@ -357,7 +383,9 @@ ShallowWrapper {
                               ]
                 }
                 onCheck={[Function]}
+                onClick={[Function]}
                 onExpand={[Function]}
+                onlyLeafCheckboxes={false}
                 optimisticToggle={true}
                 showNodeIcon={true}
         />
@@ -375,13 +403,15 @@ ShallowWrapper {
 >
             Years
 </label>,
-          <CheckboxTree
+          <t
             checked={Array []}
             disabled={false}
             expandDisabled={false}
+            expandOnClick={false}
             expanded={Array []}
             name={undefined}
             nameAsArray={false}
+            nativeCheckboxes={false}
             noCascade={false}
             nodes={
                         Array [
@@ -418,7 +448,9 @@ ShallowWrapper {
                                   ]
             }
             onCheck={[Function]}
+            onClick={[Function]}
             onExpand={[Function]}
+            onlyLeafCheckboxes={false}
             optimisticToggle={true}
             showNodeIcon={true}
 />,
@@ -447,9 +479,11 @@ ShallowWrapper {
             "checked": Array [],
             "disabled": false,
             "expandDisabled": false,
+            "expandOnClick": false,
             "expanded": Array [],
             "name": undefined,
             "nameAsArray": false,
+            "nativeCheckboxes": false,
             "noCascade": false,
             "nodes": Array [
               Object {
@@ -484,7 +518,9 @@ ShallowWrapper {
               },
             ],
             "onCheck": [Function],
+            "onClick": [Function],
             "onExpand": [Function],
+            "onlyLeafCheckboxes": false,
             "optimisticToggle": true,
             "showNodeIcon": true,
           },
@@ -511,13 +547,15 @@ ShallowWrapper {
           >
                     Years
           </label>
-          <CheckboxTree
+          <t
                     checked={Array []}
                     disabled={false}
                     expandDisabled={false}
+                    expandOnClick={false}
                     expanded={Array []}
                     name={undefined}
                     nameAsArray={false}
+                    nativeCheckboxes={false}
                     noCascade={false}
                     nodes={
                               Array [
@@ -554,7 +592,9 @@ ShallowWrapper {
                                       ]
                     }
                     onCheck={[Function]}
+                    onClick={[Function]}
                     onExpand={[Function]}
+                    onlyLeafCheckboxes={false}
                     optimisticToggle={true}
                     showNodeIcon={true}
           />
@@ -572,13 +612,15 @@ ShallowWrapper {
 >
               Years
 </label>,
-            <CheckboxTree
+            <t
               checked={Array []}
               disabled={false}
               expandDisabled={false}
+              expandOnClick={false}
               expanded={Array []}
               name={undefined}
               nameAsArray={false}
+              nativeCheckboxes={false}
               noCascade={false}
               nodes={
                             Array [
@@ -615,7 +657,9 @@ ShallowWrapper {
                                         ]
               }
               onCheck={[Function]}
+              onClick={[Function]}
               onExpand={[Function]}
+              onlyLeafCheckboxes={false}
               optimisticToggle={true}
               showNodeIcon={true}
 />,
@@ -644,9 +688,11 @@ ShallowWrapper {
               "checked": Array [],
               "disabled": false,
               "expandDisabled": false,
+              "expandOnClick": false,
               "expanded": Array [],
               "name": undefined,
               "nameAsArray": false,
+              "nativeCheckboxes": false,
               "noCascade": false,
               "nodes": Array [
                 Object {
@@ -681,7 +727,9 @@ ShallowWrapper {
                 },
               ],
               "onCheck": [Function],
+              "onClick": [Function],
               "onExpand": [Function],
+              "onlyLeafCheckboxes": false,
               "optimisticToggle": true,
               "showNodeIcon": true,
             },
