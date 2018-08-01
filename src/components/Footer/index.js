@@ -12,9 +12,9 @@ const Footer = () => (
         </p>
         <a
           className="github-button"
-          href="https://github.com/stfnh/ephtracking-api-assistant/fork"
+          href="https://github.com/CDCgov/ephtracking-api-assistant/fork"
           data-size="large"
-          aria-label="Fork stfnh/ephtracking-api-assistant on GitHub"
+          aria-label="Fork CDCgov/ephtracking-api-assistant on GitHub"
         >
           Fork
         </a>{' '}

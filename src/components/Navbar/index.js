@@ -78,7 +78,7 @@ class Navbar extends Component {
               <a
                 className="button is-link"
                 rel="noopener noreferrer"
-                href="https://github.com/stfnh/ephtracking-api-assistant"
+                href="https://github.com/CDCgov/ephtracking-api-assistant"
                 target="_blank"
               >
                 <span className="icon">
