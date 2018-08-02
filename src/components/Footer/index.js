@@ -5,10 +5,7 @@ const Footer = () => (
     <div className="container">
       <div className="content has-text-centered">
         <p>
-          <strong>Environmental Public Health Trackign API Assistant</strong> by{' '}
-          <a href="https://github.com/stfnh">Stefan Hochwarter</a>. code is
-          licensed{' '}
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+          <strong>Environmental Public Health Tracking API Assistant</strong>
         </p>
         <a
           className="github-button"
