@@ -1,0 +1,11 @@
+{
+  "name": "ephtracking-api-assistant",
+  "alias": "ephtracking-api",
+  "scale": {
+    "sfo1": {
+      "min": 0,
+      "max": 0
+    }
+  }
+}
+

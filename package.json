@@ -2,7 +2,6 @@
   "name": "ephtracking-api-assistant",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://stfnh.github.io/ephtracking-api-assistant",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
@@ -17,7 +16,8 @@
     "react-dom": "^16.4.2",
     "react-json-tree": "0.11.0",
     "react-router-dom": "4.3.1",
-    "react-spinkit": "3.0.0"
+    "react-spinkit": "3.0.0",
+    "serve": "^9.4.0"
   },
   "devDependencies": {
     "axios-mock-adapter": "1.15.0",
@@ -36,6 +36,7 @@
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
+    "now-start": "serve --single ./build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

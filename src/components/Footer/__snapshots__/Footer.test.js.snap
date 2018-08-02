@@ -12,29 +12,14 @@ exports[`Footer renders correctly 1`] = `
     >
       <p>
         <strong>
-          Environmental Public Health Trackign API Assistant
+          Environmental Public Health Tracking API Assistant
         </strong>
-         by
-         
-        <a
-          href="https://github.com/stfnh"
-        >
-          Stefan Hochwarter
-        </a>
-        . code is licensed
-         
-        <a
-          href="http://opensource.org/licenses/mit-license.php"
-        >
-          MIT
-        </a>
-        .
       </p>
       <a
-        aria-label="Fork stfnh/ephtracking-api-assistant on GitHub"
+        aria-label="Fork CDCgov/ephtracking-api-assistant on GitHub"
         className="github-button"
         data-size="large"
-        href="https://github.com/stfnh/ephtracking-api-assistant/fork"
+        href="https://github.com/CDCgov/ephtracking-api-assistant/fork"
       >
         Fork
       </a>

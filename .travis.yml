@@ -11,12 +11,11 @@ script:
   - npm test -- --coverage
   - codecov
   - npm run build
+before_deploy: npm install now --no-save # Install Now CLI on Travis
 deploy:
-  edge:
-    branch: v1.8.47
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: build
-  on:
-    branch: master
+  - provider: script
+    script: now --public --token $NOW_TOKEN && now alias --token $NOW_TOKEN
+    skip_cleanup: true
+    on:
+      master: true
+

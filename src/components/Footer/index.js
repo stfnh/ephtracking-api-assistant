@@ -5,16 +5,13 @@ const Footer = () => (
     <div className="container">
       <div className="content has-text-centered">
         <p>
-          <strong>Environmental Public Health Trackign API Assistant</strong> by{' '}
-          <a href="https://github.com/stfnh">Stefan Hochwarter</a>. code is
-          licensed{' '}
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+          <strong>Environmental Public Health Tracking API Assistant</strong>
         </p>
         <a
           className="github-button"
-          href="https://github.com/stfnh/ephtracking-api-assistant/fork"
+          href="https://github.com/CDCgov/ephtracking-api-assistant/fork"
           data-size="large"
-          aria-label="Fork stfnh/ephtracking-api-assistant on GitHub"
+          aria-label="Fork CDCgov/ephtracking-api-assistant on GitHub"
         >
           Fork
         </a>{' '}
