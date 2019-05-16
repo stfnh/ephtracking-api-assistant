@@ -26,7 +26,6 @@ ShallowWrapper {
                 <li>
                         <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/getMeasures"
                         >
                                 getMeasures
@@ -35,7 +34,6 @@ ShallowWrapper {
                 <li>
                         <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/getGeographicLevels"
                         >
                                 getGeographicLevels
@@ -44,7 +42,6 @@ ShallowWrapper {
                 <li>
                         <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/getStates"
                         >
                                 getStates
@@ -53,7 +50,6 @@ ShallowWrapper {
                 <li>
                         <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/getYears"
                         >
                                 getYears
@@ -62,7 +58,6 @@ ShallowWrapper {
                 <li>
                         <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/getData"
                         >
                                 getData
@@ -71,7 +66,6 @@ ShallowWrapper {
                 <li>
                         <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/contentareas"
                         >
                                 contentareas
@@ -80,7 +74,6 @@ ShallowWrapper {
                 <li>
                         <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/indicators"
                         >
                                 indicators
@@ -89,7 +82,6 @@ ShallowWrapper {
                 <li>
                         <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/measures"
                         >
                                 measures
@@ -98,7 +90,6 @@ ShallowWrapper {
                 <li>
                         <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/geographiclevels"
                         >
                                 geographiclevels
@@ -107,7 +98,6 @@ ShallowWrapper {
                 <li>
                         <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/geography"
                         >
                                 geography
@@ -116,7 +106,6 @@ ShallowWrapper {
                 <li>
                         <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/measurestratification"
                         >
                                 measurestratification
@@ -125,7 +114,6 @@ ShallowWrapper {
                 <li>
                         <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/stratificationlevel"
                         >
                                 stratificationlevel
@@ -134,7 +122,6 @@ ShallowWrapper {
                 <li>
                         <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/getCoreHolder"
                         >
                                 getCoreHolder
@@ -155,7 +142,6 @@ ShallowWrapper {
           <li>
                     <NavLink
                               activeClassName="is-active"
-                              aria-current="page"
                               to="/getMeasures"
                     >
                               getMeasures
@@ -164,7 +150,6 @@ ShallowWrapper {
           <li>
                     <NavLink
                               activeClassName="is-active"
-                              aria-current="page"
                               to="/getGeographicLevels"
                     >
                               getGeographicLevels
@@ -173,7 +158,6 @@ ShallowWrapper {
           <li>
                     <NavLink
                               activeClassName="is-active"
-                              aria-current="page"
                               to="/getStates"
                     >
                               getStates
@@ -182,7 +166,6 @@ ShallowWrapper {
           <li>
                     <NavLink
                               activeClassName="is-active"
-                              aria-current="page"
                               to="/getYears"
                     >
                               getYears
@@ -191,7 +174,6 @@ ShallowWrapper {
           <li>
                     <NavLink
                               activeClassName="is-active"
-                              aria-current="page"
                               to="/getData"
                     >
                               getData
@@ -200,7 +182,6 @@ ShallowWrapper {
           <li>
                     <NavLink
                               activeClassName="is-active"
-                              aria-current="page"
                               to="/contentareas"
                     >
                               contentareas
@@ -209,7 +190,6 @@ ShallowWrapper {
           <li>
                     <NavLink
                               activeClassName="is-active"
-                              aria-current="page"
                               to="/indicators"
                     >
                               indicators
@@ -218,7 +198,6 @@ ShallowWrapper {
           <li>
                     <NavLink
                               activeClassName="is-active"
-                              aria-current="page"
                               to="/measures"
                     >
                               measures
@@ -227,7 +206,6 @@ ShallowWrapper {
           <li>
                     <NavLink
                               activeClassName="is-active"
-                              aria-current="page"
                               to="/geographiclevels"
                     >
                               geographiclevels
@@ -236,7 +214,6 @@ ShallowWrapper {
           <li>
                     <NavLink
                               activeClassName="is-active"
-                              aria-current="page"
                               to="/geography"
                     >
                               geography
@@ -245,7 +222,6 @@ ShallowWrapper {
           <li>
                     <NavLink
                               activeClassName="is-active"
-                              aria-current="page"
                               to="/measurestratification"
                     >
                               measurestratification
@@ -254,7 +230,6 @@ ShallowWrapper {
           <li>
                     <NavLink
                               activeClassName="is-active"
-                              aria-current="page"
                               to="/stratificationlevel"
                     >
                               stratificationlevel
@@ -263,7 +238,6 @@ ShallowWrapper {
           <li>
                     <NavLink
                               activeClassName="is-active"
-                              aria-current="page"
                               to="/getCoreHolder"
                     >
                               getCoreHolder
@@ -282,7 +256,6 @@ ShallowWrapper {
             <li>
               <NavLink
                             activeClassName="is-active"
-                            aria-current="page"
                             to="/getMeasures"
               >
                             getMeasures
@@ -291,7 +264,6 @@ ShallowWrapper {
             <li>
               <NavLink
                             activeClassName="is-active"
-                            aria-current="page"
                             to="/getGeographicLevels"
               >
                             getGeographicLevels
@@ -300,7 +272,6 @@ ShallowWrapper {
             <li>
               <NavLink
                             activeClassName="is-active"
-                            aria-current="page"
                             to="/getStates"
               >
                             getStates
@@ -309,7 +280,6 @@ ShallowWrapper {
             <li>
               <NavLink
                             activeClassName="is-active"
-                            aria-current="page"
                             to="/getYears"
               >
                             getYears
@@ -318,7 +288,6 @@ ShallowWrapper {
             <li>
               <NavLink
                             activeClassName="is-active"
-                            aria-current="page"
                             to="/getData"
               >
                             getData
@@ -327,7 +296,6 @@ ShallowWrapper {
             <li>
               <NavLink
                             activeClassName="is-active"
-                            aria-current="page"
                             to="/contentareas"
               >
                             contentareas
@@ -336,7 +304,6 @@ ShallowWrapper {
             <li>
               <NavLink
                             activeClassName="is-active"
-                            aria-current="page"
                             to="/indicators"
               >
                             indicators
@@ -345,7 +312,6 @@ ShallowWrapper {
             <li>
               <NavLink
                             activeClassName="is-active"
-                            aria-current="page"
                             to="/measures"
               >
                             measures
@@ -354,7 +320,6 @@ ShallowWrapper {
             <li>
               <NavLink
                             activeClassName="is-active"
-                            aria-current="page"
                             to="/geographiclevels"
               >
                             geographiclevels
@@ -363,7 +328,6 @@ ShallowWrapper {
             <li>
               <NavLink
                             activeClassName="is-active"
-                            aria-current="page"
                             to="/geography"
               >
                             geography
@@ -372,7 +336,6 @@ ShallowWrapper {
             <li>
               <NavLink
                             activeClassName="is-active"
-                            aria-current="page"
                             to="/measurestratification"
               >
                             measurestratification
@@ -381,7 +344,6 @@ ShallowWrapper {
             <li>
               <NavLink
                             activeClassName="is-active"
-                            aria-current="page"
                             to="/stratificationlevel"
               >
                             stratificationlevel
@@ -390,7 +352,6 @@ ShallowWrapper {
             <li>
               <NavLink
                             activeClassName="is-active"
-                            aria-current="page"
                             to="/getCoreHolder"
               >
                             getCoreHolder
@@ -408,7 +369,6 @@ ShallowWrapper {
             "props": Object {
               "children": <NavLink
                 activeClassName="is-active"
-                aria-current="page"
                 to="/getMeasures"
 >
                 getMeasures
@@ -421,7 +381,6 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "activeClassName": "is-active",
-                "aria-current": "page",
                 "children": "getMeasures",
                 "to": "/getMeasures",
               },
@@ -438,7 +397,6 @@ ShallowWrapper {
             "props": Object {
               "children": <NavLink
                 activeClassName="is-active"
-                aria-current="page"
                 to="/getGeographicLevels"
 >
                 getGeographicLevels
@@ -451,7 +409,6 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "activeClassName": "is-active",
-                "aria-current": "page",
                 "children": "getGeographicLevels",
                 "to": "/getGeographicLevels",
               },
@@ -468,7 +425,6 @@ ShallowWrapper {
             "props": Object {
               "children": <NavLink
                 activeClassName="is-active"
-                aria-current="page"
                 to="/getStates"
 >
                 getStates
@@ -481,7 +437,6 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "activeClassName": "is-active",
-                "aria-current": "page",
                 "children": "getStates",
                 "to": "/getStates",
               },
@@ -498,7 +453,6 @@ ShallowWrapper {
             "props": Object {
               "children": <NavLink
                 activeClassName="is-active"
-                aria-current="page"
                 to="/getYears"
 >
                 getYears
@@ -511,7 +465,6 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "activeClassName": "is-active",
-                "aria-current": "page",
                 "children": "getYears",
                 "to": "/getYears",
               },
@@ -528,7 +481,6 @@ ShallowWrapper {
             "props": Object {
               "children": <NavLink
                 activeClassName="is-active"
-                aria-current="page"
                 to="/getData"
 >
                 getData
@@ -541,7 +493,6 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "activeClassName": "is-active",
-                "aria-current": "page",
                 "children": "getData",
                 "to": "/getData",
               },
@@ -558,7 +509,6 @@ ShallowWrapper {
             "props": Object {
               "children": <NavLink
                 activeClassName="is-active"
-                aria-current="page"
                 to="/contentareas"
 >
                 contentareas
@@ -571,7 +521,6 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "activeClassName": "is-active",
-                "aria-current": "page",
                 "children": "contentareas",
                 "to": "/contentareas",
               },
@@ -588,7 +537,6 @@ ShallowWrapper {
             "props": Object {
               "children": <NavLink
                 activeClassName="is-active"
-                aria-current="page"
                 to="/indicators"
 >
                 indicators
@@ -601,7 +549,6 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "activeClassName": "is-active",
-                "aria-current": "page",
                 "children": "indicators",
                 "to": "/indicators",
               },
@@ -618,7 +565,6 @@ ShallowWrapper {
             "props": Object {
               "children": <NavLink
                 activeClassName="is-active"
-                aria-current="page"
                 to="/measures"
 >
                 measures
@@ -631,7 +577,6 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "activeClassName": "is-active",
-                "aria-current": "page",
                 "children": "measures",
                 "to": "/measures",
               },
@@ -648,7 +593,6 @@ ShallowWrapper {
             "props": Object {
               "children": <NavLink
                 activeClassName="is-active"
-                aria-current="page"
                 to="/geographiclevels"
 >
                 geographiclevels
@@ -661,7 +605,6 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "activeClassName": "is-active",
-                "aria-current": "page",
                 "children": "geographiclevels",
                 "to": "/geographiclevels",
               },
@@ -678,7 +621,6 @@ ShallowWrapper {
             "props": Object {
               "children": <NavLink
                 activeClassName="is-active"
-                aria-current="page"
                 to="/geography"
 >
                 geography
@@ -691,7 +633,6 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "activeClassName": "is-active",
-                "aria-current": "page",
                 "children": "geography",
                 "to": "/geography",
               },
@@ -708,7 +649,6 @@ ShallowWrapper {
             "props": Object {
               "children": <NavLink
                 activeClassName="is-active"
-                aria-current="page"
                 to="/measurestratification"
 >
                 measurestratification
@@ -721,7 +661,6 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "activeClassName": "is-active",
-                "aria-current": "page",
                 "children": "measurestratification",
                 "to": "/measurestratification",
               },
@@ -738,7 +677,6 @@ ShallowWrapper {
             "props": Object {
               "children": <NavLink
                 activeClassName="is-active"
-                aria-current="page"
                 to="/stratificationlevel"
 >
                 stratificationlevel
@@ -751,7 +689,6 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "activeClassName": "is-active",
-                "aria-current": "page",
                 "children": "stratificationlevel",
                 "to": "/stratificationlevel",
               },
@@ -768,7 +705,6 @@ ShallowWrapper {
             "props": Object {
               "children": <NavLink
                 activeClassName="is-active"
-                aria-current="page"
                 to="/getCoreHolder"
 >
                 getCoreHolder
@@ -781,7 +717,6 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "activeClassName": "is-active",
-                "aria-current": "page",
                 "children": "getCoreHolder",
                 "to": "/getCoreHolder",
               },
@@ -813,7 +748,6 @@ ShallowWrapper {
                     <li>
                               <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         to="/getMeasures"
                               >
                                         getMeasures
@@ -822,7 +756,6 @@ ShallowWrapper {
                     <li>
                               <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         to="/getGeographicLevels"
                               >
                                         getGeographicLevels
@@ -831,7 +764,6 @@ ShallowWrapper {
                     <li>
                               <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         to="/getStates"
                               >
                                         getStates
@@ -840,7 +772,6 @@ ShallowWrapper {
                     <li>
                               <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         to="/getYears"
                               >
                                         getYears
@@ -849,7 +780,6 @@ ShallowWrapper {
                     <li>
                               <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         to="/getData"
                               >
                                         getData
@@ -858,7 +788,6 @@ ShallowWrapper {
                     <li>
                               <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         to="/contentareas"
                               >
                                         contentareas
@@ -867,7 +796,6 @@ ShallowWrapper {
                     <li>
                               <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         to="/indicators"
                               >
                                         indicators
@@ -876,7 +804,6 @@ ShallowWrapper {
                     <li>
                               <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         to="/measures"
                               >
                                         measures
@@ -885,7 +812,6 @@ ShallowWrapper {
                     <li>
                               <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         to="/geographiclevels"
                               >
                                         geographiclevels
@@ -894,7 +820,6 @@ ShallowWrapper {
                     <li>
                               <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         to="/geography"
                               >
                                         geography
@@ -903,7 +828,6 @@ ShallowWrapper {
                     <li>
                               <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         to="/measurestratification"
                               >
                                         measurestratification
@@ -912,7 +836,6 @@ ShallowWrapper {
                     <li>
                               <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         to="/stratificationlevel"
                               >
                                         stratificationlevel
@@ -921,7 +844,6 @@ ShallowWrapper {
                     <li>
                               <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         to="/getCoreHolder"
                               >
                                         getCoreHolder
@@ -942,7 +864,6 @@ ShallowWrapper {
             <li>
                         <NavLink
                                     activeClassName="is-active"
-                                    aria-current="page"
                                     to="/getMeasures"
                         >
                                     getMeasures
@@ -951,7 +872,6 @@ ShallowWrapper {
             <li>
                         <NavLink
                                     activeClassName="is-active"
-                                    aria-current="page"
                                     to="/getGeographicLevels"
                         >
                                     getGeographicLevels
@@ -960,7 +880,6 @@ ShallowWrapper {
             <li>
                         <NavLink
                                     activeClassName="is-active"
-                                    aria-current="page"
                                     to="/getStates"
                         >
                                     getStates
@@ -969,7 +888,6 @@ ShallowWrapper {
             <li>
                         <NavLink
                                     activeClassName="is-active"
-                                    aria-current="page"
                                     to="/getYears"
                         >
                                     getYears
@@ -978,7 +896,6 @@ ShallowWrapper {
             <li>
                         <NavLink
                                     activeClassName="is-active"
-                                    aria-current="page"
                                     to="/getData"
                         >
                                     getData
@@ -987,7 +904,6 @@ ShallowWrapper {
             <li>
                         <NavLink
                                     activeClassName="is-active"
-                                    aria-current="page"
                                     to="/contentareas"
                         >
                                     contentareas
@@ -996,7 +912,6 @@ ShallowWrapper {
             <li>
                         <NavLink
                                     activeClassName="is-active"
-                                    aria-current="page"
                                     to="/indicators"
                         >
                                     indicators
@@ -1005,7 +920,6 @@ ShallowWrapper {
             <li>
                         <NavLink
                                     activeClassName="is-active"
-                                    aria-current="page"
                                     to="/measures"
                         >
                                     measures
@@ -1014,7 +928,6 @@ ShallowWrapper {
             <li>
                         <NavLink
                                     activeClassName="is-active"
-                                    aria-current="page"
                                     to="/geographiclevels"
                         >
                                     geographiclevels
@@ -1023,7 +936,6 @@ ShallowWrapper {
             <li>
                         <NavLink
                                     activeClassName="is-active"
-                                    aria-current="page"
                                     to="/geography"
                         >
                                     geography
@@ -1032,7 +944,6 @@ ShallowWrapper {
             <li>
                         <NavLink
                                     activeClassName="is-active"
-                                    aria-current="page"
                                     to="/measurestratification"
                         >
                                     measurestratification
@@ -1041,7 +952,6 @@ ShallowWrapper {
             <li>
                         <NavLink
                                     activeClassName="is-active"
-                                    aria-current="page"
                                     to="/stratificationlevel"
                         >
                                     stratificationlevel
@@ -1050,7 +960,6 @@ ShallowWrapper {
             <li>
                         <NavLink
                                     activeClassName="is-active"
-                                    aria-current="page"
                                     to="/getCoreHolder"
                         >
                                     getCoreHolder
@@ -1069,7 +978,6 @@ ShallowWrapper {
               <li>
                 <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/getMeasures"
                 >
                                 getMeasures
@@ -1078,7 +986,6 @@ ShallowWrapper {
               <li>
                 <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/getGeographicLevels"
                 >
                                 getGeographicLevels
@@ -1087,7 +994,6 @@ ShallowWrapper {
               <li>
                 <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/getStates"
                 >
                                 getStates
@@ -1096,7 +1002,6 @@ ShallowWrapper {
               <li>
                 <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/getYears"
                 >
                                 getYears
@@ -1105,7 +1010,6 @@ ShallowWrapper {
               <li>
                 <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/getData"
                 >
                                 getData
@@ -1114,7 +1018,6 @@ ShallowWrapper {
               <li>
                 <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/contentareas"
                 >
                                 contentareas
@@ -1123,7 +1026,6 @@ ShallowWrapper {
               <li>
                 <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/indicators"
                 >
                                 indicators
@@ -1132,7 +1034,6 @@ ShallowWrapper {
               <li>
                 <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/measures"
                 >
                                 measures
@@ -1141,7 +1042,6 @@ ShallowWrapper {
               <li>
                 <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/geographiclevels"
                 >
                                 geographiclevels
@@ -1150,7 +1050,6 @@ ShallowWrapper {
               <li>
                 <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/geography"
                 >
                                 geography
@@ -1159,7 +1058,6 @@ ShallowWrapper {
               <li>
                 <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/measurestratification"
                 >
                                 measurestratification
@@ -1168,7 +1066,6 @@ ShallowWrapper {
               <li>
                 <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/stratificationlevel"
                 >
                                 stratificationlevel
@@ -1177,7 +1074,6 @@ ShallowWrapper {
               <li>
                 <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 to="/getCoreHolder"
                 >
                                 getCoreHolder
@@ -1195,7 +1091,6 @@ ShallowWrapper {
               "props": Object {
                 "children": <NavLink
                   activeClassName="is-active"
-                  aria-current="page"
                   to="/getMeasures"
 >
                   getMeasures
@@ -1208,7 +1103,6 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "activeClassName": "is-active",
-                  "aria-current": "page",
                   "children": "getMeasures",
                   "to": "/getMeasures",
                 },
@@ -1225,7 +1119,6 @@ ShallowWrapper {
               "props": Object {
                 "children": <NavLink
                   activeClassName="is-active"
-                  aria-current="page"
                   to="/getGeographicLevels"
 >
                   getGeographicLevels
@@ -1238,7 +1131,6 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "activeClassName": "is-active",
-                  "aria-current": "page",
                   "children": "getGeographicLevels",
                   "to": "/getGeographicLevels",
                 },
@@ -1255,7 +1147,6 @@ ShallowWrapper {
               "props": Object {
                 "children": <NavLink
                   activeClassName="is-active"
-                  aria-current="page"
                   to="/getStates"
 >
                   getStates
@@ -1268,7 +1159,6 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "activeClassName": "is-active",
-                  "aria-current": "page",
                   "children": "getStates",
                   "to": "/getStates",
                 },
@@ -1285,7 +1175,6 @@ ShallowWrapper {
               "props": Object {
                 "children": <NavLink
                   activeClassName="is-active"
-                  aria-current="page"
                   to="/getYears"
 >
                   getYears
@@ -1298,7 +1187,6 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "activeClassName": "is-active",
-                  "aria-current": "page",
                   "children": "getYears",
                   "to": "/getYears",
                 },
@@ -1315,7 +1203,6 @@ ShallowWrapper {
               "props": Object {
                 "children": <NavLink
                   activeClassName="is-active"
-                  aria-current="page"
                   to="/getData"
 >
                   getData
@@ -1328,7 +1215,6 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "activeClassName": "is-active",
-                  "aria-current": "page",
                   "children": "getData",
                   "to": "/getData",
                 },
@@ -1345,7 +1231,6 @@ ShallowWrapper {
               "props": Object {
                 "children": <NavLink
                   activeClassName="is-active"
-                  aria-current="page"
                   to="/contentareas"
 >
                   contentareas
@@ -1358,7 +1243,6 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "activeClassName": "is-active",
-                  "aria-current": "page",
                   "children": "contentareas",
                   "to": "/contentareas",
                 },
@@ -1375,7 +1259,6 @@ ShallowWrapper {
               "props": Object {
                 "children": <NavLink
                   activeClassName="is-active"
-                  aria-current="page"
                   to="/indicators"
 >
                   indicators
@@ -1388,7 +1271,6 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "activeClassName": "is-active",
-                  "aria-current": "page",
                   "children": "indicators",
                   "to": "/indicators",
                 },
@@ -1405,7 +1287,6 @@ ShallowWrapper {
               "props": Object {
                 "children": <NavLink
                   activeClassName="is-active"
-                  aria-current="page"
                   to="/measures"
 >
                   measures
@@ -1418,7 +1299,6 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "activeClassName": "is-active",
-                  "aria-current": "page",
                   "children": "measures",
                   "to": "/measures",
                 },
@@ -1435,7 +1315,6 @@ ShallowWrapper {
               "props": Object {
                 "children": <NavLink
                   activeClassName="is-active"
-                  aria-current="page"
                   to="/geographiclevels"
 >
                   geographiclevels
@@ -1448,7 +1327,6 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "activeClassName": "is-active",
-                  "aria-current": "page",
                   "children": "geographiclevels",
                   "to": "/geographiclevels",
                 },
@@ -1465,7 +1343,6 @@ ShallowWrapper {
               "props": Object {
                 "children": <NavLink
                   activeClassName="is-active"
-                  aria-current="page"
                   to="/geography"
 >
                   geography
@@ -1478,7 +1355,6 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "activeClassName": "is-active",
-                  "aria-current": "page",
                   "children": "geography",
                   "to": "/geography",
                 },
@@ -1495,7 +1371,6 @@ ShallowWrapper {
               "props": Object {
                 "children": <NavLink
                   activeClassName="is-active"
-                  aria-current="page"
                   to="/measurestratification"
 >
                   measurestratification
@@ -1508,7 +1383,6 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "activeClassName": "is-active",
-                  "aria-current": "page",
                   "children": "measurestratification",
                   "to": "/measurestratification",
                 },
@@ -1525,7 +1399,6 @@ ShallowWrapper {
               "props": Object {
                 "children": <NavLink
                   activeClassName="is-active"
-                  aria-current="page"
                   to="/stratificationlevel"
 >
                   stratificationlevel
@@ -1538,7 +1411,6 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "activeClassName": "is-active",
-                  "aria-current": "page",
                   "children": "stratificationlevel",
                   "to": "/stratificationlevel",
                 },
@@ -1555,7 +1427,6 @@ ShallowWrapper {
               "props": Object {
                 "children": <NavLink
                   activeClassName="is-active"
-                  aria-current="page"
                   to="/getCoreHolder"
 >
                   getCoreHolder
@@ -1568,7 +1439,6 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "activeClassName": "is-active",
-                  "aria-current": "page",
                   "children": "getCoreHolder",
                   "to": "/getCoreHolder",
                 },
