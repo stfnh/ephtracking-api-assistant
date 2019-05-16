@@ -25,7 +25,6 @@ ShallowWrapper {
           <Link
                     className="navbar-item brand-text"
                     onClick={[Function]}
-                    replace={false}
                     to="/"
           >
                     EPH Tracking API Assistant
@@ -50,7 +49,6 @@ ShallowWrapper {
                     >
                               <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         className="navbar-link"
                                         onClick={[Function]}
                                         to="/"
@@ -62,7 +60,6 @@ ShallowWrapper {
                               >
                                         <NavLink
                                                   activeClassName="is-active"
-                                                  aria-current="page"
                                                   className="navbar-item"
                                                   onClick={[Function]}
                                                   to="/getMeasures"
@@ -71,7 +68,6 @@ ShallowWrapper {
                                         </NavLink>
                                         <NavLink
                                                   activeClassName="is-active"
-                                                  aria-current="page"
                                                   className="navbar-item"
                                                   onClick={[Function]}
                                                   to="/getGeographicLevels"
@@ -80,7 +76,6 @@ ShallowWrapper {
                                         </NavLink>
                                         <NavLink
                                                   activeClassName="is-active"
-                                                  aria-current="page"
                                                   className="navbar-item"
                                                   onClick={[Function]}
                                                   to="/getStates"
@@ -89,7 +84,6 @@ ShallowWrapper {
                                         </NavLink>
                                         <NavLink
                                                   activeClassName="is-active"
-                                                  aria-current="page"
                                                   className="navbar-item"
                                                   onClick={[Function]}
                                                   to="/getYears"
@@ -98,7 +92,6 @@ ShallowWrapper {
                                         </NavLink>
                                         <NavLink
                                                   activeClassName="is-active"
-                                                  aria-current="page"
                                                   className="navbar-item"
                                                   onClick={[Function]}
                                                   to="/getData"
@@ -107,7 +100,6 @@ ShallowWrapper {
                                         </NavLink>
                                         <NavLink
                                                   activeClassName="is-active"
-                                                  aria-current="page"
                                                   className="navbar-item"
                                                   onClick={[Function]}
                                                   to="/contentareas"
@@ -116,7 +108,6 @@ ShallowWrapper {
                                         </NavLink>
                                         <NavLink
                                                   activeClassName="is-active"
-                                                  aria-current="page"
                                                   className="navbar-item"
                                                   onClick={[Function]}
                                                   to="/indicators"
@@ -125,7 +116,6 @@ ShallowWrapper {
                                         </NavLink>
                                         <NavLink
                                                   activeClassName="is-active"
-                                                  aria-current="page"
                                                   className="navbar-item"
                                                   onClick={[Function]}
                                                   to="/measures"
@@ -134,7 +124,6 @@ ShallowWrapper {
                                         </NavLink>
                                         <NavLink
                                                   activeClassName="is-active"
-                                                  aria-current="page"
                                                   className="navbar-item"
                                                   onClick={[Function]}
                                                   to="/geographiclevels"
@@ -143,7 +132,6 @@ ShallowWrapper {
                                         </NavLink>
                                         <NavLink
                                                   activeClassName="is-active"
-                                                  aria-current="page"
                                                   className="navbar-item"
                                                   onClick={[Function]}
                                                   to="/geography"
@@ -152,7 +140,6 @@ ShallowWrapper {
                                         </NavLink>
                                         <NavLink
                                                   activeClassName="is-active"
-                                                  aria-current="page"
                                                   className="navbar-item"
                                                   onClick={[Function]}
                                                   to="/measurestratification"
@@ -161,7 +148,6 @@ ShallowWrapper {
                                         </NavLink>
                                         <NavLink
                                                   activeClassName="is-active"
-                                                  aria-current="page"
                                                   className="navbar-item"
                                                   onClick={[Function]}
                                                   to="/stratificationlevel"
@@ -170,7 +156,6 @@ ShallowWrapper {
                                         </NavLink>
                                         <NavLink
                                                   activeClassName="is-active"
-                                                  aria-current="page"
                                                   className="navbar-item"
                                                   onClick={[Function]}
                                                   to="/getCoreHolder"
@@ -221,7 +206,6 @@ ShallowWrapper {
             <Link
               className="navbar-item brand-text"
               onClick={[Function]}
-              replace={false}
               to="/"
 >
               EPH Tracking API Assistant
@@ -247,7 +231,6 @@ ShallowWrapper {
               "children": "EPH Tracking API Assistant",
               "className": "navbar-item brand-text",
               "onClick": [Function],
-              "replace": false,
               "to": "/",
             },
             "ref": null,
@@ -316,7 +299,6 @@ ShallowWrapper {
               >
                             <NavLink
                                           activeClassName="is-active"
-                                          aria-current="page"
                                           className="navbar-link"
                                           onClick={[Function]}
                                           to="/"
@@ -328,7 +310,6 @@ ShallowWrapper {
                             >
                                           <NavLink
                                                         activeClassName="is-active"
-                                                        aria-current="page"
                                                         className="navbar-item"
                                                         onClick={[Function]}
                                                         to="/getMeasures"
@@ -337,7 +318,6 @@ ShallowWrapper {
                                           </NavLink>
                                           <NavLink
                                                         activeClassName="is-active"
-                                                        aria-current="page"
                                                         className="navbar-item"
                                                         onClick={[Function]}
                                                         to="/getGeographicLevels"
@@ -346,7 +326,6 @@ ShallowWrapper {
                                           </NavLink>
                                           <NavLink
                                                         activeClassName="is-active"
-                                                        aria-current="page"
                                                         className="navbar-item"
                                                         onClick={[Function]}
                                                         to="/getStates"
@@ -355,7 +334,6 @@ ShallowWrapper {
                                           </NavLink>
                                           <NavLink
                                                         activeClassName="is-active"
-                                                        aria-current="page"
                                                         className="navbar-item"
                                                         onClick={[Function]}
                                                         to="/getYears"
@@ -364,7 +342,6 @@ ShallowWrapper {
                                           </NavLink>
                                           <NavLink
                                                         activeClassName="is-active"
-                                                        aria-current="page"
                                                         className="navbar-item"
                                                         onClick={[Function]}
                                                         to="/getData"
@@ -373,7 +350,6 @@ ShallowWrapper {
                                           </NavLink>
                                           <NavLink
                                                         activeClassName="is-active"
-                                                        aria-current="page"
                                                         className="navbar-item"
                                                         onClick={[Function]}
                                                         to="/contentareas"
@@ -382,7 +358,6 @@ ShallowWrapper {
                                           </NavLink>
                                           <NavLink
                                                         activeClassName="is-active"
-                                                        aria-current="page"
                                                         className="navbar-item"
                                                         onClick={[Function]}
                                                         to="/indicators"
@@ -391,7 +366,6 @@ ShallowWrapper {
                                           </NavLink>
                                           <NavLink
                                                         activeClassName="is-active"
-                                                        aria-current="page"
                                                         className="navbar-item"
                                                         onClick={[Function]}
                                                         to="/measures"
@@ -400,7 +374,6 @@ ShallowWrapper {
                                           </NavLink>
                                           <NavLink
                                                         activeClassName="is-active"
-                                                        aria-current="page"
                                                         className="navbar-item"
                                                         onClick={[Function]}
                                                         to="/geographiclevels"
@@ -409,7 +382,6 @@ ShallowWrapper {
                                           </NavLink>
                                           <NavLink
                                                         activeClassName="is-active"
-                                                        aria-current="page"
                                                         className="navbar-item"
                                                         onClick={[Function]}
                                                         to="/geography"
@@ -418,7 +390,6 @@ ShallowWrapper {
                                           </NavLink>
                                           <NavLink
                                                         activeClassName="is-active"
-                                                        aria-current="page"
                                                         className="navbar-item"
                                                         onClick={[Function]}
                                                         to="/measurestratification"
@@ -427,7 +398,6 @@ ShallowWrapper {
                                           </NavLink>
                                           <NavLink
                                                         activeClassName="is-active"
-                                                        aria-current="page"
                                                         className="navbar-item"
                                                         onClick={[Function]}
                                                         to="/stratificationlevel"
@@ -436,7 +406,6 @@ ShallowWrapper {
                                           </NavLink>
                                           <NavLink
                                                         activeClassName="is-active"
-                                                        aria-current="page"
                                                         className="navbar-item"
                                                         onClick={[Function]}
                                                         to="/getCoreHolder"
@@ -487,7 +456,6 @@ ShallowWrapper {
 >
                 <NavLink
                                 activeClassName="is-active"
-                                aria-current="page"
                                 className="navbar-link"
                                 onClick={[Function]}
                                 to="/"
@@ -499,7 +467,6 @@ ShallowWrapper {
                 >
                                 <NavLink
                                                 activeClassName="is-active"
-                                                aria-current="page"
                                                 className="navbar-item"
                                                 onClick={[Function]}
                                                 to="/getMeasures"
@@ -508,7 +475,6 @@ ShallowWrapper {
                                 </NavLink>
                                 <NavLink
                                                 activeClassName="is-active"
-                                                aria-current="page"
                                                 className="navbar-item"
                                                 onClick={[Function]}
                                                 to="/getGeographicLevels"
@@ -517,7 +483,6 @@ ShallowWrapper {
                                 </NavLink>
                                 <NavLink
                                                 activeClassName="is-active"
-                                                aria-current="page"
                                                 className="navbar-item"
                                                 onClick={[Function]}
                                                 to="/getStates"
@@ -526,7 +491,6 @@ ShallowWrapper {
                                 </NavLink>
                                 <NavLink
                                                 activeClassName="is-active"
-                                                aria-current="page"
                                                 className="navbar-item"
                                                 onClick={[Function]}
                                                 to="/getYears"
@@ -535,7 +499,6 @@ ShallowWrapper {
                                 </NavLink>
                                 <NavLink
                                                 activeClassName="is-active"
-                                                aria-current="page"
                                                 className="navbar-item"
                                                 onClick={[Function]}
                                                 to="/getData"
@@ -544,7 +507,6 @@ ShallowWrapper {
                                 </NavLink>
                                 <NavLink
                                                 activeClassName="is-active"
-                                                aria-current="page"
                                                 className="navbar-item"
                                                 onClick={[Function]}
                                                 to="/contentareas"
@@ -553,7 +515,6 @@ ShallowWrapper {
                                 </NavLink>
                                 <NavLink
                                                 activeClassName="is-active"
-                                                aria-current="page"
                                                 className="navbar-item"
                                                 onClick={[Function]}
                                                 to="/indicators"
@@ -562,7 +523,6 @@ ShallowWrapper {
                                 </NavLink>
                                 <NavLink
                                                 activeClassName="is-active"
-                                                aria-current="page"
                                                 className="navbar-item"
                                                 onClick={[Function]}
                                                 to="/measures"
@@ -571,7 +531,6 @@ ShallowWrapper {
                                 </NavLink>
                                 <NavLink
                                                 activeClassName="is-active"
-                                                aria-current="page"
                                                 className="navbar-item"
                                                 onClick={[Function]}
                                                 to="/geographiclevels"
@@ -580,7 +539,6 @@ ShallowWrapper {
                                 </NavLink>
                                 <NavLink
                                                 activeClassName="is-active"
-                                                aria-current="page"
                                                 className="navbar-item"
                                                 onClick={[Function]}
                                                 to="/geography"
@@ -589,7 +547,6 @@ ShallowWrapper {
                                 </NavLink>
                                 <NavLink
                                                 activeClassName="is-active"
-                                                aria-current="page"
                                                 className="navbar-item"
                                                 onClick={[Function]}
                                                 to="/measurestratification"
@@ -598,7 +555,6 @@ ShallowWrapper {
                                 </NavLink>
                                 <NavLink
                                                 activeClassName="is-active"
-                                                aria-current="page"
                                                 className="navbar-item"
                                                 onClick={[Function]}
                                                 to="/stratificationlevel"
@@ -607,7 +563,6 @@ ShallowWrapper {
                                 </NavLink>
                                 <NavLink
                                                 activeClassName="is-active"
-                                                aria-current="page"
                                                 className="navbar-item"
                                                 onClick={[Function]}
                                                 to="/getCoreHolder"
@@ -627,7 +582,6 @@ ShallowWrapper {
                 "children": Array [
                   <NavLink
                     activeClassName="is-active"
-                    aria-current="page"
                     className="navbar-link"
                     onClick={[Function]}
                     to="/"
@@ -639,7 +593,6 @@ ShallowWrapper {
 >
                     <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         className="navbar-item"
                                         onClick={[Function]}
                                         to="/getMeasures"
@@ -648,7 +601,6 @@ ShallowWrapper {
                     </NavLink>
                     <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         className="navbar-item"
                                         onClick={[Function]}
                                         to="/getGeographicLevels"
@@ -657,7 +609,6 @@ ShallowWrapper {
                     </NavLink>
                     <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         className="navbar-item"
                                         onClick={[Function]}
                                         to="/getStates"
@@ -666,7 +617,6 @@ ShallowWrapper {
                     </NavLink>
                     <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         className="navbar-item"
                                         onClick={[Function]}
                                         to="/getYears"
@@ -675,7 +625,6 @@ ShallowWrapper {
                     </NavLink>
                     <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         className="navbar-item"
                                         onClick={[Function]}
                                         to="/getData"
@@ -684,7 +633,6 @@ ShallowWrapper {
                     </NavLink>
                     <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         className="navbar-item"
                                         onClick={[Function]}
                                         to="/contentareas"
@@ -693,7 +641,6 @@ ShallowWrapper {
                     </NavLink>
                     <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         className="navbar-item"
                                         onClick={[Function]}
                                         to="/indicators"
@@ -702,7 +649,6 @@ ShallowWrapper {
                     </NavLink>
                     <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         className="navbar-item"
                                         onClick={[Function]}
                                         to="/measures"
@@ -711,7 +657,6 @@ ShallowWrapper {
                     </NavLink>
                     <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         className="navbar-item"
                                         onClick={[Function]}
                                         to="/geographiclevels"
@@ -720,7 +665,6 @@ ShallowWrapper {
                     </NavLink>
                     <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         className="navbar-item"
                                         onClick={[Function]}
                                         to="/geography"
@@ -729,7 +673,6 @@ ShallowWrapper {
                     </NavLink>
                     <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         className="navbar-item"
                                         onClick={[Function]}
                                         to="/measurestratification"
@@ -738,7 +681,6 @@ ShallowWrapper {
                     </NavLink>
                     <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         className="navbar-item"
                                         onClick={[Function]}
                                         to="/stratificationlevel"
@@ -747,7 +689,6 @@ ShallowWrapper {
                     </NavLink>
                     <NavLink
                                         activeClassName="is-active"
-                                        aria-current="page"
                                         className="navbar-item"
                                         onClick={[Function]}
                                         to="/getCoreHolder"
@@ -766,7 +707,6 @@ ShallowWrapper {
                   "nodeType": "function",
                   "props": Object {
                     "activeClassName": "is-active",
-                    "aria-current": "page",
                     "children": "API",
                     "className": "navbar-link",
                     "onClick": [Function],
@@ -784,7 +724,6 @@ ShallowWrapper {
                     "children": Array [
                       <NavLink
                         activeClassName="is-active"
-                        aria-current="page"
                         className="navbar-item"
                         onClick={[Function]}
                         to="/getMeasures"
@@ -793,7 +732,6 @@ ShallowWrapper {
 </NavLink>,
                       <NavLink
                         activeClassName="is-active"
-                        aria-current="page"
                         className="navbar-item"
                         onClick={[Function]}
                         to="/getGeographicLevels"
@@ -802,7 +740,6 @@ ShallowWrapper {
 </NavLink>,
                       <NavLink
                         activeClassName="is-active"
-                        aria-current="page"
                         className="navbar-item"
                         onClick={[Function]}
                         to="/getStates"
@@ -811,7 +748,6 @@ ShallowWrapper {
 </NavLink>,
                       <NavLink
                         activeClassName="is-active"
-                        aria-current="page"
                         className="navbar-item"
                         onClick={[Function]}
                         to="/getYears"
@@ -820,7 +756,6 @@ ShallowWrapper {
 </NavLink>,
                       <NavLink
                         activeClassName="is-active"
-                        aria-current="page"
                         className="navbar-item"
                         onClick={[Function]}
                         to="/getData"
@@ -829,7 +764,6 @@ ShallowWrapper {
 </NavLink>,
                       <NavLink
                         activeClassName="is-active"
-                        aria-current="page"
                         className="navbar-item"
                         onClick={[Function]}
                         to="/contentareas"
@@ -838,7 +772,6 @@ ShallowWrapper {
 </NavLink>,
                       <NavLink
                         activeClassName="is-active"
-                        aria-current="page"
                         className="navbar-item"
                         onClick={[Function]}
                         to="/indicators"
@@ -847,7 +780,6 @@ ShallowWrapper {
 </NavLink>,
                       <NavLink
                         activeClassName="is-active"
-                        aria-current="page"
                         className="navbar-item"
                         onClick={[Function]}
                         to="/measures"
@@ -856,7 +788,6 @@ ShallowWrapper {
 </NavLink>,
                       <NavLink
                         activeClassName="is-active"
-                        aria-current="page"
                         className="navbar-item"
                         onClick={[Function]}
                         to="/geographiclevels"
@@ -865,7 +796,6 @@ ShallowWrapper {
 </NavLink>,
                       <NavLink
                         activeClassName="is-active"
-                        aria-current="page"
                         className="navbar-item"
                         onClick={[Function]}
                         to="/geography"
@@ -874,7 +804,6 @@ ShallowWrapper {
 </NavLink>,
                       <NavLink
                         activeClassName="is-active"
-                        aria-current="page"
                         className="navbar-item"
                         onClick={[Function]}
                         to="/measurestratification"
@@ -883,7 +812,6 @@ ShallowWrapper {
 </NavLink>,
                       <NavLink
                         activeClassName="is-active"
-                        aria-current="page"
                         className="navbar-item"
                         onClick={[Function]}
                         to="/stratificationlevel"
@@ -892,7 +820,6 @@ ShallowWrapper {
 </NavLink>,
                       <NavLink
                         activeClassName="is-active"
-                        aria-current="page"
                         className="navbar-item"
                         onClick={[Function]}
                         to="/getCoreHolder"
@@ -910,7 +837,6 @@ ShallowWrapper {
                       "nodeType": "function",
                       "props": Object {
                         "activeClassName": "is-active",
-                        "aria-current": "page",
                         "children": "getMeasures",
                         "className": "navbar-item",
                         "onClick": [Function],
@@ -926,7 +852,6 @@ ShallowWrapper {
                       "nodeType": "function",
                       "props": Object {
                         "activeClassName": "is-active",
-                        "aria-current": "page",
                         "children": "getGeographicLevels",
                         "className": "navbar-item",
                         "onClick": [Function],
@@ -942,7 +867,6 @@ ShallowWrapper {
                       "nodeType": "function",
                       "props": Object {
                         "activeClassName": "is-active",
-                        "aria-current": "page",
                         "children": "getStates",
                         "className": "navbar-item",
                         "onClick": [Function],
@@ -958,7 +882,6 @@ ShallowWrapper {
                       "nodeType": "function",
                       "props": Object {
                         "activeClassName": "is-active",
-                        "aria-current": "page",
                         "children": "getYears",
                         "className": "navbar-item",
                         "onClick": [Function],
@@ -974,7 +897,6 @@ ShallowWrapper {
                       "nodeType": "function",
                       "props": Object {
                         "activeClassName": "is-active",
-                        "aria-current": "page",
                         "children": "getData",
                         "className": "navbar-item",
                         "onClick": [Function],
@@ -990,7 +912,6 @@ ShallowWrapper {
                       "nodeType": "function",
                       "props": Object {
                         "activeClassName": "is-active",
-                        "aria-current": "page",
                         "children": "contentareas",
                         "className": "navbar-item",
                         "onClick": [Function],
@@ -1006,7 +927,6 @@ ShallowWrapper {
                       "nodeType": "function",
                       "props": Object {
                         "activeClassName": "is-active",
-                        "aria-current": "page",
                         "children": "indicators",
                         "className": "navbar-item",
                         "onClick": [Function],
@@ -1022,7 +942,6 @@ ShallowWrapper {
                       "nodeType": "function",
                       "props": Object {
                         "activeClassName": "is-active",
-                        "aria-current": "page",
                         "children": "measures",
                         "className": "navbar-item",
                         "onClick": [Function],
@@ -1038,7 +957,6 @@ ShallowWrapper {
                       "nodeType": "function",
                       "props": Object {
                         "activeClassName": "is-active",
-                        "aria-current": "page",
                         "children": "geographiclevels",
                         "className": "navbar-item",
                         "onClick": [Function],
@@ -1054,7 +972,6 @@ ShallowWrapper {
                       "nodeType": "function",
                       "props": Object {
                         "activeClassName": "is-active",
-                        "aria-current": "page",
                         "children": "geography",
                         "className": "navbar-item",
                         "onClick": [Function],
@@ -1070,7 +987,6 @@ ShallowWrapper {
                       "nodeType": "function",
                       "props": Object {
                         "activeClassName": "is-active",
-                        "aria-current": "page",
                         "children": "measurestratification",
                         "className": "navbar-item",
                         "onClick": [Function],
@@ -1086,7 +1002,6 @@ ShallowWrapper {
                       "nodeType": "function",
                       "props": Object {
                         "activeClassName": "is-active",
-                        "aria-current": "page",
                         "children": "stratificationlevel",
                         "className": "navbar-item",
                         "onClick": [Function],
@@ -1102,7 +1017,6 @@ ShallowWrapper {
                       "nodeType": "function",
                       "props": Object {
                         "activeClassName": "is-active",
-                        "aria-current": "page",
                         "children": "getCoreHolder",
                         "className": "navbar-item",
                         "onClick": [Function],
@@ -1265,7 +1179,6 @@ ShallowWrapper {
             <Link
                         className="navbar-item brand-text"
                         onClick={[Function]}
-                        replace={false}
                         to="/"
             >
                         EPH Tracking API Assistant
@@ -1290,7 +1203,6 @@ ShallowWrapper {
                         >
                                     <NavLink
                                                 activeClassName="is-active"
-                                                aria-current="page"
                                                 className="navbar-link"
                                                 onClick={[Function]}
                                                 to="/"
@@ -1302,7 +1214,6 @@ ShallowWrapper {
                                     >
                                                 <NavLink
                                                             activeClassName="is-active"
-                                                            aria-current="page"
                                                             className="navbar-item"
                                                             onClick={[Function]}
                                                             to="/getMeasures"
@@ -1311,7 +1222,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                             activeClassName="is-active"
-                                                            aria-current="page"
                                                             className="navbar-item"
                                                             onClick={[Function]}
                                                             to="/getGeographicLevels"
@@ -1320,7 +1230,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                             activeClassName="is-active"
-                                                            aria-current="page"
                                                             className="navbar-item"
                                                             onClick={[Function]}
                                                             to="/getStates"
@@ -1329,7 +1238,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                             activeClassName="is-active"
-                                                            aria-current="page"
                                                             className="navbar-item"
                                                             onClick={[Function]}
                                                             to="/getYears"
@@ -1338,7 +1246,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                             activeClassName="is-active"
-                                                            aria-current="page"
                                                             className="navbar-item"
                                                             onClick={[Function]}
                                                             to="/getData"
@@ -1347,7 +1254,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                             activeClassName="is-active"
-                                                            aria-current="page"
                                                             className="navbar-item"
                                                             onClick={[Function]}
                                                             to="/contentareas"
@@ -1356,7 +1262,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                             activeClassName="is-active"
-                                                            aria-current="page"
                                                             className="navbar-item"
                                                             onClick={[Function]}
                                                             to="/indicators"
@@ -1365,7 +1270,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                             activeClassName="is-active"
-                                                            aria-current="page"
                                                             className="navbar-item"
                                                             onClick={[Function]}
                                                             to="/measures"
@@ -1374,7 +1278,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                             activeClassName="is-active"
-                                                            aria-current="page"
                                                             className="navbar-item"
                                                             onClick={[Function]}
                                                             to="/geographiclevels"
@@ -1383,7 +1286,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                             activeClassName="is-active"
-                                                            aria-current="page"
                                                             className="navbar-item"
                                                             onClick={[Function]}
                                                             to="/geography"
@@ -1392,7 +1294,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                             activeClassName="is-active"
-                                                            aria-current="page"
                                                             className="navbar-item"
                                                             onClick={[Function]}
                                                             to="/measurestratification"
@@ -1401,7 +1302,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                             activeClassName="is-active"
-                                                            aria-current="page"
                                                             className="navbar-item"
                                                             onClick={[Function]}
                                                             to="/stratificationlevel"
@@ -1410,7 +1310,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                             activeClassName="is-active"
-                                                            aria-current="page"
                                                             className="navbar-item"
                                                             onClick={[Function]}
                                                             to="/getCoreHolder"
@@ -1461,7 +1360,6 @@ ShallowWrapper {
               <Link
                 className="navbar-item brand-text"
                 onClick={[Function]}
-                replace={false}
                 to="/"
 >
                 EPH Tracking API Assistant
@@ -1487,7 +1385,6 @@ ShallowWrapper {
                 "children": "EPH Tracking API Assistant",
                 "className": "navbar-item brand-text",
                 "onClick": [Function],
-                "replace": false,
                 "to": "/",
               },
               "ref": null,
@@ -1556,7 +1453,6 @@ ShallowWrapper {
                 >
                                 <NavLink
                                                 activeClassName="is-active"
-                                                aria-current="page"
                                                 className="navbar-link"
                                                 onClick={[Function]}
                                                 to="/"
@@ -1568,7 +1464,6 @@ ShallowWrapper {
                                 >
                                                 <NavLink
                                                                 activeClassName="is-active"
-                                                                aria-current="page"
                                                                 className="navbar-item"
                                                                 onClick={[Function]}
                                                                 to="/getMeasures"
@@ -1577,7 +1472,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                                 activeClassName="is-active"
-                                                                aria-current="page"
                                                                 className="navbar-item"
                                                                 onClick={[Function]}
                                                                 to="/getGeographicLevels"
@@ -1586,7 +1480,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                                 activeClassName="is-active"
-                                                                aria-current="page"
                                                                 className="navbar-item"
                                                                 onClick={[Function]}
                                                                 to="/getStates"
@@ -1595,7 +1488,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                                 activeClassName="is-active"
-                                                                aria-current="page"
                                                                 className="navbar-item"
                                                                 onClick={[Function]}
                                                                 to="/getYears"
@@ -1604,7 +1496,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                                 activeClassName="is-active"
-                                                                aria-current="page"
                                                                 className="navbar-item"
                                                                 onClick={[Function]}
                                                                 to="/getData"
@@ -1613,7 +1504,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                                 activeClassName="is-active"
-                                                                aria-current="page"
                                                                 className="navbar-item"
                                                                 onClick={[Function]}
                                                                 to="/contentareas"
@@ -1622,7 +1512,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                                 activeClassName="is-active"
-                                                                aria-current="page"
                                                                 className="navbar-item"
                                                                 onClick={[Function]}
                                                                 to="/indicators"
@@ -1631,7 +1520,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                                 activeClassName="is-active"
-                                                                aria-current="page"
                                                                 className="navbar-item"
                                                                 onClick={[Function]}
                                                                 to="/measures"
@@ -1640,7 +1528,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                                 activeClassName="is-active"
-                                                                aria-current="page"
                                                                 className="navbar-item"
                                                                 onClick={[Function]}
                                                                 to="/geographiclevels"
@@ -1649,7 +1536,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                                 activeClassName="is-active"
-                                                                aria-current="page"
                                                                 className="navbar-item"
                                                                 onClick={[Function]}
                                                                 to="/geography"
@@ -1658,7 +1544,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                                 activeClassName="is-active"
-                                                                aria-current="page"
                                                                 className="navbar-item"
                                                                 onClick={[Function]}
                                                                 to="/measurestratification"
@@ -1667,7 +1552,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                                 activeClassName="is-active"
-                                                                aria-current="page"
                                                                 className="navbar-item"
                                                                 onClick={[Function]}
                                                                 to="/stratificationlevel"
@@ -1676,7 +1560,6 @@ ShallowWrapper {
                                                 </NavLink>
                                                 <NavLink
                                                                 activeClassName="is-active"
-                                                                aria-current="page"
                                                                 className="navbar-item"
                                                                 onClick={[Function]}
                                                                 to="/getCoreHolder"
@@ -1727,7 +1610,6 @@ ShallowWrapper {
 >
                   <NavLink
                                     activeClassName="is-active"
-                                    aria-current="page"
                                     className="navbar-link"
                                     onClick={[Function]}
                                     to="/"
@@ -1739,7 +1621,6 @@ ShallowWrapper {
                   >
                                     <NavLink
                                                       activeClassName="is-active"
-                                                      aria-current="page"
                                                       className="navbar-item"
                                                       onClick={[Function]}
                                                       to="/getMeasures"
@@ -1748,7 +1629,6 @@ ShallowWrapper {
                                     </NavLink>
                                     <NavLink
                                                       activeClassName="is-active"
-                                                      aria-current="page"
                                                       className="navbar-item"
                                                       onClick={[Function]}
                                                       to="/getGeographicLevels"
@@ -1757,7 +1637,6 @@ ShallowWrapper {
                                     </NavLink>
                                     <NavLink
                                                       activeClassName="is-active"
-                                                      aria-current="page"
                                                       className="navbar-item"
                                                       onClick={[Function]}
                                                       to="/getStates"
@@ -1766,7 +1645,6 @@ ShallowWrapper {
                                     </NavLink>
                                     <NavLink
                                                       activeClassName="is-active"
-                                                      aria-current="page"
                                                       className="navbar-item"
                                                       onClick={[Function]}
                                                       to="/getYears"
@@ -1775,7 +1653,6 @@ ShallowWrapper {
                                     </NavLink>
                                     <NavLink
                                                       activeClassName="is-active"
-                                                      aria-current="page"
                                                       className="navbar-item"
                                                       onClick={[Function]}
                                                       to="/getData"
@@ -1784,7 +1661,6 @@ ShallowWrapper {
                                     </NavLink>
                                     <NavLink
                                                       activeClassName="is-active"
-                                                      aria-current="page"
                                                       className="navbar-item"
                                                       onClick={[Function]}
                                                       to="/contentareas"
@@ -1793,7 +1669,6 @@ ShallowWrapper {
                                     </NavLink>
                                     <NavLink
                                                       activeClassName="is-active"
-                                                      aria-current="page"
                                                       className="navbar-item"
                                                       onClick={[Function]}
                                                       to="/indicators"
@@ -1802,7 +1677,6 @@ ShallowWrapper {
                                     </NavLink>
                                     <NavLink
                                                       activeClassName="is-active"
-                                                      aria-current="page"
                                                       className="navbar-item"
                                                       onClick={[Function]}
                                                       to="/measures"
@@ -1811,7 +1685,6 @@ ShallowWrapper {
                                     </NavLink>
                                     <NavLink
                                                       activeClassName="is-active"
-                                                      aria-current="page"
                                                       className="navbar-item"
                                                       onClick={[Function]}
                                                       to="/geographiclevels"
@@ -1820,7 +1693,6 @@ ShallowWrapper {
                                     </NavLink>
                                     <NavLink
                                                       activeClassName="is-active"
-                                                      aria-current="page"
                                                       className="navbar-item"
                                                       onClick={[Function]}
                                                       to="/geography"
@@ -1829,7 +1701,6 @@ ShallowWrapper {
                                     </NavLink>
                                     <NavLink
                                                       activeClassName="is-active"
-                                                      aria-current="page"
                                                       className="navbar-item"
                                                       onClick={[Function]}
                                                       to="/measurestratification"
@@ -1838,7 +1709,6 @@ ShallowWrapper {
                                     </NavLink>
                                     <NavLink
                                                       activeClassName="is-active"
-                                                      aria-current="page"
                                                       className="navbar-item"
                                                       onClick={[Function]}
                                                       to="/stratificationlevel"
@@ -1847,7 +1717,6 @@ ShallowWrapper {
                                     </NavLink>
                                     <NavLink
                                                       activeClassName="is-active"
-                                                      aria-current="page"
                                                       className="navbar-item"
                                                       onClick={[Function]}
                                                       to="/getCoreHolder"
@@ -1867,7 +1736,6 @@ ShallowWrapper {
                   "children": Array [
                     <NavLink
                       activeClassName="is-active"
-                      aria-current="page"
                       className="navbar-link"
                       onClick={[Function]}
                       to="/"
@@ -1879,7 +1747,6 @@ ShallowWrapper {
 >
                       <NavLink
                                             activeClassName="is-active"
-                                            aria-current="page"
                                             className="navbar-item"
                                             onClick={[Function]}
                                             to="/getMeasures"
@@ -1888,7 +1755,6 @@ ShallowWrapper {
                       </NavLink>
                       <NavLink
                                             activeClassName="is-active"
-                                            aria-current="page"
                                             className="navbar-item"
                                             onClick={[Function]}
                                             to="/getGeographicLevels"
@@ -1897,7 +1763,6 @@ ShallowWrapper {
                       </NavLink>
                       <NavLink
                                             activeClassName="is-active"
-                                            aria-current="page"
                                             className="navbar-item"
                                             onClick={[Function]}
                                             to="/getStates"
@@ -1906,7 +1771,6 @@ ShallowWrapper {
                       </NavLink>
                       <NavLink
                                             activeClassName="is-active"
-                                            aria-current="page"
                                             className="navbar-item"
                                             onClick={[Function]}
                                             to="/getYears"
@@ -1915,7 +1779,6 @@ ShallowWrapper {
                       </NavLink>
                       <NavLink
                                             activeClassName="is-active"
-                                            aria-current="page"
                                             className="navbar-item"
                                             onClick={[Function]}
                                             to="/getData"
@@ -1924,7 +1787,6 @@ ShallowWrapper {
                       </NavLink>
                       <NavLink
                                             activeClassName="is-active"
-                                            aria-current="page"
                                             className="navbar-item"
                                             onClick={[Function]}
                                             to="/contentareas"
@@ -1933,7 +1795,6 @@ ShallowWrapper {
                       </NavLink>
                       <NavLink
                                             activeClassName="is-active"
-                                            aria-current="page"
                                             className="navbar-item"
                                             onClick={[Function]}
                                             to="/indicators"
@@ -1942,7 +1803,6 @@ ShallowWrapper {
                       </NavLink>
                       <NavLink
                                             activeClassName="is-active"
-                                            aria-current="page"
                                             className="navbar-item"
                                             onClick={[Function]}
                                             to="/measures"
@@ -1951,7 +1811,6 @@ ShallowWrapper {
                       </NavLink>
                       <NavLink
                                             activeClassName="is-active"
-                                            aria-current="page"
                                             className="navbar-item"
                                             onClick={[Function]}
                                             to="/geographiclevels"
@@ -1960,7 +1819,6 @@ ShallowWrapper {
                       </NavLink>
                       <NavLink
                                             activeClassName="is-active"
-                                            aria-current="page"
                                             className="navbar-item"
                                             onClick={[Function]}
                                             to="/geography"
@@ -1969,7 +1827,6 @@ ShallowWrapper {
                       </NavLink>
                       <NavLink
                                             activeClassName="is-active"
-                                            aria-current="page"
                                             className="navbar-item"
                                             onClick={[Function]}
                                             to="/measurestratification"
@@ -1978,7 +1835,6 @@ ShallowWrapper {
                       </NavLink>
                       <NavLink
                                             activeClassName="is-active"
-                                            aria-current="page"
                                             className="navbar-item"
                                             onClick={[Function]}
                                             to="/stratificationlevel"
@@ -1987,7 +1843,6 @@ ShallowWrapper {
                       </NavLink>
                       <NavLink
                                             activeClassName="is-active"
-                                            aria-current="page"
                                             className="navbar-item"
                                             onClick={[Function]}
                                             to="/getCoreHolder"
@@ -2006,7 +1861,6 @@ ShallowWrapper {
                     "nodeType": "function",
                     "props": Object {
                       "activeClassName": "is-active",
-                      "aria-current": "page",
                       "children": "API",
                       "className": "navbar-link",
                       "onClick": [Function],
@@ -2024,7 +1878,6 @@ ShallowWrapper {
                       "children": Array [
                         <NavLink
                           activeClassName="is-active"
-                          aria-current="page"
                           className="navbar-item"
                           onClick={[Function]}
                           to="/getMeasures"
@@ -2033,7 +1886,6 @@ ShallowWrapper {
 </NavLink>,
                         <NavLink
                           activeClassName="is-active"
-                          aria-current="page"
                           className="navbar-item"
                           onClick={[Function]}
                           to="/getGeographicLevels"
@@ -2042,7 +1894,6 @@ ShallowWrapper {
 </NavLink>,
                         <NavLink
                           activeClassName="is-active"
-                          aria-current="page"
                           className="navbar-item"
                           onClick={[Function]}
                           to="/getStates"
@@ -2051,7 +1902,6 @@ ShallowWrapper {
 </NavLink>,
                         <NavLink
                           activeClassName="is-active"
-                          aria-current="page"
                           className="navbar-item"
                           onClick={[Function]}
                           to="/getYears"
@@ -2060,7 +1910,6 @@ ShallowWrapper {
 </NavLink>,
                         <NavLink
                           activeClassName="is-active"
-                          aria-current="page"
                           className="navbar-item"
                           onClick={[Function]}
                           to="/getData"
@@ -2069,7 +1918,6 @@ ShallowWrapper {
 </NavLink>,
                         <NavLink
                           activeClassName="is-active"
-                          aria-current="page"
                           className="navbar-item"
                           onClick={[Function]}
                           to="/contentareas"
@@ -2078,7 +1926,6 @@ ShallowWrapper {
 </NavLink>,
                         <NavLink
                           activeClassName="is-active"
-                          aria-current="page"
                           className="navbar-item"
                           onClick={[Function]}
                           to="/indicators"
@@ -2087,7 +1934,6 @@ ShallowWrapper {
 </NavLink>,
                         <NavLink
                           activeClassName="is-active"
-                          aria-current="page"
                           className="navbar-item"
                           onClick={[Function]}
                           to="/measures"
@@ -2096,7 +1942,6 @@ ShallowWrapper {
 </NavLink>,
                         <NavLink
                           activeClassName="is-active"
-                          aria-current="page"
                           className="navbar-item"
                           onClick={[Function]}
                           to="/geographiclevels"
@@ -2105,7 +1950,6 @@ ShallowWrapper {
 </NavLink>,
                         <NavLink
                           activeClassName="is-active"
-                          aria-current="page"
                           className="navbar-item"
                           onClick={[Function]}
                           to="/geography"
@@ -2114,7 +1958,6 @@ ShallowWrapper {
 </NavLink>,
                         <NavLink
                           activeClassName="is-active"
-                          aria-current="page"
                           className="navbar-item"
                           onClick={[Function]}
                           to="/measurestratification"
@@ -2123,7 +1966,6 @@ ShallowWrapper {
 </NavLink>,
                         <NavLink
                           activeClassName="is-active"
-                          aria-current="page"
                           className="navbar-item"
                           onClick={[Function]}
                           to="/stratificationlevel"
@@ -2132,7 +1974,6 @@ ShallowWrapper {
 </NavLink>,
                         <NavLink
                           activeClassName="is-active"
-                          aria-current="page"
                           className="navbar-item"
                           onClick={[Function]}
                           to="/getCoreHolder"
@@ -2150,7 +1991,6 @@ ShallowWrapper {
                         "nodeType": "function",
                         "props": Object {
                           "activeClassName": "is-active",
-                          "aria-current": "page",
                           "children": "getMeasures",
                           "className": "navbar-item",
                           "onClick": [Function],
@@ -2166,7 +2006,6 @@ ShallowWrapper {
                         "nodeType": "function",
                         "props": Object {
                           "activeClassName": "is-active",
-                          "aria-current": "page",
                           "children": "getGeographicLevels",
                           "className": "navbar-item",
                           "onClick": [Function],
@@ -2182,7 +2021,6 @@ ShallowWrapper {
                         "nodeType": "function",
                         "props": Object {
                           "activeClassName": "is-active",
-                          "aria-current": "page",
                           "children": "getStates",
                           "className": "navbar-item",
                           "onClick": [Function],
@@ -2198,7 +2036,6 @@ ShallowWrapper {
                         "nodeType": "function",
                         "props": Object {
                           "activeClassName": "is-active",
-                          "aria-current": "page",
                           "children": "getYears",
                           "className": "navbar-item",
                           "onClick": [Function],
@@ -2214,7 +2051,6 @@ ShallowWrapper {
                         "nodeType": "function",
                         "props": Object {
                           "activeClassName": "is-active",
-                          "aria-current": "page",
                           "children": "getData",
                           "className": "navbar-item",
                           "onClick": [Function],
@@ -2230,7 +2066,6 @@ ShallowWrapper {
                         "nodeType": "function",
                         "props": Object {
                           "activeClassName": "is-active",
-                          "aria-current": "page",
                           "children": "contentareas",
                           "className": "navbar-item",
                           "onClick": [Function],
@@ -2246,7 +2081,6 @@ ShallowWrapper {
                         "nodeType": "function",
                         "props": Object {
                           "activeClassName": "is-active",
-                          "aria-current": "page",
                           "children": "indicators",
                           "className": "navbar-item",
                           "onClick": [Function],
@@ -2262,7 +2096,6 @@ ShallowWrapper {
                         "nodeType": "function",
                         "props": Object {
                           "activeClassName": "is-active",
-                          "aria-current": "page",
                           "children": "measures",
                           "className": "navbar-item",
                           "onClick": [Function],
@@ -2278,7 +2111,6 @@ ShallowWrapper {
                         "nodeType": "function",
                         "props": Object {
                           "activeClassName": "is-active",
-                          "aria-current": "page",
                           "children": "geographiclevels",
                           "className": "navbar-item",
                           "onClick": [Function],
@@ -2294,7 +2126,6 @@ ShallowWrapper {
                         "nodeType": "function",
                         "props": Object {
                           "activeClassName": "is-active",
-                          "aria-current": "page",
                           "children": "geography",
                           "className": "navbar-item",
                           "onClick": [Function],
@@ -2310,7 +2141,6 @@ ShallowWrapper {
                         "nodeType": "function",
                         "props": Object {
                           "activeClassName": "is-active",
-                          "aria-current": "page",
                           "children": "measurestratification",
                           "className": "navbar-item",
                           "onClick": [Function],
@@ -2326,7 +2156,6 @@ ShallowWrapper {
                         "nodeType": "function",
                         "props": Object {
                           "activeClassName": "is-active",
-                          "aria-current": "page",
                           "children": "stratificationlevel",
                           "className": "navbar-item",
                           "onClick": [Function],
@@ -2342,7 +2171,6 @@ ShallowWrapper {
                         "nodeType": "function",
                         "props": Object {
                           "activeClassName": "is-active",
-                          "aria-current": "page",
                           "children": "getCoreHolder",
                           "className": "navbar-item",
                           "onClick": [Function],

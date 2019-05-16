@@ -14,17 +14,4 @@ describe('Page Indicators', () => {
     wrapper.instance().setContentAreaId('123');
     expect(wrapper.state().contentAreaId).toBe('123');
   });
-
-  it('can handle input change', () => {
-    const wrapper = shallow(<Indicators />);
-    const event = {
-      target: {
-        name: 'getChildMeasure',
-        checked: true,
-        type: 'checkbox'
-      }
-    };
-    wrapper.instance().handleInputChange(event);
-    expect(wrapper.state().getChildMeasure).toBe(true);
-  });
 });

@@ -20,17 +20,4 @@ describe('Page Measures', () => {
     wrapper.instance().setIndicatorId('123');
     expect(wrapper.state().indicatorId).toBe('123');
   });
-
-  it('can handle input change', () => {
-    const wrapper = shallow(<Measures />);
-    const event = {
-      target: {
-        name: 'getChildMeasure',
-        checked: true,
-        type: 'checkbox'
-      }
-    };
-    wrapper.instance().handleInputChange(event);
-    expect(wrapper.state().getChildMeasure).toBe(true);
-  });
 });

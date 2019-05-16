@@ -37,18 +37,6 @@ ShallowWrapper {
           {
           indicatorId
           }
-          /
-          {
-          getChildMeasure
-          }
-          /
-          {
-          getMultiMeasure
-          }
-          /
-          {
-          returnType
-          }
           [?apiToken]
 </CodeBlock>,
         <hr />,
@@ -64,41 +52,9 @@ ShallowWrapper {
           contentAreaId={null}
           handleSelect={[Function]}
 />,
-        <div
-          className="field"
->
-          <label
-                    className="checkbox"
-          >
-                    <input
-                              checked={false}
-                              className="input-checkbox"
-                              name="getChildMeasure"
-                              onChange={[Function]}
-                              type="checkbox"
-                    />
-                    getChildMeasure
-          </label>
-</div>,
-        <div
-          className="field"
->
-          <label
-                    className="checkbox"
-          >
-                    <input
-                              checked={false}
-                              className="input-checkbox"
-                              name="getMultiMeasure"
-                              onChange={[Function]}
-                              type="checkbox"
-                    />
-                    getMultiMeasure
-          </label>
-</div>,
         <hr />,
         <Preview
-          url="https://ephtracking.cdc.gov/apigateway/api/v1/measures/null/0/0"
+          url="https://ephtracking.cdc.gov/apigateway/api/v1/measures/null"
           validUrl={false}
 />,
       ],
@@ -143,18 +99,6 @@ ShallowWrapper {
             "{",
             "indicatorId",
             "}",
-            "/",
-            "{",
-            "getChildMeasure",
-            "}",
-            "/",
-            "{",
-            "getMultiMeasure",
-            "}",
-            "/",
-            "{",
-            "returnType",
-            "}",
             "[?apiToken]",
           ],
         },
@@ -167,18 +111,6 @@ ShallowWrapper {
           "/measures/",
           "{",
           "indicatorId",
-          "}",
-          "/",
-          "{",
-          "getChildMeasure",
-          "}",
-          "/",
-          "{",
-          "getMultiMeasure",
-          "}",
-          "/",
-          "{",
-          "returnType",
           "}",
           "[?apiToken]",
         ],
@@ -232,126 +164,6 @@ ShallowWrapper {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
-        "props": Object {
-          "children": <label
-            className="checkbox"
->
-            <input
-                        checked={false}
-                        className="input-checkbox"
-                        name="getChildMeasure"
-                        onChange={[Function]}
-                        type="checkbox"
-            />
-            getChildMeasure
-</label>,
-          "className": "field",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <input
-                checked={false}
-                className="input-checkbox"
-                name="getChildMeasure"
-                onChange={[Function]}
-                type="checkbox"
-/>,
-              "getChildMeasure",
-            ],
-            "className": "checkbox",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "checked": false,
-                "className": "input-checkbox",
-                "name": "getChildMeasure",
-                "onChange": [Function],
-                "type": "checkbox",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
-            "getChildMeasure",
-          ],
-          "type": "label",
-        },
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <label
-            className="checkbox"
->
-            <input
-                        checked={false}
-                        className="input-checkbox"
-                        name="getMultiMeasure"
-                        onChange={[Function]}
-                        type="checkbox"
-            />
-            getMultiMeasure
-</label>,
-          "className": "field",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <input
-                checked={false}
-                className="input-checkbox"
-                name="getMultiMeasure"
-                onChange={[Function]}
-                type="checkbox"
-/>,
-              "getMultiMeasure",
-            ],
-            "className": "checkbox",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "checked": false,
-                "className": "input-checkbox",
-                "name": "getMultiMeasure",
-                "onChange": [Function],
-                "type": "checkbox",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
-            "getMultiMeasure",
-          ],
-          "type": "label",
-        },
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
         "props": Object {},
         "ref": null,
         "rendered": null,
@@ -362,7 +174,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "url": "https://ephtracking.cdc.gov/apigateway/api/v1/measures/null/0/0",
+          "url": "https://ephtracking.cdc.gov/apigateway/api/v1/measures/null",
           "validUrl": false,
         },
         "ref": null,
@@ -398,18 +210,6 @@ ShallowWrapper {
             {
             indicatorId
             }
-            /
-            {
-            getChildMeasure
-            }
-            /
-            {
-            getMultiMeasure
-            }
-            /
-            {
-            returnType
-            }
             [?apiToken]
 </CodeBlock>,
           <hr />,
@@ -425,41 +225,9 @@ ShallowWrapper {
             contentAreaId={null}
             handleSelect={[Function]}
 />,
-          <div
-            className="field"
->
-            <label
-                        className="checkbox"
-            >
-                        <input
-                                    checked={false}
-                                    className="input-checkbox"
-                                    name="getChildMeasure"
-                                    onChange={[Function]}
-                                    type="checkbox"
-                        />
-                        getChildMeasure
-            </label>
-</div>,
-          <div
-            className="field"
->
-            <label
-                        className="checkbox"
-            >
-                        <input
-                                    checked={false}
-                                    className="input-checkbox"
-                                    name="getMultiMeasure"
-                                    onChange={[Function]}
-                                    type="checkbox"
-                        />
-                        getMultiMeasure
-            </label>
-</div>,
           <hr />,
           <Preview
-            url="https://ephtracking.cdc.gov/apigateway/api/v1/measures/null/0/0"
+            url="https://ephtracking.cdc.gov/apigateway/api/v1/measures/null"
             validUrl={false}
 />,
         ],
@@ -504,18 +272,6 @@ ShallowWrapper {
               "{",
               "indicatorId",
               "}",
-              "/",
-              "{",
-              "getChildMeasure",
-              "}",
-              "/",
-              "{",
-              "getMultiMeasure",
-              "}",
-              "/",
-              "{",
-              "returnType",
-              "}",
               "[?apiToken]",
             ],
           },
@@ -528,18 +284,6 @@ ShallowWrapper {
             "/measures/",
             "{",
             "indicatorId",
-            "}",
-            "/",
-            "{",
-            "getChildMeasure",
-            "}",
-            "/",
-            "{",
-            "getMultiMeasure",
-            "}",
-            "/",
-            "{",
-            "returnType",
             "}",
             "[?apiToken]",
           ],
@@ -593,126 +337,6 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
-          "props": Object {
-            "children": <label
-              className="checkbox"
->
-              <input
-                            checked={false}
-                            className="input-checkbox"
-                            name="getChildMeasure"
-                            onChange={[Function]}
-                            type="checkbox"
-              />
-              getChildMeasure
-</label>,
-            "className": "field",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <input
-                  checked={false}
-                  className="input-checkbox"
-                  name="getChildMeasure"
-                  onChange={[Function]}
-                  type="checkbox"
-/>,
-                "getChildMeasure",
-              ],
-              "className": "checkbox",
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "checked": false,
-                  "className": "input-checkbox",
-                  "name": "getChildMeasure",
-                  "onChange": [Function],
-                  "type": "checkbox",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": "input",
-              },
-              "getChildMeasure",
-            ],
-            "type": "label",
-          },
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <label
-              className="checkbox"
->
-              <input
-                            checked={false}
-                            className="input-checkbox"
-                            name="getMultiMeasure"
-                            onChange={[Function]}
-                            type="checkbox"
-              />
-              getMultiMeasure
-</label>,
-            "className": "field",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <input
-                  checked={false}
-                  className="input-checkbox"
-                  name="getMultiMeasure"
-                  onChange={[Function]}
-                  type="checkbox"
-/>,
-                "getMultiMeasure",
-              ],
-              "className": "checkbox",
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "checked": false,
-                  "className": "input-checkbox",
-                  "name": "getMultiMeasure",
-                  "onChange": [Function],
-                  "type": "checkbox",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": "input",
-              },
-              "getMultiMeasure",
-            ],
-            "type": "label",
-          },
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
           "props": Object {},
           "ref": null,
           "rendered": null,
@@ -723,7 +347,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "url": "https://ephtracking.cdc.gov/apigateway/api/v1/measures/null/0/0",
+            "url": "https://ephtracking.cdc.gov/apigateway/api/v1/measures/null",
             "validUrl": false,
           },
           "ref": null,

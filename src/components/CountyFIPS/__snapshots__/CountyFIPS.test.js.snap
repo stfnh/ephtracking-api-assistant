@@ -32,6 +32,48 @@ ShallowWrapper {
                 expandDisabled={false}
                 expandOnClick={false}
                 expanded={Array []}
+                icons={
+                        Object {
+                                "check": <span
+                                  className="rct-icon rct-icon-check"
+                        />,
+                                "collapseAll": <span
+                                  className="rct-icon rct-icon-collapse-all"
+                        />,
+                                "expandAll": <span
+                                  className="rct-icon rct-icon-expand-all"
+                        />,
+                                "expandClose": <span
+                                  className="rct-icon rct-icon-expand-close"
+                        />,
+                                "expandOpen": <span
+                                  className="rct-icon rct-icon-expand-open"
+                        />,
+                                "halfCheck": <span
+                                  className="rct-icon rct-icon-half-check"
+                        />,
+                                "leaf": <span
+                                  className="rct-icon rct-icon-leaf"
+                        />,
+                                "parentClose": <span
+                                  className="rct-icon rct-icon-parent-close"
+                        />,
+                                "parentOpen": <span
+                                  className="rct-icon rct-icon-parent-open"
+                        />,
+                                "uncheck": <span
+                                  className="rct-icon rct-icon-uncheck"
+                        />,
+                              }
+                }
+                id={null}
+                lang={
+                        Object {
+                                "collapseAll": "Collapse all",
+                                "expandAll": "Expand all",
+                                "toggle": "Toggle",
+                              }
+                }
                 name={undefined}
                 nameAsArray={false}
                 nativeCheckboxes={false}
@@ -519,11 +561,13 @@ ShallowWrapper {
                               ]
                 }
                 onCheck={[Function]}
-                onClick={[Function]}
+                onClick={null}
                 onExpand={[Function]}
                 onlyLeafCheckboxes={false}
                 optimisticToggle={true}
+                showExpandAll={false}
                 showNodeIcon={true}
+                showNodeTitle={false}
         />
 </div>,
     },
@@ -543,6 +587,48 @@ ShallowWrapper {
             expandDisabled={false}
             expandOnClick={false}
             expanded={Array []}
+            icons={
+                        Object {
+                                    "check": <span
+                                      className="rct-icon rct-icon-check"
+                        />,
+                                    "collapseAll": <span
+                                      className="rct-icon rct-icon-collapse-all"
+                        />,
+                                    "expandAll": <span
+                                      className="rct-icon rct-icon-expand-all"
+                        />,
+                                    "expandClose": <span
+                                      className="rct-icon rct-icon-expand-close"
+                        />,
+                                    "expandOpen": <span
+                                      className="rct-icon rct-icon-expand-open"
+                        />,
+                                    "halfCheck": <span
+                                      className="rct-icon rct-icon-half-check"
+                        />,
+                                    "leaf": <span
+                                      className="rct-icon rct-icon-leaf"
+                        />,
+                                    "parentClose": <span
+                                      className="rct-icon rct-icon-parent-close"
+                        />,
+                                    "parentOpen": <span
+                                      className="rct-icon rct-icon-parent-open"
+                        />,
+                                    "uncheck": <span
+                                      className="rct-icon rct-icon-uncheck"
+                        />,
+                                  }
+            }
+            id={null}
+            lang={
+                        Object {
+                                    "collapseAll": "Collapse all",
+                                    "expandAll": "Expand all",
+                                    "toggle": "Toggle",
+                                  }
+            }
             name={undefined}
             nameAsArray={false}
             nativeCheckboxes={false}
@@ -1030,11 +1116,13 @@ ShallowWrapper {
                                   ]
             }
             onCheck={[Function]}
-            onClick={[Function]}
+            onClick={null}
             onExpand={[Function]}
             onlyLeafCheckboxes={false}
             optimisticToggle={true}
+            showExpandAll={false}
             showNodeIcon={true}
+            showNodeTitle={false}
 />,
         ],
         "className": "field",
@@ -1062,6 +1150,44 @@ ShallowWrapper {
             "expandDisabled": false,
             "expandOnClick": false,
             "expanded": Array [],
+            "icons": Object {
+              "check": <span
+                className="rct-icon rct-icon-check"
+/>,
+              "collapseAll": <span
+                className="rct-icon rct-icon-collapse-all"
+/>,
+              "expandAll": <span
+                className="rct-icon rct-icon-expand-all"
+/>,
+              "expandClose": <span
+                className="rct-icon rct-icon-expand-close"
+/>,
+              "expandOpen": <span
+                className="rct-icon rct-icon-expand-open"
+/>,
+              "halfCheck": <span
+                className="rct-icon rct-icon-half-check"
+/>,
+              "leaf": <span
+                className="rct-icon rct-icon-leaf"
+/>,
+              "parentClose": <span
+                className="rct-icon rct-icon-parent-close"
+/>,
+              "parentOpen": <span
+                className="rct-icon rct-icon-parent-open"
+/>,
+              "uncheck": <span
+                className="rct-icon rct-icon-uncheck"
+/>,
+            },
+            "id": null,
+            "lang": Object {
+              "collapseAll": "Collapse all",
+              "expandAll": "Expand all",
+              "toggle": "Toggle",
+            },
             "name": undefined,
             "nameAsArray": false,
             "nativeCheckboxes": false,
@@ -1547,11 +1673,13 @@ ShallowWrapper {
               },
             ],
             "onCheck": [Function],
-            "onClick": [Function],
+            "onClick": null,
             "onExpand": [Function],
             "onlyLeafCheckboxes": false,
             "optimisticToggle": true,
+            "showExpandAll": false,
             "showNodeIcon": true,
+            "showNodeTitle": false,
           },
           "ref": null,
           "rendered": null,
@@ -1580,6 +1708,48 @@ ShallowWrapper {
                     expandDisabled={false}
                     expandOnClick={false}
                     expanded={Array []}
+                    icons={
+                              Object {
+                                        "check": <span
+                                          className="rct-icon rct-icon-check"
+                              />,
+                                        "collapseAll": <span
+                                          className="rct-icon rct-icon-collapse-all"
+                              />,
+                                        "expandAll": <span
+                                          className="rct-icon rct-icon-expand-all"
+                              />,
+                                        "expandClose": <span
+                                          className="rct-icon rct-icon-expand-close"
+                              />,
+                                        "expandOpen": <span
+                                          className="rct-icon rct-icon-expand-open"
+                              />,
+                                        "halfCheck": <span
+                                          className="rct-icon rct-icon-half-check"
+                              />,
+                                        "leaf": <span
+                                          className="rct-icon rct-icon-leaf"
+                              />,
+                                        "parentClose": <span
+                                          className="rct-icon rct-icon-parent-close"
+                              />,
+                                        "parentOpen": <span
+                                          className="rct-icon rct-icon-parent-open"
+                              />,
+                                        "uncheck": <span
+                                          className="rct-icon rct-icon-uncheck"
+                              />,
+                                      }
+                    }
+                    id={null}
+                    lang={
+                              Object {
+                                        "collapseAll": "Collapse all",
+                                        "expandAll": "Expand all",
+                                        "toggle": "Toggle",
+                                      }
+                    }
                     name={undefined}
                     nameAsArray={false}
                     nativeCheckboxes={false}
@@ -2067,11 +2237,13 @@ ShallowWrapper {
                                       ]
                     }
                     onCheck={[Function]}
-                    onClick={[Function]}
+                    onClick={null}
                     onExpand={[Function]}
                     onlyLeafCheckboxes={false}
                     optimisticToggle={true}
+                    showExpandAll={false}
                     showNodeIcon={true}
+                    showNodeTitle={false}
           />
 </div>,
       },
@@ -2091,6 +2263,48 @@ ShallowWrapper {
               expandDisabled={false}
               expandOnClick={false}
               expanded={Array []}
+              icons={
+                            Object {
+                                          "check": <span
+                                            className="rct-icon rct-icon-check"
+                            />,
+                                          "collapseAll": <span
+                                            className="rct-icon rct-icon-collapse-all"
+                            />,
+                                          "expandAll": <span
+                                            className="rct-icon rct-icon-expand-all"
+                            />,
+                                          "expandClose": <span
+                                            className="rct-icon rct-icon-expand-close"
+                            />,
+                                          "expandOpen": <span
+                                            className="rct-icon rct-icon-expand-open"
+                            />,
+                                          "halfCheck": <span
+                                            className="rct-icon rct-icon-half-check"
+                            />,
+                                          "leaf": <span
+                                            className="rct-icon rct-icon-leaf"
+                            />,
+                                          "parentClose": <span
+                                            className="rct-icon rct-icon-parent-close"
+                            />,
+                                          "parentOpen": <span
+                                            className="rct-icon rct-icon-parent-open"
+                            />,
+                                          "uncheck": <span
+                                            className="rct-icon rct-icon-uncheck"
+                            />,
+                                        }
+              }
+              id={null}
+              lang={
+                            Object {
+                                          "collapseAll": "Collapse all",
+                                          "expandAll": "Expand all",
+                                          "toggle": "Toggle",
+                                        }
+              }
               name={undefined}
               nameAsArray={false}
               nativeCheckboxes={false}
@@ -2578,11 +2792,13 @@ ShallowWrapper {
                                         ]
               }
               onCheck={[Function]}
-              onClick={[Function]}
+              onClick={null}
               onExpand={[Function]}
               onlyLeafCheckboxes={false}
               optimisticToggle={true}
+              showExpandAll={false}
               showNodeIcon={true}
+              showNodeTitle={false}
 />,
           ],
           "className": "field",
@@ -2610,6 +2826,44 @@ ShallowWrapper {
               "expandDisabled": false,
               "expandOnClick": false,
               "expanded": Array [],
+              "icons": Object {
+                "check": <span
+                  className="rct-icon rct-icon-check"
+/>,
+                "collapseAll": <span
+                  className="rct-icon rct-icon-collapse-all"
+/>,
+                "expandAll": <span
+                  className="rct-icon rct-icon-expand-all"
+/>,
+                "expandClose": <span
+                  className="rct-icon rct-icon-expand-close"
+/>,
+                "expandOpen": <span
+                  className="rct-icon rct-icon-expand-open"
+/>,
+                "halfCheck": <span
+                  className="rct-icon rct-icon-half-check"
+/>,
+                "leaf": <span
+                  className="rct-icon rct-icon-leaf"
+/>,
+                "parentClose": <span
+                  className="rct-icon rct-icon-parent-close"
+/>,
+                "parentOpen": <span
+                  className="rct-icon rct-icon-parent-open"
+/>,
+                "uncheck": <span
+                  className="rct-icon rct-icon-uncheck"
+/>,
+              },
+              "id": null,
+              "lang": Object {
+                "collapseAll": "Collapse all",
+                "expandAll": "Expand all",
+                "toggle": "Toggle",
+              },
               "name": undefined,
               "nameAsArray": false,
               "nativeCheckboxes": false,
@@ -3095,11 +3349,13 @@ ShallowWrapper {
                 },
               ],
               "onCheck": [Function],
-              "onClick": [Function],
+              "onClick": null,
               "onExpand": [Function],
               "onlyLeafCheckboxes": false,
               "optimisticToggle": true,
+              "showExpandAll": false,
               "showNodeIcon": true,
+              "showNodeTitle": false,
             },
             "ref": null,
             "rendered": null,
