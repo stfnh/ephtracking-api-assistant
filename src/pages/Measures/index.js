@@ -10,11 +10,8 @@ class Measures extends Component {
     super(props);
     this.state = {
       contentAreaId: null,
-      indicatorId: null,
-      getChildMeasure: false,
-      getMultiMeasure: false
+      indicatorId: null
     };
-    this.handleInputChange = this.handleInputChange.bind(this);
     this.setContentAreaId = this.setContentAreaId.bind(this);
     this.setIndicatorId = this.setIndicatorId.bind(this);
   }
@@ -27,37 +24,27 @@ class Measures extends Component {
     this.setState({ indicatorId });
   }
 
-  handleInputChange(event) {
-    const { name, checked } = event.target;
-    this.setState({
-      [name]: checked
-    });
-  }
-
   render() {
-    const {
-      getChildMeasure,
-      getMultiMeasure,
-      contentAreaId,
-      indicatorId
-    } = this.state;
+    const { contentAreaId, indicatorId } = this.state;
 
     const validUrl = indicatorId !== null;
 
-    const url = `https://ephtracking.cdc.gov/apigateway/api/v1/measures/${indicatorId}/${
-      getChildMeasure ? 1 : 0
-    }/${getMultiMeasure ? 1 : 0}`;
+    const url = `https://ephtracking.cdc.gov/apigateway/api/v1/measures/${indicatorId}`;
 
     return (
       <Fragment>
         <h1 className="title">Retrieving List of Measures for an Indicator</h1>
         <h5 className="title is-5">Usage</h5>
         <CodeBlock>
-          https://ephtracking.cdc.gov/apigateway/api/{'{'}version{'}'}/measures/{
-            '{'
-          }indicatorId{'}'}/{'{'}getChildMeasure{'}'}/{'{'}getMultiMeasure{'}'}/{
-            '{'
-          }returnType{'}'}[?apiToken]
+          https://ephtracking.cdc.gov/apigateway/api/
+          {'{'}
+          version
+          {'}'}
+          /measures/
+          {'{'}
+          indicatorId
+          {'}'}
+          [?apiToken]
         </CodeBlock>
         <hr />
         <h5 className="title is-5">Set parameters</h5>
@@ -66,30 +53,6 @@ class Measures extends Component {
           contentAreaId={contentAreaId}
           handleSelect={this.setIndicatorId}
         />
-        <div className="field">
-          <label className="checkbox">
-            <input
-              name="getChildMeasure"
-              type="checkbox"
-              checked={this.state.getChildMeasure}
-              onChange={this.handleInputChange}
-              className="input-checkbox"
-            />
-            getChildMeasure
-          </label>
-        </div>
-        <div className="field">
-          <label className="checkbox">
-            <input
-              name="getMultiMeasure"
-              type="checkbox"
-              checked={this.state.getMultiMeasure}
-              onChange={this.handleInputChange}
-              className="input-checkbox"
-            />
-            getMultiMeasure
-          </label>
-        </div>
         <hr />
         <Preview url={url} validUrl={validUrl} />
       </Fragment>
